@@ -1,0 +1,14 @@
+{
+  "name": "peopleforce-plugins",
+  "description": "Private PeopleForce marketing plugins — house translation system and tooling.",
+  "owner": {
+    "name": "PeopleForce Marketing"
+  },
+  "plugins": [
+    {
+      "name": "peopleforce-translation",
+      "source": "./",
+      "description": "Translate PeopleForce content between English, Spanish, Polish and Ukrainian, in either direction — house process, checks, glossary and reviewer subagents."
+    }
+  ]
+}

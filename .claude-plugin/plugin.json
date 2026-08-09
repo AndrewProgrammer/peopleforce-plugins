@@ -1,0 +1,11 @@
+{
+  "name": "peopleforce-translation",
+  "displayName": "PeopleForce Translation",
+  "version": "1.0.0",
+  "description": "House translation system for PeopleForce content — EN/ES/PL/UK in any direction: process and checks, concept-keyed glossary, per-language reference files, and read-only reviewer subagents (blind HR reader, native-read, source-aware checker).",
+  "author": {
+    "name": "PeopleForce Marketing"
+  },
+  "license": "UNLICENSED",
+  "keywords": ["translation", "localization", "peopleforce", "es", "pl", "uk"]
+}
