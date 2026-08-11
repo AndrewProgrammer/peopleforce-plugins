@@ -164,6 +164,12 @@ Then work through *The last pass before handover* — see **The handover**, belo
       source's word, a line shortened to fit a box — those are edits, not translations. Keep
       the source's choice by default. Where an edit is genuinely needed, take it deliberately
       and name it in one line when handing over. The silent ones are what nobody finds later.
+      **A required explicitation is translation, not an edit** — es, pl and uk each have to
+      state what English leaves implicit, and their §2 lists what. Read the target's §2
+      before counting words the source lacks: the aspect Polish must choose, the case that
+      links a Ukrainian noun stack, the article English must supply going the other way.
+      Reading an added word as a widened claim is the false positive this check invites, and
+      it fires on correct copy.
       Its mirror: **name any ambiguity you could not resolve.** Where the source is unclear
       enough that you cannot tell what it means, translate it as faithfully as you can and
       say so in the handover with what you took it to mean — a faithful copy of an

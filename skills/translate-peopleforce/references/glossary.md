@@ -100,8 +100,8 @@ vendor, competitor, platform or customer, it still counts: `Lever`, `Optima`,
 - One answer for the whole piece. The defect this prevents is a Cyrillic byline with a
   Latin executive nine lines later.
 
-**Polish copy — a Ukrainian name in Polish text.** Owner ruling 2026-08-11. Two traditions
-compete, and the fork is decided **by referent, not once for the whole language**:
+**Polish copy — a Ukrainian name in Polish text.** Two traditions compete, and the fork is
+decided **by referent, not once for the whole language**:
 
 | Whose name it is | Write | Example |
 |---|---|---|

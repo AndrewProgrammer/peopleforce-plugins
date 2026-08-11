@@ -84,19 +84,17 @@ section numbers align across all four files.)*
 | Thousands | `1,000` — comma |
 | Decimal | `4.6` — period |
 
-**Em dashes: no budget, no count, no matching the source.** Owner decision 2026-08-10 —
-this replaces the previous "reported in the handover, never scored" line and any counting
-rule. The only test is whether the English reads as though it was written in English.
+**Em dashes: the only test is whether the English reads as though it was written in
+English.** That test is the whole rule, and it settles every case:
 
-- Do **not** count them, in the source or the target.
-- Do **not** try to resemble the source's dash count. The source's punctuation is the
-  source's; a Polish `–` is not a licence for an English `—`.
-- Do **not** add an em dash the sentence does not need. If a comma, a colon or
-  parentheses does the job, use it — those are the default, not a fallback.
-- Do **not** strip one that is genuinely the right mark.
+- **Each dash earns its place from the sentence it sits in** — English punctuation is
+  decided in English, so a Polish `–` sitting nearby is not what licenses an English `—`.
+- **A comma, a colon or parentheses is the default**, and an em dash is the mark you reach
+  for when the sentence genuinely wants that break. Where a dash is the right mark, keep it.
 
-The failure mode this guards against is the machine habit of splicing clauses with dashes
-because the source had a mark somewhere near. Write the sentence a native would write.
+Written this way because the machine habit is to splice clauses with dashes whenever the
+source had a mark somewhere near, and a rule phrased as a dash prohibition has been measured
+on this corpus to produce the mirroring it forbade. Write the sentence a native would write.
 
 ---
 

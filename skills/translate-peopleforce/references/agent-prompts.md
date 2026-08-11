@@ -189,9 +189,9 @@ match the cell from memory is untraced.
 >    convention, whatever shape the source used. A **date** is the one mechanic no reference file
 >    decides — raise it for the owner.
 > 3. **Dashes** (same section). Name each dash as the target's convention or as the replacement
->    that section gives. **Report no count and no comparison with the source's inventory** —
->    owner decision, 2026-08-10. Where the target's grammar requires the mark, its absence is
->    the finding: Ukrainian `X — це Y`.
+>    that section gives — **the naming is the whole report**, with no count and no comparison
+>    against the source's inventory. Where the target's grammar requires the mark, its absence
+>    is the finding: Ukrainian `X — це Y`.
 > 4. **Gender neutrality.** Enumerate every line that puts a person — the reader, an employee, a
 >    candidate, a named customer — into a gendered form. Each line either carries no gendered
 >    form or is named, with the device its language uses to avoid one (es §2, pl §2, uk §1;
@@ -225,27 +225,9 @@ match the cell from memory is untraced.
 > You are reviewing. The translator holds the whole context and makes the repairs, so change
 > nothing on disk.
 
-**Roles 3 and 4 were re-authored 2026-08-11, and the inherited versions had been run while
-these have not.** Both were rewritten against `writing-great-skills`: instructions state the
-target behaviour rather than the prohibition, each role gets one leading word per mechanism
-(*fresh context* against *source-hidden* for role 3, *traced* for role 4), and each ends in a
-**Done when** line so the role cannot stop early. Five gaps closed, every one of them a wrong
-finding waiting to happen:
-
-- role 3 said nothing about grammar that requires a mark, so a mandatory Ukrainian copula тире
-  could be reported as a dash defect — which is the error the skill spent 2026-08-11 fixing
-  everywhere else;
-- role 3 had no carve-out for a quoted person's own voice, and two independent arms have already
-  put house register into a named customer's mouth;
-- role 3 did not fence its own scope, so it duplicated role 4 on meaning, terminology and
-  figures;
-- role 4 had no explicitation clause. Spanish, Polish and Ukrainian are each required to state
-  what English leaves implicit, so a naive faithfulness read calls a mandated addition a widened
-  claim. That is the likeliest false positive in the whole set;
-- role 4 knew nothing of product-name precedence or the no-connector case, both of which
-  `SKILL.md` decides and neither of which a checker can infer.
-
-The inherited wording stays recoverable in the plugin repo's history.
+🚩 **Roles 3 and 4 are re-authored and unrun** — the inherited versions had run, these have
+not. `translation-corpus/evidence-and-retirement.md` records what changed and the five wrong
+findings each gap would have produced.
 
 **These two prompts also ship as plugin subagents**
 (`translate-peopleforce-plugin/agents/native-read.md` and `…/agents/source-checker.md`, outside

@@ -296,11 +296,11 @@ concept, not a shortening.
 in headings and in tight layouts (`цикл оцінки`). Both share the head `оцінка`, so the
 short form is a true ellipsis.
 
-**Not `оцінювання`.** It is a different head and a wider concept — the corpus uses it for
-candidate assessment as much as performance (`критерії оцінювання`, `платформи
-оцінювання`, `оцінювання навичок`), so dropping the complement does not shorten
-*performance review*, it changes the referent to assessment-in-general. Keep `оцінювання`
-for that generic sense.
+**`оцінювання` is a different head and a wider concept**, so it does not ellipse the same
+way. Our copy uses it for candidate assessment as much as performance (`критерії
+оцінювання`, `платформи оцінювання`, `оцінювання навичок`) — dropping its complement moves
+the referent to assessment-in-general rather than shortening *performance review*. Keep it
+for that generic sense, where it is the right word.
 
 `перформанс-ревю` is attested in speech (44r/8p across 11 calls) and stays there — spoken
 register, not published copy.

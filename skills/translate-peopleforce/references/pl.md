@@ -111,18 +111,22 @@ Polish keeps noticeably more English than Spanish does. **Which anglicisms are
 established is a glossary question, and the pl cell is the answer** — including for
 acronyms, and including where the pl cell keeps English while the es cell does not.
 
-*workflow* is **not** on that list — Polish translates it: `proces` (the product locale
-renders it that way uniformly; Ukrainian is the language that borrows it — see the
-glossary's *workflow* row). 🚩 *well-being* is not on it either: the glossary cell is
-`dobrostan`, the established term across Polish HR press; the loan-versus-native
-register call stays with a native reviewer.
+*workflow* is **not** on that list — Polish translates it: `proces`, which the product
+locale renders uniformly. Ukrainian reached the same answer by its own route and keeps the
+loan as an equal variant, so the two languages agree here without one inheriting from the
+other — see the glossary's *workflow* row.
+
+🚩 *well-being* is not on the list either, and the cell is the open question rather than the
+answer: `dobrostan` is the term Polish HR press uses, but it is the **least** attested of the
+three live forms in our own copy — the English loan leads, and `samopoczucie` is wider spread.
+Part of that is a sense split rather than a rivalry, since `dobrostan` names the discipline
+and `samopoczucie` how a person feels. A native picks.
 
 For *payroll* and *compliance* the glossary lexemes win (*płace*, *zgodność*) — the
 English words circulate in Polish HR speech, but the house copy translates them.
-🚩 *performance* → `efektywność`, and `wydajność` renders *efficiency* (output volume,
-against results-per-resources). Which of the two senses each lexeme covers awaits a
-native call — open-flags 8b; at *performance review* Polish drops the lexeme entirely
-(`ocena okresowa` and `ocena pracownicza` are both live).
+*performance* → `efektywność`, and `wydajność` renders *efficiency* (output volume, against
+results-per-resources); the pl half of that split is settled. At *performance review* Polish
+drops the lexeme entirely (`ocena okresowa` and `ocena pracownicza` are both live).
 
 **Each language's anglicism policy stands on its own.** Target Polish → this file;
 target Spanish → `es.md`. *dashboard* (Polish keeps it) against *workflow* (Polish
