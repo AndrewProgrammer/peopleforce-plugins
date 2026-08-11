@@ -266,6 +266,13 @@ Leave these to Ukrainian idiom, they are not distributives:
 **Aspect and the relative pronoun with its comma** are the other two silent calques —
 see §2.
 
+**`у той самий час` as a connective is English *at the same time* in Ukrainian clothing.**
+Where the source uses it to mean *meanwhile* or *however* — pivoting to a contrasting point
+rather than saying two things happened simultaneously — write **`водночас`** or `при цьому`.
+Reserve `у той самий час` for genuine simultaneity. Found in published copy
+(*«Але у той самий час менеджери не задумуються…»*), where the sentence is contrasting, not
+timing anything.
+
 **Bookish words that pass the grammar check and fail the ear.** A word can be correct,
 dictionary-attested and still not something a Kyiv HR specialist says. Test the
 collocation, not the word: if the pairing describes ordinary work, the word has to be

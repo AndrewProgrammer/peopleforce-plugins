@@ -97,9 +97,17 @@ Then work through *The last pass before handover* — see **The handover**, belo
       this software, not a translator. Would they say the line to a colleague? Put it on
       their own careers page? A line that only makes sense next to the source is not
       finished. This pass judges naturalness and reads past untranslated leftovers, so
-      **sweep for leftover source-language text separately**, over the whole target.
-      **Done when** every line — headings, chips, captions, image copy — has been read once
-      with the source covered, and each failing line is rewritten or named in the handover.
+      **sweep for leftover source-language text separately**, over the whole target — a
+      separate pass, because a reader asked *would an HR specialist write this* does not
+      switch modes to audit for foreign script. **Short all-caps labels are what survive
+      it**: `Q:`, `A1:`, `A2:` sat in Latin inside Ukrainian ad copy and three instruments
+      read past them, including a blinded persona read that praised the line's grammar.
+      Where such a label carries meaning the reader needs, translate it (`Питання:`,
+      `Відповідь 1:`); where it is only layout scaffolding, drop it — either way, decide
+      rather than leave it in the source's script. **Done when** every line — headings,
+      chips, captions, image copy — has been read once with the source covered, **and** the
+      whole target has been scanned for source-script runs of any length, single letters
+      included.
 
 - [ ] **Every line reads as native even where its grammar is correct.** With a verb:
       back-translate word for word — an exact round-trip means calque. Without a verb: the

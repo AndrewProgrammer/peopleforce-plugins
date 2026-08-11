@@ -13,10 +13,9 @@ they are what makes the reader a member of the market rather than a generic revi
 | `uk` | Ukrainian | Ukraine | formal lower-case `ви` |
 | `en` | English | **Europe**, not one country | informal `you` |
 
-**English targets a European audience rather than a national one.** The reader is an HR
-director at a European company who works in English — not British or American, and not a
-native speaker by default. Idiom that only lands in one English-speaking country is wrong
-for this audience even when it is perfectly good English.
+**`en` takes Europe, not a country** — which is why that cell breaks the pattern. The reader is
+an HR director at a European company working in English, often not a native speaker; `en.md` §1
+states what follows from that.
 
 ---
 
@@ -63,9 +62,8 @@ of this role is that it *cannot* know what the line was aiming at.
 > You have landed on a vendor's blog. You are reading as a prospect: someone this company is
 > trying to sell to.
 >
-> Read only [STAGED DIRECTORY]. Do not search for an English version — one exists and you must
-> not find it. Your entire value here is that you read this the way your market reads it, with
-> nothing to compare against. If you catch yourself wondering what the original said, stop.
+> Read [STAGED DIRECTORY]. Your whole value here is that you read this the way your market
+> reads it, with nothing to compare against.
 >
 > **Read each piece all the way through before writing anything about it.** Then answer at the
 > level of the whole piece — marketing copy works or fails as a piece, not as a row of sentences.
@@ -85,7 +83,7 @@ of this role is that it *cannot* know what the line was aiming at.
 > 6. **Only last, line-level:** anything a [COUNTRY] HR professional would simply not have
 >    written. Quote the span and say what is wrong. Do not rewrite the piece.
 >
-> Weight 2, 3 and 4 above everything else. Individually correct sentences still add up to copy
+> Weight 2, 3 and 4 above everything else: individually correct sentences still add up to copy
 > that reads translated, and detecting that is the job. If a piece works, say so plainly even if
 > you can pick at single words — "this is fine" is a real and useful answer.
 >
@@ -93,23 +91,21 @@ of this role is that it *cannot* know what the line was aiming at.
 >
 > You are reviewing, not editing. Change nothing on disk.
 
-**Specify the market, the seniority and the job** — a generic native reader returns
-proofreading; the buyer persona returns the domain errors that lose the sale, and the cost
-is three lines of prompt.
+**Keep the market, the seniority and the job specific** — a generic native reader returns
+proofreading, the buyer persona returns the domain errors that lose the sale.
 
-**The blind reader's failure mode is inseparable from its value:** because it cannot see
-the source, it will sometimes confidently infer one — so **its finding is evidence that a
-line reads oddly, never evidence about what the line should say.** Route every finding
-through someone holding the source before acting on it.
+**Its failure mode is inseparable from its value:** unable to see the source, it will sometimes
+confidently infer one. Role 1's prompt carries the consequence — route every finding through
+someone holding the source.
 
 ## Reads-as-native — check 3
 
 **Give it:** the source, the target, the direction, and the target's reference file. **Fresh
-context, source in hand** — the two mechanisms the audit separated. Fresh context is what makes
-the judgement independent: this agent did not write the line, so it cannot reconstruct what the
-line meant to say. The source stays visible because hiding it measurably breaks this role —
-source-hidden, it returned zero *awkward* verdicts across 27 verb-bearing lines, because naming
-which structure was imported requires seeing what it was imported from.
+context, source in hand** — two mechanisms, not one. Fresh context makes the judgement
+independent: this agent did not write the line, so it cannot reconstruct what the line meant to
+say. The source stays visible because naming which structure was imported requires seeing what
+it was imported from — blinding this role measurably stops it discriminating
+(`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill).
 
 > You judge one thing: **is this line built in the target language, or on the source's
 > skeleton?** You hold the source so you can name the structure, and you did not write the
@@ -162,8 +158,7 @@ which structure was imported requires seeing what it was imported from.
 (fixed canvas / flowing text / mixed), any image assets with their budgets, and — whenever the
 job carries a graphic — `product-screens.md`. This role owns the graphics check, so without that
 file it is checking in-image copy against the glossary while the product's locale files are the
-actual authority. **Traced** is this role's leading word: a term is traced when a cell licenses
-it, and a term that happens to match the cell from memory is untraced.
+actual authority. **Traced** is this role's leading word — the prompt defines it.
 
 > You verify a translation against its source and the house rules. You get the source, the
 > target, `glossary.md`, the target language's reference file, the content type, any image
