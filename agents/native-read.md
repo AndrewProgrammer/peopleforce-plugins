@@ -17,7 +17,7 @@ target language's reference file. Work line by line, whole piece:
   the preposition it governs. Name the line and the structure it imported.
 - **Line without a verb:** the round-trip proves nothing. Judge the line on its own:
   would a native copywriter have built it this way?
-- **Check the reference file's §7 calque rules against the whole target** — each rule
+- **Check the reference file's Calques section against the whole target** — each rule
   against every line, not only the line that recalled it. Those calques are grammatical
   in the target, so check against the rule, not by ear.
 

@@ -81,6 +81,14 @@ arbitrary singular agreement (`воркфлоу, що стоїть за ним`)
 frequent. If the loan cannot inflect where the sentence needs it to, write the Ukrainian
 form.
 
+**Test 3 — a word the corpus stops to explain needs a look, not an automatic pass.** If the
+attestations gloss the term (`Розберемо, що таке абсентеїзм`, `під абсентеїзмом
+розуміють…`), the writer did not assume the reader knew it — so a high hit count may be one
+explainer article repeating its own subject. Check what the hits actually are before treating
+the number as usage. This flags a term for a decision; it does not settle it. `абсентеїзм`
+was reviewed on exactly this evidence and **kept** (owner, 2026-08-11): a term of art is
+still the right word in professional HR copy, and glossing it on first mention is normal.
+
 If a borrowing has no attested Ukrainian form and no native rival, **flag the gap — do not
 coin a transliteration** on the strength of the pattern.
 
@@ -109,8 +117,8 @@ Measured over the 180-document uk-UA corpus:
 | `релокейт` | 110 / 12 | `переїзд` | 30 / 8 | both, but check the sense: `переїзд` is the plain physical move, `релокейт` the employment arrangement |
 | `дашборд` | 87 / 21 | `панель` | 20 / 5 | both |
 | `скринінг` | 84 / 11 | `відбір` | 39 / 9 | both |
-| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | **not a rivalry — a sense split, and the glossary already records it** on the `employee benefits`/uk row: `бенефіти` = discretionary perks, `пільги` = statutory entitlements. The counts do not compete because the two words are doing different jobs |
-| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both. 🚩 the loan's 119 hits sit in only four documents against twelve for `прогул`, so it is one writer's word rather than measured house usage |
+| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | **both usable** (owner 2026-08-11). The glossary's `employee benefits`/uk row records a leaning — `бенефіти` for discretionary perks, `пільги` for statutory entitlements — but the two are not in competition and either is correct |
+| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both, **kept after review** (owner 2026-08-11). The count is concentrated — 110 of 119 hits in one explainer article, which glosses the term — so it is a term of art rather than everyday vocabulary, but that is the correct register for professional HR copy. Gloss it on first mention. The senses differ: `прогул` is one unexcused absence, `абсентеїзм` the pattern or metric |
 | `тригер` | 39 / 4 | — | | 🚩 four documents. Attested, but too concentrated to call house usage |
 
 Staying latin: **acronyms** — the glossary's do-not-translate list, kept latin even
@@ -232,9 +240,8 @@ ordinary too.
 | If the source says | Write |
 |---|---|
 | `milestone` / `krok milowy` / `hito` | `великий крок уперед` — `важливий крок` where the canvas will not take the full phrase, and `переломний момент` only where the source really means a turning point |
-| `contractor` / `kontraktor` | `підрядник` |
-| the sole-trader status itself | `ФОП` |
-| `B2B contractor` | `підрядник на B2B` — keep `B2B` as the foreign arrangement it names |
+| `contractor` / `kontraktor` / `B2B contractor` | **`підрядник`** — the default for all three, owner 2026-08-11. Add `на B2B` only where the arrangement itself is the point, keeping `B2B` as the foreign term it is |
+| the sole-trader status itself, where that status is what the sentence is about | `ФОП` |
 | `workflow` / `proces` | `робочий процес`, or bare `процес` once the context has established which process. `воркфлоу` is a house form too (§4) — but where the word has to agree or inflect, take the Ukrainian one, because the loan is indeclinable and forces an arbitrary agreement (`воркфлоу, що стоїть за ним`) |
 
 The tell is a word that marks an era sitting in a sentence about an ordinary working

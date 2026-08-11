@@ -119,7 +119,7 @@ a calque, and that is impossible without the source in hand.
 >   preposition it governs. Name the line and the structure it imported.
 > - **Line without a verb:** the round-trip proves nothing. Judge the line on its own: would a
 >   native copywriter have built it this way?
-> - **Check the reference file's §7 calque rules against the whole target** — each rule against
+> - **Check the reference file's Calques section against the whole target** — each rule against
 >   every line, not only the line that recalled it. Those calques are grammatical in the target,
 >   so check against the rule, not by ear.
 >
@@ -155,10 +155,10 @@ type (fixed canvas / flowing text / mixed), and any image assets with their budg
 > 1. **Faithfulness.** Read source and target together for operative clauses, figures, dates,
 >    conditions and qualifiers like *free* or *up to*. A dropped qualifier or a widened claim is
 >    a finding; so is silent correction of a source claim.
-> 2. **Mechanics** (the target's reference file, §5). Every figure keeps the source's value; every separator, decimal,
+> 2. **Mechanics** (the target's reference file, Punctuation and formatting). Every figure keeps the source's value; every separator, decimal,
 >    percent and quote mark takes the target's convention. A date in the copy is raised, not
->    decided — no §5 states a date convention.
-> 3. **Dashes** (the target's reference file, §5). Name each dash as that file's
+>    decided — no reference file states a date convention.
+> 3. **Dashes** (the target's reference file, Punctuation and formatting). Name each dash as that file's
 >    convention or as the replacement it gives. **Do not count them and do not compare the
 >    inventory with the source's** (owner decision 2026-08-10). Where the
 >    target's grammar requires the mark — Ukrainian `X — це Y` — its absence is the finding, not
