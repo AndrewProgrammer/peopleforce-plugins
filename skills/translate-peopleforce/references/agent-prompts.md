@@ -257,7 +257,7 @@ only what the table cannot say.
 | Role | Gets | Does |
 |---|---|---|
 | **1 Translator** | source, brief, glossary, reference file, product connector | Everything in *Process*, plus the product and fact checks |
-| **2 HR reader** | the target, its reference file and the content type — **nothing else** | The HR-specialist read: would an HR specialist in that country have written this? |
+| **2 HR reader** | the target, its reference file and the content type — **nothing else** | Check 2: does it read like HR, or like translated HR? |
 | **3 Native-read** | the target, the direction, the content type **and the source** — separate context, not blinded | The reads-as-native check: does it read as written-in-the-language, or is the source's structure showing? |
 | **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus the source-side checks — mechanics through the glossary trace |
 | **back to 1** | every finding | The one repair pass |

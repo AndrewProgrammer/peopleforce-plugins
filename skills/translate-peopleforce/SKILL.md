@@ -101,13 +101,14 @@ Then work through *The last pass before handover* — see **The handover**, belo
       putting the house second person in their mouth, and two independent arms did exactly
       that.
 
-- [ ] **An HR specialist in the target country would have written it** — someone who buys
-      this software, not a translator. Would they say the line to a colleague? Put it on
-      their own careers page? A line that only makes sense next to the source is not
-      finished. This pass judges naturalness and reads past untranslated leftovers, so
-      **sweep for leftover source-language text separately**, over the whole target — a
-      separate pass, because a reader asked *would an HR specialist write this* does not
-      switch modes to audit for foreign script. **Short all-caps labels are what survive
+- [ ] **It reads like HR, not like translated HR** — as though written by someone doing the
+      job in the target country, not by someone translating it. Read it as that person: an HR
+      specialist who buys this software. Is this the vocabulary you and your colleagues use?
+      Would you say the line to a colleague, or put it on your own careers page? A line that
+      only makes sense next to the source is not finished. This pass judges naturalness and
+      reads past untranslated leftovers, so **sweep for leftover source-language text
+      separately**, over the whole target — a separate pass, because a reader judging whether
+      copy sounds like their own does not switch modes to audit for foreign script. **Short all-caps labels are what survive
       it**: `Q:`, `A1:`, `A2:` sat in Latin inside Ukrainian ad copy and three instruments
       read past them, including a blinded persona read that praised the line's grammar.
       Where such a label carries meaning the reader needs, translate it (`Питання:`,

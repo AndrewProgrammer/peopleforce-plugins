@@ -98,9 +98,9 @@ relationship is already obvious is itself a calque:
 - If dropping it would leave the owner genuinely ambiguous, keep it — and only then
   does the `swój` / `Twój` choice apply.
 
-Dropping is the default: the test is whether a Polish reader would have written it
-unprompted. A dropped possessive is often also the cleanest way to keep the reader out
-of a predicate adjective.
+Dropping is the default: the test is whether the possessive would be there at all in Polish
+written from scratch, rather than whether it can stay. A dropped possessive is often also the
+cleanest way to keep the reader out of a predicate adjective.
 
 **`nieobecność` is the system's noun, not a word you put in a sentence about a person.**
 The product records a `nieobecność`; a human takes `wolne` or `urlop`. So *time off* and
