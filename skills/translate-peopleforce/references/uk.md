@@ -62,22 +62,6 @@ write `ваш` and leave it there — the site does exactly this (*«Розум�
 
 ---
 
-## 3. HR terminology
-
-**`HR` stays in latin script.** If body copy refers to the HR function, write the
-two latin letters `HR` — well established, and the one borrowing in this file that
-does *not* follow §4's transliteration pattern.
-
-- if the sense is the department or personnel records, then `кадри`
-- if the sense is the discipline, then `управління персоналом`
-
-Role acronyms — `CEO`, `CFO`, `COO`, `CMO` — stay latin.
-
-If the source says "employee", write **`співробітник`** — the default lexeme, chosen
-over *працівник*.
-
----
-
 ## 4. Anglicism policy
 
 Ukrainian **transliterates** borrowings into Cyrillic where Polish keeps them in
@@ -87,9 +71,9 @@ Cyrillic form: `онбординг`, `офбординг`, `воркфлоу`, `
 `скринінг`, `релокейт`, `бенефіти`, `абсентеїзм` — the same concepts Polish leaves in
 latin.
 
-Staying latin: **acronyms** (`HR`, `ATS`, `HRM`, `HRIS`, `KPI`, `OKR`, `eNPS`,
-`CEO`, `CFO`, `COO`, `CMO`) and product, brand and customer names. `AI` and `ШІ`
-are interchangeable — neither is the default.
+Staying latin: **acronyms** — the glossary's do-not-translate list, kept latin even
+inside Cyrillic copy — and product, brand and customer names. `AI` and `ШІ` are
+interchangeable — neither is the default.
 
 🚩 **Derived, not decided.** This describes what the glossary cells already do; no
 one recorded it as a policy. Confirm with a native reviewer before treating it as
@@ -132,11 +116,16 @@ optional. The exception is the same one as above — a quote ending in `?`, `!` 
 keeps that mark inside the guillemets and takes **no** comma: `«Скільки це коштує?» —
 запитала вона.`
 
-**Not settled, and deliberately left open:** whether the house register (`ви`) governs
-the *inside* of an attributed quotation, or whether a quotation follows its speaker and
-takes `я / ми`. That is a decision about what a testimonial is, it implicates the
-English source copy, and it waits on the owner. §1 governs how the copy addresses the
-reader; it says nothing yet about a person quoted in it.
+**Settled 2026-08-11, in `SKILL.md`'s register check:** the house register governs how the
+copy addresses **the reader**, not how a quoted person speaks about themselves. Inside an
+attributed quotation a real person describing their own experience takes `я / ми`. Two
+independent arms put `ви / ваш` inside a named customer's testimonial, and the register
+check as previously worded argued for it — which is why the carve-out now sits on the check
+itself rather than here.
+
+**What is still open** is narrower and it is not a Ukrainian question: whether the **English
+source** should be writing testimonials in the second person at all. Where it does, translate
+the person's own voice and say so in the handover.
 
 ### The copula тире is grammar
 
@@ -190,3 +179,32 @@ Leave these to Ukrainian idiom, they are not distributives:
 
 **Aspect and the relative pronoun with its comma** are the other two silent calques —
 see §2.
+
+**Bookish words that pass the grammar check and fail the ear.** A word can be correct,
+dictionary-attested and still not something a Kyiv HR specialist says. Test the
+collocation, not the word: if the pairing describes ordinary work, the word has to be
+ordinary too.
+
+| If the source says | Write |
+|---|---|
+| `milestone` / `krok milowy` / `hito` | `великий крок уперед` — `важливий крок` where the canvas will not take the full phrase, and `переломний момент` only where the source really means a turning point |
+| `contractor` / `kontraktor` | `підрядник` |
+| the sole-trader status itself | `ФОП` |
+| `B2B contractor` | `підрядник на B2B` — keep `B2B` as the foreign arrangement it names |
+
+The tell is a word that marks an era sitting in a sentence about an ordinary working
+month.
+
+**Do not nominalise a bare neuter adjective.** English *what matters* and Polish
+`na to, co ważne` both compress comfortably; Ukrainian does not. Write the relative
+clause out, and note the predicate goes to the impersonal `важливо`, not the adjective:
+
+| Not | Write |
+|---|---|
+| `звільняє час на важливе` | `звільняє час на те, що справді важливо` |
+| `focus на головне` | `зосередитися на тому, що справді має значення` |
+
+Owner correction 2026-08-10, on the hr-leaders H2. The tell is a preposition followed
+directly by a neuter adjective with no noun and no `те, що`. Adjective-plus-noun
+(`важливе питання`) and predicative use inside an existing relative clause
+(`те, що для неї важливе`) are both fine — the defect is only the bare nominalisation.

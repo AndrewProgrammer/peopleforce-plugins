@@ -20,7 +20,9 @@ this content type:
    separator, decimal, percent and quote mark takes the target's convention. A date in
    the copy is raised, not decided — no §5 states a date convention.
 3. **Dashes** (§5). Name each dash as the target's convention or the replacement §5
-   gives. Report the dash inventory against the source's; score none of it.
+   gives. **Do not count them and do not compare the inventory with the source's**
+   (owner decision 2026-08-10). Where the target's grammar requires the mark —
+   Ukrainian `X — це Y` — its absence is the finding, not its presence.
 4. **Gender neutrality.** Enumerate every line that puts a person — reader, employee,
    candidate, named customer — into a gendered form; each either carries none or is
    named as a construction to avoid (devices: es §2, pl §2, uk §1; English writes

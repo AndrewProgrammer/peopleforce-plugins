@@ -11,6 +11,18 @@ Second-person imperatives are standard: `Zarezerwuj`, `Sprawdź`, `Pobierz`,
 This matches English and Spanish. **Ukrainian is formal** — watch the shift when
 translating PL↔UK.
 
+**The we-form sidesteps the register choice entirely, and Polish uses it heavily.**
+`możemy`, `mamy`, `sprawdzamy` — first person plural — lets a line address the reader
+without committing to `Ty` or `Pan/Pani`. Across 47 Polish calls it runs 2065 rep / 1502
+prospect turns, used as readily by customers as by us, against 700/548 for `Pani/Pan` and
+213/57 for informal `ty`. Two consequences worth knowing: it is the natural form for a line
+that would sound presumptuous in the second person, and its heavy customer use means it
+reads as ordinary rather than as corporate hedging.
+
+**A caution that comes with it.** Informal `ty` is rep-led nearly 4:1 (213 against 57),
+which means copy modelled on how our own people talk will read too casual for this market.
+The customer is consistently the more formal side of the call.
+
 ---
 
 ## 2. Explicitation
@@ -93,25 +105,11 @@ of a predicate adjective.
 
 ---
 
-## 3. HR terminology
-
-When the source says *HR*, *human resources*, *RRHH* or *кадри*, pick the Polish form
-by which sense is meant — the sense decides, and the default is the short form:
-
-- if the sense is the function or the department, then `HR` / `dział HR` — the
-  established default
-- if the sense is personnel records and administration specifically, then `kadry`
-- if the slot needs the formal discipline name, then `zasoby ludzkie` — it reads
-  bureaucratic, so that slot is where it belongs
-
----
-
 ## 4. Anglicism policy
 
-Polish keeps noticeably more English than Spanish does. Established as-is:
-
-`onboarding`, `offboarding`, `ATS`, `OKR`, `KPI`, `HRIS`, `HRMS`,
-`feedback`, `1:1`, `AI`, `ChatGPT`, `screening`.
+Polish keeps noticeably more English than Spanish does. **Which anglicisms are
+established is a glossary question, and the pl cell is the answer** — including for
+acronyms, and including where the pl cell keeps English while the es cell does not.
 
 *workflow* is **not** on that list — Polish translates it: `proces` (the product locale
 renders it that way uniformly; Ukrainian is the language that borrows it — see the
@@ -144,7 +142,14 @@ checked — never generalised from a neighbouring word.
 | Decimal | `4,6` — comma |
 
 The only Polish-specific part is the glyph: if a dash survives into Polish, write the
-myślnik `–`. The dash count is reported in the handover, never scored.
+myślnik `–`. Not counted, not budgeted, not matched to the source — `en.md` §5 states the
+policy once for every target.
+
+**The `X – to Y` definition takes the myślnik, and it is optional.** Unlike Ukrainian,
+Polish keeps a copula: `analityka HR to globalna koncepcja` is complete without a dash, so
+adding one before `to` is emphasis, not grammar — 55 hits across 35 of 105 published
+articles, so it is house-current either way. Neither adding nor removing it is an error;
+holding one pattern through the piece is the rule.
 
 ---
 

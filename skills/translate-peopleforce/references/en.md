@@ -20,6 +20,12 @@ speaker, and not British or American by default. Two consequences for the copy:
 - **Nothing needs localising to a national market** — no British-versus-American spelling
   question to settle, no national institutions to gloss. Where a national reference is
   unavoidable, make the sentence carry it.
+- **Unless the source country is the subject.** This English serves readers across Europe,
+  not one country, which is exactly why an institution that *is* the topic has to stay:
+  the Polish pay-transparency bill, `umowa zlecenie`, `L4`, ЄДРПОУ, Ukrainian
+  military-registration duties. Keep the source market's own name for it and gloss it on
+  first mention, because the reader sits in a different market. The rule above is about
+  incidental national colour; generalising away the subject is the failure mode here.
 
 **Ukrainian sources are formal** (lower-case `ви`, per `uk.md` §1). If the source reads
 deferential, still write `you` — English carries the register shift down, and `you` is
@@ -64,17 +70,6 @@ question nobody asked.
 
 ---
 
-## 3. HR terminology
-
-If body copy refers to the HR function, then write `HR` — the two letters, in every
-instance. `HRIS`, `HRMS`, `ATS`, `KPI`, `OKR`, `eNPS` are all standard the same way.
-
-When translating **into** English from Spanish, restore the established English
-term: *rotación* → turnover, *nómina* → payroll, *panel* → dashboard — the glossary
-row, read backwards.
-
----
-
 ## 5. Punctuation and formatting
 
 *(No §4 — there is no anglicism question when English is the target. The gap stays so
@@ -82,14 +77,26 @@ section numbers align across all four files.)*
 
 | Convention | Rule |
 |---|---|
-| Dash | `–` for ranges; the em-dash count is reported in the handover, never scored |
+| Dash | see below — no count, no budget |
 | En dash `–` | ranges only (`2020–2024`) |
 | Quotes | `“ ”`; pick one style per piece and hold it |
 | Percent | `30%` — unspaced |
 | Thousands | `1,000` — comma |
 | Decimal | `4.6` — period |
 
-If a dash is in doubt, use a comma, a colon or parentheses in its place.
+**Em dashes: no budget, no count, no matching the source.** Owner decision 2026-08-10 —
+this replaces the previous "reported in the handover, never scored" line and any counting
+rule. The only test is whether the English reads as though it was written in English.
+
+- Do **not** count them, in the source or the target.
+- Do **not** try to resemble the source's dash count. The source's punctuation is the
+  source's; a Polish `–` is not a licence for an English `—`.
+- Do **not** add an em dash the sentence does not need. If a comma, a colon or
+  parentheses does the job, use it — those are the default, not a fallback.
+- Do **not** strip one that is genuinely the right mark.
+
+The failure mode this guards against is the machine habit of splicing clauses with dashes
+because the source had a mark somewhere near. Write the sentence a native would write.
 
 ---
 

@@ -13,7 +13,12 @@ competitor artefact — nothing outside this file recovers it, so keep §1 intac
 - **Possessive stays *tu*.** `tu equipo`, `tu empresa` are already correct in
   voseo — leave them as they are.
 - **Object pronoun stays *te*.** `te ayuda`, `te permite` are correct.
-- **Second person plural: *ustedes*.**
+- **Second person plural: *ustedes*.** The pairing is **vos-singular / ustedes-plural**, and
+  it matters for any line addressing a team. Measured across 10,035 Spanish turns: `ustedes`
+  1030 rep / 245 prospect, singular `usted` effectively absent at 22/14, and **`vosotros`
+  zero** — it is dead in this market, so a Peninsular plural is a tell rather than a variant.
+  Note `usted` is the one address form prospects use *more* than reps (46 against 34), which
+  is the general pattern: the customer is the more formal side of the call.
 
 ### Conjugation
 
@@ -77,19 +82,6 @@ salariales?` is answered `Solo a mí`, not `Solo yo`.
 está confirmado`. Collective and abstract nouns, epicene nouns, second person instead of
 third, and infinitives in UI labels all do this cleanly — product copy neutralises
 through those devices, not through *desdoblamiento* (`los/las empleados/as`).
-
----
-
-## 3. HR terminology
-
-If the concept is *human resources* in Spanish, write `RRHH` — that exact shape,
-four letters, no spacing and no full stops. In a heading or a first mention,
-`Recursos Humanos` is also correct. **Pick one per piece and hold it**, repetition
-included. Job titles keep `HR` — HRBP, HRVP, HR Manager.
-
-`Gestión del Talento`, `Gestión de Personas` and `Capital Humano` are live in the
-market and fit the register, but they are **not** house forms — recorded as proposals
-in `translation-corpus/open-flags.md`, item 9; adopting one is an owner decision.
 
 ---
 

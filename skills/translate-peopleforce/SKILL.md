@@ -22,7 +22,7 @@ deliverable.
    | Type | What it adds, what it drops |
    |---|---|
    | **Fixed canvas** — ad, social graphic, slide, chip, UI string | Both **ads only** checks apply: length and figure position. Skip **§Structure** — a chip has no heading skeleton to carry across. |
-   | **Flowing text** — article, case study, guide | **§Structure applies**: sentence case and question-led headings always; if the target file's §6 also gives a comparison skeleton or a closing heading, follow those. Let the target run as long as it needs — length is information here, not a check. |
+   | **Flowing text** — article, case study, guide | **§Structure applies**: sentence case and question-led headings always; if the target file's §6 Structure also gives a comparison skeleton or a closing heading, follow those. Let the target run as long as it needs — length is information here, not a check. |
    | **Mixed** — landing page, email | Headline and stat blocks behave like a fixed canvas, body like flowing text. Say which you treated how. |
 
    Whatever the type, a piece with graphics is also an image job — the image check
@@ -38,7 +38,7 @@ deliverable.
    so translate governing and governed lines in one pass, both in front of you.
    `Only me`, answering `Who does PeopleForce show your salary data to?`, came back as
    «тільки я» — *only I*: correct alone, wrong under its question; the dative «тільки мені»
-   is the only rendering the question allows (forms: your target's §2; into English the
+   is the only rendering the question allows (forms: your target's §2 Explicitation; into English the
    marking is dropped rather than supplied — `en.md` §2).
 
    Linked pairs: a question and its answer options · a headline and its subhead · a stat
@@ -80,13 +80,17 @@ faithfully, flag loudly.
 
 ## Checks before handing over
 
-Ten checks: eight apply to everything, two are **ads only** (fixed canvas and mixed).
+Eleven checks: nine apply to everything, two are **ads only** (fixed canvas and mixed).
 Then work through *The last pass before handover* — see **The handover**, below.
 
 - [ ] **One register throughout** — the one the target file's §1 sets. **Done when** every
       second-person form — pronoun, possessive, verb ending, imperative — has been matched
       against §1 and each slip rewritten. The count checked is the count present, not a
-      sample: one slipped form fails the piece.
+      sample: one slipped form fails the piece. **Register governs how the copy addresses
+      the reader — not how a quoted person speaks about themselves.** Inside a named
+      customer's testimonial a real person describing their own experience says `я` / `ми`;
+      read literally, this check argues for putting the house second person in their mouth,
+      and two independent arms did exactly that.
 
 - [ ] **An HR specialist in the target country would have written it** — someone who buys
       this software, not a translator. Would they say the line to a colleague? Put it on
@@ -112,8 +116,9 @@ Then work through *The last pass before handover* — see **The handover**, belo
       source shape in a caption is a fail.
 
 - [ ] **Dashes follow the target's own convention** — each reference file's §5 states it;
-      take the glyph and the job it does from there. The count is reported in the
-      handover, never scored.
+      take the glyph and the job it does from there. **Not counted, not budgeted, not
+      matched to the source** (owner decision 2026-08-10). Where the target's grammar
+      requires a dash, it is not a stylistic choice: uk `X — це Y` has no dash-free form.
 
 - [ ] **Every line about a person stays gender-neutral** — the reader, an employee, a
       candidate, a named customer; not the reader only. Never writing a masculine default
@@ -154,10 +159,21 @@ Then work through *The last pass before handover* — see **The handover**, belo
       Alt text is additional translatable copy, never a substitute for the copy inside
       the image.
 
+- [ ] **Nothing changed that wasn't translation.** Casing, a near-synonym in place of the
+      source's word, a line shortened to fit a box — those are edits, not translations. Keep
+      the source's choice by default. Where an edit is genuinely needed, take it deliberately
+      and name it in one line when handing over. The silent ones are what nobody finds later.
+      Its mirror: **name any ambiguity you could not resolve.** Where the source is unclear
+      enough that you cannot tell what it means, translate it as faithfully as you can and
+      say so in the handover with what you took it to mean — a faithful copy of an
+      incomprehensible source passes every other check here and still fails the reader.
+
 - [ ] **Every term traces back to the glossary.** A PeopleForce product or module name
       stays exactly as written; a feature takes the established locale form — both in
       `glossary.md`. **Done when** every product, module and feature term has been traced
       to the row it came from and every flagged cell used is recorded in `flag_decisions`.
+      Where you were **uncertain** about a term the glossary does not flag, record that the
+      same way — the declaration is owed by your uncertainty, not by the marker.
       A term rendered from memory is untraced, whether or not it happens to match.
 
 ### If you have agents
@@ -259,9 +275,47 @@ term is not approval, an absent one is not an error, and Polish and Ukrainian in
 a term is present in a case form, not as the lemma the table lists.
 
 **4. Report these, score none of them:** character count beside its budget, per line ·
-the dash inventory, against the source's · observed mechanics — percent spacing, decimal
-separator, quote glyphs · any latin left inside Cyrillic · every 🚩 cell used with no
-decision recorded. These belong to the designer and the reviewer and carry **no verdict**.
+observed mechanics — percent spacing, decimal separator, quote glyphs · any latin left
+inside Cyrillic · every 🚩 cell used with no decision recorded. These belong to the
+designer and the reviewer and carry **no verdict**.
+
+**No dash inventory.** Owner decision 2026-08-10: do not count dashes, do not compare the
+count to the source's, do not budget them. Each reference file's §5 states the target's own
+convention and that is the whole rule — the target reads native or it does not.
+
+**In-image copy for a product screen comes from the product's own locale files — always, and
+it outranks every register rule in this skill.** Owner decision 2026-08-10.
+
+If a graphic shows a PeopleForce screen, the strings inside it are not ours to translate. They
+already exist, translated, at `config/locales/crowdin/<locale>/`. Look up the **key**, take the
+value, paste it. This holds even when the product's string breaks a rule we otherwise enforce:
+
+- **Register loses.** A screenshot may say `ти` where our copy says `ви`, or keep a loan our
+  glossary rejects — ship the product's string anyway. The reader is looking at the tool, and
+  a caption that disagrees with the screen is worse than a caption in the wrong register.
+- **The glossary loses.** Where the glossary and the product disagree on a screen string, the
+  product wins and the glossary row gets a note recording the split.
+- **Your ear loses.** Do not improve a product string.
+- **Only when the key genuinely has no translation** do you translate it — and flag it, because
+  an untranslated key is a product gap worth a ticket.
+
+Never back-translate a screenshot from the Polish crop. That produced four wrong Ukrainian and
+three wrong Spanish labels on the MR-328 turnover chart: literal renderings of the Polish
+(`Кількість користувачів`, `Cantidad de usuarios`) where the product actually says
+`Чисельність співробітників` and `Número de empleados` (`application-uk-UA.yml:7468`, `:7577`,
+`es-ES/application-es-ES.yml:7293`, `:7402`). The Polish crop is the *subject*, not the source.
+
+**Check ordinary HR nouns against the product's locale files, not just module names.** Added
+2026-08-10 after two misses of the same kind: `надурочні` for *overtime* (the product says
+`понаднормова робота` in 52 places and `надурочні` in none) and `dashboard` in Polish (the
+product says `Pulpit`). Both read like general vocabulary, so neither triggered a product
+check — the check had been scoped to "does PeopleForce do X" feature claims.
+
+If a noun names anything an HR person clicks, sees on a screen or files a request for —
+overtime, absence, approval, request, leave balance, work type, dashboard, department, level —
+**grep `config/locales/crowdin/<locale>/` before shipping it.** The product's own translated
+string wins over your instinct and over the corpus, because it is what the reader sees in the
+tool. Where the product and the corpus disagree, record both and flag it.
 
 **What this pass cannot see, stated so a clean result is not read as approval:** meaning —
 nothing here compares the target against the source, so read them together for operative
@@ -302,15 +356,25 @@ have agents*).
 `translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill:
 the measurement behind each rule. Nothing in it is needed to translate or review.
 
-`references/es.md`, `pl.md`, `uk.md`, `en.md` — **the same seven sections under the
-same numbers in every file**, so a section number means one thing everywhere:
+`references/es.md`, `pl.md`, `uk.md`, `en.md` — **the same sections under the same
+numbers in every file**, so a section number means one thing everywhere:
 
-`1. Register` · `2. Explicitation` · `3. HR terminology` ·
-`4. Anglicism policy` · `5. Punctuation and formatting` · `6. Structure` ·
-`7. Calques`
+`1. Register` · `2. Explicitation` · `4. Anglicism policy` ·
+`5. Punctuation and formatting` · `6. Structure` · `7. Calques`
 
-`en.md` has no §4 — there is no anglicism question when English is the target. The gap
-stays open rather than closing up, so "§5" is punctuation in all four files.
+**Two numbers are deliberately absent and the gaps stay open rather than closing up**, so
+that a number means the same thing in every file and in the eval registry:
+
+- **HR terminology, which held the third slot, was retired 2026-08-11.** Every rule in it
+  either restated the
+  glossary's Acronyms list — which says outright that it is the single authority and the
+  language files must not restate it — or was a `human resources` sense split that now lives
+  on that row with its conditions. Nothing was lost; it was duplication in four files.
+- **`en.md` has no §4** — there is no anglicism question when English is the target.
+
+So numbering runs 1, 2, 4, 5, 6, 7, and renumbering is not on the table: the eval registry
+keys rules to these numbers, and closing the gaps would invalidate roughly 120 rules'
+provenance.
 
 The one difference worth knowing before you open the file is register: **es** is voseo,
 **pl** is informal `Ty`, **uk** is **formal** — lower-case `ви` — and **en** is informal
