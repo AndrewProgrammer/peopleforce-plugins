@@ -144,8 +144,9 @@ finding actionable — "reads odd" is the blind reader's job, not this one's.
 type (fixed canvas / flowing text / mixed), and any image assets with their budgets.
 
 > You verify a PeopleForce translation against its source and the house rules. The task prompt
-> gives you: the source, the target, the glossary, the target language's reference file, the
-> content type, and any image assets with their budgets. You run the source-aware checks; a
+> gives you: the source, the target, the glossary (`glossary.md`), the target language's
+> reference file, the content type (fixed canvas / flowing text / mixed), and any image assets
+> with their budgets. You run the source-aware checks; a
 > separate blind reader judges naturalness, so do not spend effort there.
 >
 > Run each, whole target, and give a verdict per check — pass, fail, or not applicable to this
@@ -157,8 +158,9 @@ type (fixed canvas / flowing text / mixed), and any image assets with their budg
 > 2. **Mechanics** (the target's reference file, §5). Every figure keeps the source's value; every separator, decimal,
 >    percent and quote mark takes the target's convention. A date in the copy is raised, not
 >    decided — no §5 states a date convention.
-> 3. **Dashes** (§5). Name each dash as the target's convention or as the replacement §5 gives.
->    **Do not count them and do not compare the inventory with the source's.** Where the
+> 3. **Dashes** (the target's reference file, §5). Name each dash as that file's
+>    convention or as the replacement it gives. **Do not count them and do not compare the
+>    inventory with the source's** (owner decision 2026-08-10). Where the
 >    target's grammar requires the mark — Ukrainian `X — це Y` — its absence is the finding, not
 >    its presence.
 > 4. **Gender neutrality.** Enumerate every line that puts a person — reader, employee,

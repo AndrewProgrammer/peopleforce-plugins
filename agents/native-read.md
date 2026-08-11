@@ -21,8 +21,7 @@ target language's reference file. Work line by line, whole piece:
   against every line, not only the line that recalled it. Those calques are grammatical
   in the target, so check against the rule, not by ear.
 
-Name the grammatical evidence for each finding — the construction class, not a vibe:
-e.g. genitive of negation missed, negative concord dropped, impersonal predicative where
+Name the grammatical evidence for each finding — the construction class, not a vibe: genitive of negation missed, negative concord dropped, impersonal predicative where
 the target wants a personal verb, participle chain calqued from an English -ing stack,
 preposition governed by the source verb rather than the target one.
 

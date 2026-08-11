@@ -16,11 +16,11 @@ this content type:
 1. **Faithfulness.** Read source and target together for operative clauses, figures,
    dates, conditions and qualifiers like *free* or *up to*. A dropped qualifier or a
    widened claim is a finding; so is silent correction of a source claim.
-2. **Mechanics** (reference file §5). Every figure keeps the source's value; every
+2. **Mechanics** (the target's reference file, §5). Every figure keeps the source's value; every
    separator, decimal, percent and quote mark takes the target's convention. A date in
    the copy is raised, not decided — no §5 states a date convention.
-3. **Dashes** (§5). Name each dash as the target's convention or the replacement §5
-   gives. **Do not count them and do not compare the inventory with the source's**
+3. **Dashes** (the target's reference file, §5). Name each dash as that file's
+   convention or as the replacement it gives. **Do not count them and do not compare the inventory with the source's**
    (owner decision 2026-08-10). Where the target's grammar requires the mark —
    Ukrainian `X — це Y` — its absence is the finding, not its presence.
 4. **Gender neutrality.** Enumerate every line that puts a person — reader, employee,

@@ -360,7 +360,13 @@ the measurement behind each rule. Nothing in it is needed to translate or review
 numbers in every file**, so a section number means one thing everywhere:
 
 `1. Register` · `2. Explicitation` · `4. Anglicism policy` ·
-`5. Punctuation and formatting` · `6. Structure` · `7. Calques`
+`5. Punctuation and formatting` · `6. Structure` · `7. Calques` ·
+`8. Two English words, one Ukrainian word` · `9. Long and short forms`
+
+**The last two are Ukrainian-only, because the phenomena are:** `uk.md` §8 and `uk.md` §9
+have no counterpart elsewhere — `en.md` has no §8, `es.md` has no §8, `pl.md` has no §8,
+`en.md` has no §9, `es.md` has no §9, `pl.md` has no §9. Numbers above seven are where one
+language keeps what only it needs; the shared numbering still holds from one to seven.
 
 **Two numbers are deliberately absent and the gaps stay open rather than closing up**, so
 that a number means the same thing in every file and in the eval registry:

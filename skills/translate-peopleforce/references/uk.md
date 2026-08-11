@@ -66,18 +66,62 @@ write `ваш` and leave it there — the site does exactly this (*«Розум�
 
 Ukrainian **transliterates** borrowings into Cyrillic where Polish keeps them in
 latin script. That is the sharpest divergence between the two files, so if the target
-is Ukrainian, take the policy from here rather than from `pl.md`, and write the
-Cyrillic form: `онбординг`, `офбординг`, `воркфлоу`, `дашборд`, `тригер`, `рекрутинг`,
-`скринінг`, `релокейт`, `бенефіти`, `абсентеїзм` — the same concepts Polish leaves in
-latin.
+is Ukrainian, take the policy from here rather than from `pl.md`.
+
+That is a description, not a licence. A borrowing is the house form only if it passes
+both tests below.
+
+**Test 1 — document spread beats hit count.** Count the articles a form appears in, not
+the times it appears. A form with hundreds of hits across three or four documents is one
+writer's habit; a form spread across dozens is house usage. This is the test that matters,
+and it is the one that caught `воркфлоу`, which looked safe on raw hits.
+
+**Test 2 — the form must decline.** An indeclinable transliteration that forces an
+arbitrary singular agreement (`воркфлоу, що стоїть за ним`) is a defect even when it is
+frequent. If the loan cannot inflect where the sentence needs it to, write the Ukrainian
+form.
+
+If a borrowing has no attested Ukrainian form and no native rival, **flag the gap — do not
+coin a transliteration** on the strength of the pattern.
+
+**Where both a loan and a Ukrainian rival are attested, both are house forms and the
+context picks.** Owner ruling 2026-08-11. Neither one is the default and neither is a
+defect, so do not swap a form that is already in a piece — choose per sentence, then stay
+consistent inside the piece.
+
+What makes the context pick:
+
+- **Does the word have to inflect or agree?** Take the Ukrainian form. This is where an
+  indeclinable loan breaks (`воркфлоу, що стоїть за ним`).
+- **Is the line a UI label, a heading or a chip?** The loan is usually shorter and is what
+  the reader sees on screen.
+- **Is the sentence about the statutory or the discretionary version of the thing?** That
+  is a sense split, not a style choice — see `бенефіти` below.
+
+Measured over the 180-document uk-UA corpus:
+
+| Loan | hits / docs | Ukrainian rival | rival hits / docs | Notes |
+|---|---|---|---|---|
+| `рекрутинг` | 915 / 81 | — | | no rival — the loan |
+| `онбординг` | 767 / 63 | — | | no rival — the loan |
+| `офбординг` | 151 / 16 | — | | no rival — the loan |
+| `воркфлоу` | 240 / 25 | `робочий процес` | 300 / 57 | both. Prefer `робочий процес` where the word must agree or inflect — the loan is indeclinable, and three of four source-blind native passes flagged it for that. Short form `процес` once context has fixed which process |
+| `релокейт` | 110 / 12 | `переїзд` | 30 / 8 | both, but check the sense: `переїзд` is the plain physical move, `релокейт` the employment arrangement |
+| `дашборд` | 87 / 21 | `панель` | 20 / 5 | both |
+| `скринінг` | 84 / 11 | `відбір` | 39 / 9 | both |
+| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | **not a rivalry — a sense split, and the glossary already records it** on the `employee benefits`/uk row: `бенефіти` = discretionary perks, `пільги` = statutory entitlements. The counts do not compete because the two words are doing different jobs |
+| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both. 🚩 the loan's 119 hits sit in only four documents against twelve for `прогул`, so it is one writer's word rather than measured house usage |
+| `тригер` | 39 / 4 | — | | 🚩 four documents. Attested, but too concentrated to call house usage |
 
 Staying latin: **acronyms** — the glossary's do-not-translate list, kept latin even
 inside Cyrillic copy — and product, brand and customer names. `AI` and `ШІ` are
 interchangeable — neither is the default.
 
-🚩 **Derived, not decided.** This describes what the glossary cells already do; no
-one recorded it as a policy. Confirm with a native reviewer before treating it as
-settled, and do not extend the pattern to a new borrowing on the strength of it.
+Corpus-measured 2026-08-11, replacing the earlier derived policy: the ten forms are now
+attested rather than inferred, and the policy is a **test** rather than a description of
+what the glossary happens to do. That was the flag's actual complaint, and it is answered —
+so extend the pattern to a new borrowing by **running the two tests**, not by pointing at
+this list. Two 🚩 remain, both about concentration rather than about which word is right.
 
 ---
 
@@ -191,6 +235,7 @@ ordinary too.
 | `contractor` / `kontraktor` | `підрядник` |
 | the sole-trader status itself | `ФОП` |
 | `B2B contractor` | `підрядник на B2B` — keep `B2B` as the foreign arrangement it names |
+| `workflow` / `proces` | `робочий процес`, or bare `процес` once the context has established which process. `воркфлоу` is a house form too (§4) — but where the word has to agree or inflect, take the Ukrainian one, because the loan is indeclinable and forces an arbitrary agreement (`воркфлоу, що стоїть за ним`) |
 
 The tell is a word that marks an era sitting in a sentence about an ordinary working
 month.
@@ -208,3 +253,47 @@ Owner correction 2026-08-10, on the hr-leaders H2. The tell is a preposition fol
 directly by a neuter adjective with no noun and no `те, що`. Adjective-plus-noun
 (`важливе питання`) and predicative use inside an existing relative clause
 (`те, що для неї важливе`) are both fine — the defect is only the bare nominalisation.
+
+---
+
+## 8. Two English words, one Ukrainian word
+
+`employee` and `staff member` both go to **`співробітник`**. This is deliberate, not a
+table error: English routinely distinguishes where Ukrainian does not, and dropping a
+distinction the target lacks is correct behaviour. Polish does the same thing with
+`pracownik`, for the same reason.
+
+So do not hunt for a second lexeme. Where a piece genuinely needs the two senses apart,
+**the construction carries it, not the noun**:
+
+| Sense | Write |
+|---|---|
+| the person as a member of your company | `наш співробітник`, `співробітники компанії` |
+| one individual picked out of the group | `один із співробітників`, `окремий співробітник` |
+| the group as a body | `команда`, or the `workforce` row's `працівники` |
+
+Do not reach for `персонал` to break the tie — it is the `staff` cell and carries its own
+row, and it is rare in speech (16r/5p). Recorded 2026-08-11, third time this pattern was
+raised as an open cell.
+
+---
+
+## 9. Long and short forms
+
+Where English has one term and Ukrainian needs a long form in prose but a short one in a
+heading, chip or repeat mention, **the short form has to be an ellipsis of the long one —
+the same head noun with the modifier dropped.** A different head noun is a different
+concept, not a shortening.
+
+**`performance review`.** Full `оцінка ефективності`; short **`оцінка`** on second mention,
+in headings and in tight layouts (`цикл оцінки`). Both share the head `оцінка`, so the
+short form is a true ellipsis.
+
+**Not `оцінювання`.** It is a different head and a wider concept — the corpus uses it for
+candidate assessment as much as performance (`критерії оцінювання`, `платформи
+оцінювання`, `оцінювання навичок`), so dropping the complement does not shorten
+*performance review*, it changes the referent to assessment-in-general. Keep `оцінювання`
+for that generic sense.
+
+`перформанс-ревю` is attested in speech (44r/8p across 11 calls) and stays there — spoken
+register, not published copy.
