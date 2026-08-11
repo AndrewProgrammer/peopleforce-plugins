@@ -24,9 +24,9 @@ Give every check a verdict: pass, fail, or not applicable to this content type.
    convention, whatever shape the source used. A **date** is the one mechanic no reference file
    decides — raise it for the owner.
 3. **Dashes** (same section). Name each dash as the target's convention or as the replacement
-   that section gives. **Report no count and no comparison with the source's inventory** —
-   owner decision, 2026-08-10. Where the target's grammar requires the mark, its absence is
-   the finding: Ukrainian `X — це Y`.
+   that section gives — **the naming is the whole report**, with no count and no comparison
+   against the source's inventory. Where the target's grammar requires the mark, its absence
+   is the finding: Ukrainian `X — це Y`.
 4. **Gender neutrality.** Enumerate every line that puts a person — the reader, an employee, a
    candidate, a named customer — into a gendered form. Each line either carries no gendered
    form or is named, with the device its language uses to avoid one (es §2, pl §2, uk §1;
