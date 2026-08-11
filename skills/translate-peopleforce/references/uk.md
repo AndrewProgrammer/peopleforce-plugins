@@ -60,6 +60,40 @@ Spanish brings *que* but no comma. Add whatever the source is missing.
 write `ваш` and leave it there — the site does exactly this (*«Розумійте вашу
 команду»*), so the non-reflexive form is the house form and needs no adjusting.
 
+**`відсутність` is the system's noun, not a word you put in a sentence about a person.**
+The product records a `відсутність`; a human takes a `вихідний` or a `відпустка`. Ukrainian
+therefore renders *time off* and *leave* as **verb phrases rather than as single nouns**, and
+the noun the system uses is the one that must not appear in them:
+
+| The source says | Write | Not |
+|---|---|---|
+| request time off | `оформити вихідний`, `подати заявку на вихідний` | `оформити відсутність` |
+| take a day off | `взяти вихідний` | `взяти відсутність` |
+| take leave / annual leave | `взяти відпустку`, `оформити відпустку` | |
+| days off, time-off balance | `вихідні`, `залишок днів відпустки` | |
+| the record, policy or calendar | `відсутність`, `політика відсутностей` | |
+
+`вихідний` runs 105 hits/22 docs and `день відпустки` 16/6, so the noun is what our copy
+writes; the bare verb phrases are thinner (`взяти відпустку` 5, `взяти вихідний` 3) and
+belong to speech more than to print. The distinction that matters: `відпустка` is the
+counted entitlement, `вихідний` is a single day away.
+
+**English `the same` is two different words in Ukrainian, so the source cannot tell you
+which.** Identity — one and the same thing — is `той самий`. Similarity — another one like
+it — is `такий самий` or `однаковий`. Decide from what the sentence actually refers to:
+
+| The source says | Write | Because |
+|---|---|---|
+| the same checklist (one document, reused) | `той самий чек-лист` | there is one checklist |
+| the same first week (each new hire has their own) | `такий самий перший тиждень` | `той самий` would claim one literal week everybody shares |
+| the same result (matching, not shared) | `однаковий результат` | two results that match are not one result |
+
+**Identity is the unmarked default** — `той самий` runs 138r/14p across 56 calls against
+`такий самий` 20r/0p in 15, about 7:1 — so it is right more often than not, and wrong
+exactly where the source means *a similar one*. That makes it a judgement per sentence and
+**never a find-and-replace**: an arm wrote `той самий перший тиждень` and so claimed a
+single week shared by every hire. 🚩 three list items in published copy await a native read.
+
 ---
 
 ## 4. Anglicism policy
@@ -117,8 +151,8 @@ Measured over the 180-document uk-UA corpus:
 | `релокейт` | 110 / 12 | `переїзд` | 30 / 8 | both, but check the sense: `переїзд` is the plain physical move, `релокейт` the employment arrangement |
 | `дашборд` | 87 / 21 | `панель` | 20 / 5 | both |
 | `скринінг` | 84 / 11 | `відбір` | 39 / 9 | both |
-| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | **both usable**. The glossary's `employee benefits`/uk row records a leaning — `бенефіти` for discretionary perks, `пільги` for statutory entitlements — but the two are not in competition and either is correct |
-| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both, **kept after review**. The count is concentrated — 110 of 119 hits in one explainer article, which glosses the term — so it is a term of art rather than everyday vocabulary, but that is the correct register for professional HR copy. Gloss it on first mention. The senses differ: `прогул` is one unexcused absence, `абсентеїзм` the pattern or metric |
+| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | both, and the split is by sense — see the glossary's `employee benefits`/uk row |
+| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both, and the loan is a term of art: **gloss it on first mention**. Sense split and the concentrated count are on the glossary's `absenteeism` row |
 | `тригер` | 39 / 4 | — | | 🚩 four documents. Attested, but too concentrated to call house usage |
 
 Staying latin: **acronyms** — the glossary's do-not-translate list, kept latin even
@@ -128,8 +162,8 @@ interchangeable — neither is the default.
 Corpus-measured, replacing an earlier derived policy: the ten forms are now
 attested rather than inferred, and the policy is a **test** rather than a description of
 what the glossary happens to do. That was the flag's actual complaint, and it is answered —
-so extend the pattern to a new borrowing by **running the two tests**, not by pointing at
-this list. Two 🚩 remain, both about concentration rather than about which word is right.
+so extend the pattern to a new borrowing by **running the three tests**, not by pointing at
+this list. One 🚩 remains, and it is about concentration rather than about which word is right.
 
 ---
 

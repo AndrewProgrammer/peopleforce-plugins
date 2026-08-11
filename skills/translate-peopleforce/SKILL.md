@@ -80,7 +80,7 @@ faithfully, flag loudly.
 
 ## Checks before handing over
 
-Eleven checks: nine apply to everything, two are **ads only** (fixed canvas and mixed).
+Twelve checks: ten apply to everything, two are **ads only** (fixed canvas and mixed).
 Then work through *The last pass before handover* — see **The handover**, below.
 
 - [ ] **One register throughout** — the one the target file's §1 sets. **Done when** every
@@ -88,9 +88,10 @@ Then work through *The last pass before handover* — see **The handover**, belo
       against §1 and each slip rewritten. The count checked is the count present, not a
       sample: one slipped form fails the piece. **Register governs how the copy addresses
       the reader — not how a quoted person speaks about themselves.** Inside a named
-      customer's testimonial a real person describing their own experience says `я` / `ми`;
-      read literally, this check argues for putting the house second person in their mouth,
-      and two independent arms did exactly that.
+      customer's testimonial a real person describing their own experience takes the first
+      person, in whatever form the target uses; read literally, this check argues for
+      putting the house second person in their mouth, and two independent arms did exactly
+      that.
 
 - [ ] **An HR specialist in the target country would have written it** — someone who buys
       this software, not a translator. Would they say the line to a colleague? Put it on
@@ -126,9 +127,16 @@ Then work through *The last pass before handover* — see **The handover**, belo
       is a house decision, and the device lives in the target's own file: `es.md` §2,
       `pl.md` §2, `uk.md` §1; English writes `they`. Enumerate the lines that put a person
       into a gendered form rather than scanning the piece — the failure is one line in
-      thirty. Polish masculine-personal plural (`pracownicy zalogowali się`) has no
-      neutral form: avoid the construction and say in the handover that you did
-      (🚩 native reviewer).
+      thirty. Where a language has a construction with **no** neutral form, its own file
+      says so and says what to do instead.
+
+- [ ] **Nothing changed that wasn't translation.** Casing, a near-synonym in place of the
+      source's word, a line shortened to fit a box — those are edits, not translations. Keep
+      the source's choice by default. Where an edit is genuinely needed, take it deliberately
+      and name it in one line in the handover. **Done when** every departure from the
+      source's own wording is either reverted or named — the silent ones are what nobody
+      finds later. Failure replay over the ten known errors from the lifecycle-ads job:
+      5/10 caught without this check, 8/10 with it.
 
 - [ ] **Ads only — report the length; the number is information, not a target** (scoring
       it produces worse translations, not shorter ones). Give the shortest faithful line

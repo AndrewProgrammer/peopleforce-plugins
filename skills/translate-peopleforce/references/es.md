@@ -70,6 +70,20 @@ already names it, the bare imperative is correct: `Probá gratis`. Decide which 
 are in and hold that choice across the whole set. The clitic takes **no accent** in
 voseo: `probá` + `lo` → `probalo` (tuteo needs `pruébalo`).
 
+**English `the same` splits two ways in Spanish, so the source cannot tell you which.**
+Identity — one and the same thing — is `el mismo`. Similarity — another one like it — is
+`igual`. Decide from what the sentence actually refers to:
+
+| The source says | Write | Because |
+|---|---|---|
+| the same checklist (one document, reused) | `la misma checklist` | there is one checklist |
+| the same first week (each new hire has their own) | `una primera semana igual` | `la misma` would claim one literal week everybody shares |
+| the same result (matching, not shared) | `el mismo resultado` where it is one result, `un resultado igual` where two results match | the two readings are different claims |
+
+Identity is the unmarked default and is right more often than not, so the error to watch is
+`el mismo` applied where the source means *a similar one*. A judgement per sentence, and
+**never a find-and-replace**. `mismo` agrees with its noun (`la misma`, `los mismos`).
+
 **Agreement and pronoun marking are governed across a line break too** — the rule is
 `SKILL.md` step 3; what is Spanish is that there is no case system, so only two things
 reach across a boundary. A participle in a subhead agrees with the headline's noun
@@ -90,11 +104,11 @@ through those devices, not through *desdoblamiento* (`los/las empleados/as`).
 ### Which terms translate
 
 The glossary rows are the authority. The pattern to internalise: where Polish keeps
-the English word, Spanish usually translates it — *panel* for dashboard, *flujo de
-trabajo* for workflow, *selección* for screening — and Spanish keeps acronyms,
-product, brand and customer names in English per the do-not-translate lists. Where
-both languages translate (*nómina* / *płace*, *cumplimiento* / *zgodność*), take
-each from its own file: `pl.md` §4 states the Polish side.
+the English word, Spanish usually translates it — *panel* for dashboard, *selección*
+for screening — and Spanish keeps acronyms, product, brand and customer names in
+English per the do-not-translate lists. Where both languages translate (*nómina* /
+*płace*, *cumplimiento* / *zgodność*, *flujo de trabajo* / *proces* for workflow),
+take each from its own file: `pl.md` §4 states the Polish side.
 
 Anglicised **verbs** go the other way and are normal in Argentine and Uruguayan
 business speech — *setear*, *customizar*, *parametrizar* are fine in copy aimed

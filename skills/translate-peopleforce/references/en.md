@@ -58,6 +58,11 @@ the source marks one of these, let it go and use English's single form:
   word in English: *your*.
 - **Formal register.** Ukrainian `ви` has no English equivalent — write *you* and
   carry any seriousness in word choice instead (§1).
+- **Identity against similarity.** All three targets split *the same* two ways —
+  identity (`той самий` / `ten sam` / `el mismo`) against similarity (`такий самий` /
+  `taki sam` / `igual`). English has one word for both, so write **`the same`** and let
+  the distinction go. Reach for *identical* or *a similar* only where the sentence would
+  otherwise be genuinely ambiguous about which was meant.
 
 **Governance across a line break inverts here** (the inverse of `SKILL.md` step 3,
 which still owns which pairs count as linked and how you spot them): the governed line

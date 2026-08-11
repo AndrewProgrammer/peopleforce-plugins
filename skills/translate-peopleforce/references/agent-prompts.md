@@ -159,14 +159,16 @@ which structure was imported requires seeing what it was imported from.
 ## Source-aware checker — checks 4–10
 
 **Give it:** the source, the target, `glossary.md`, the target's reference file, the content type
-(fixed canvas / flowing text / mixed), and any image assets with their budgets. **Traced** is
-this role's leading word: a term is traced when a cell licenses it, and a term that happens to
-match the cell from memory is untraced.
+(fixed canvas / flowing text / mixed), any image assets with their budgets, and — whenever the
+job carries a graphic — `product-screens.md`. This role owns the graphics check, so without that
+file it is checking in-image copy against the glossary while the product's locale files are the
+actual authority. **Traced** is this role's leading word: a term is traced when a cell licenses
+it, and a term that happens to match the cell from memory is untraced.
 
 > You verify a translation against its source and the house rules. You get the source, the
-> target, `glossary.md`, the target language's reference file, the content type, and any image
-> assets with their budgets. Naturalness belongs to two other roles — spend your effort on what
-> only the source can settle.
+> target, `glossary.md`, the target language's reference file, the content type, any image
+> assets with their budgets, and `product-screens.md` where the job has graphics. Naturalness
+> belongs to two other roles — spend your effort on what only the source can settle.
 >
 > Give every check a verdict: pass, fail, or not applicable to this content type.
 >
@@ -197,7 +199,10 @@ match the cell from memory is untraced.
 >    report it without a verdict.
 > 6. **Ads only — figure position.** Mark each figure as opening or closing its English line, and
 >    say whether the position holds in the target column. Name any line that broke rank and why.
-> 7. **Graphics.** Enumerate the assets, open and view each one, and report `seen / total` — an
+> 7. **Graphics.** Where an asset shows a PeopleForce screen, its strings come from the
+>    product's locale files and outrank the glossary and the register both — `product-screens.md`
+>    is the rule, and a caption disagreeing with the screen is the finding.
+>    Enumerate the assets, open and view each one, and report `seen / total` — an
 >    asset you could not open is UNSEEN, named as such. Per asset: which file · what it says now ·
 >    what it should say. The check is the pixels; filenames, alt text and captions are not it.
 > 8. **Glossary trace, both directions.** Every concept the source uses has a cell licensing what
@@ -222,8 +227,8 @@ match the cell from memory is untraced.
 > nothing on disk.
 
 🚩 **Roles 3 and 4 are re-authored and unrun** — the inherited versions had run, these have
-not. `translation-corpus/evidence-and-retirement.md` records what changed and the five wrong
-findings each gap would have produced.
+not. `translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill —
+records what changed and the five wrong findings each gap would have produced.
 
 **These two prompts also ship as plugin subagents**
 (`translate-peopleforce-plugin/agents/native-read.md` and `…/agents/source-checker.md`, outside
@@ -233,61 +238,42 @@ installs out of step — the failure this file exists to prevent. `scripts/pull-
 
 ---
 
-## The mode: solo by default, and what may be farmed out
+## The four-role mode — a mode, not the default
 
-**Solo is the default** — checks 2 and 3 exactly as written above, no agents, no
-connectors, which is why a mode that needs them is never the primary one.
+**Solo is the default**, and `SKILL.md`'s *If you have agents* carries the decision of
+whether to farm out at all. What this section adds is the shape once you have.
 
-**If the caller has agents, two checks may be farmed out, and only these two**, because
-one context cannot do them: you cannot unsee the source, and a model back-translating its
-own output reconstructs what it meant rather than what it wrote. **What defeats both is a
-separate context. Blinding is a second, narrower thing, and it is not wanted on both
-checks:**
-
-- **Check 2:** give the reader the source by default; **blind it when the piece leans on
-  repetition or rhythm** — a repeated term can look *faithful* to a source-holder when
-  reproducing the repetition is itself the calque.
-- **Check 3 is never blinded** — give it the source, in a separate context. Blinded, a
-  back-translator stops discriminating: it cannot name the lines built on
-  target-language structure.
-
-**What is forbidden is splitting the TEXT, not splitting the WORK.** Every agent gets the
-whole piece and a different job; no agent gets a slice of the piece. Chunking rebuilds the
-failures directly: governed units — handing paragraphs 1–5 to one agent and 6–10 to
-another *is* the «тільки я» bug; coin-flip glossary rows, whose job is pinning one form
-across a whole document while per-chunk agents each pick freshly; the register check,
-which needs every second-person form at once; and the copy itself, which assembled from
-fragments passes line by line and reads as four people.
-
-#### The four-role mode
-
-Where a piece matters and agents are available, this is the shape. **It is a mode, not
-the default.**
+The table is the single source for who holds what — each role's **Give it:** line above adds
+only what the table cannot say.
 
 | Role | Gets | Does |
 |---|---|---|
-| **1 Translator** | source, brief, glossary, reference file, product connector | Everything in *Process*: content type, governed units, the translation with the glossary applied as it goes, and the product/fact checks |
+| **1 Translator** | source, brief, glossary, reference file, product connector | Everything in *Process*, plus the product and fact checks |
 | **2 HR reader** | the target and its reference file — **nothing else** | Check 2: would an HR specialist in that country have written this? |
 | **3 Native-read** | the target, the direction **and the source** — separate context, not blinded | Check 3: does it read as written-in-the-language, or is the English structure showing? |
-| **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus checks 4–10: mechanics, dashes, gender-neutrality, both ads-only checks, image copy, glossary tracing |
+| **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus checks 4–10 |
 | **back to 1** | every finding | The one repair pass |
 
-**Why the split falls exactly there.** Role 2 is the only one that must not see the
-source: a reader holding it reads the translation as making sense, because it knows what
-the line was aiming at. Roles 3 and 4 both hold the source and are still separate roles,
-because they ask different questions — role 3 asks *whose sentence structure is this*,
-role 4 asks *does it say the same thing*. What every role except 1 has in common is a
-**separate context**, and that, not blinding, is what stops a translator marking its own
-homework.
+**A separate context is what does the work here; blinding is a second, narrower thing and
+only role 2 wants it.** Role 2 is the one that must read without the source, because a reader
+holding it reads the translation as making sense — it knows what the line was aiming at. Roles
+3 and 4 both hold the source and stay separate because they ask different questions: role 3
+asks *whose sentence structure is this*, role 4 asks *does it say the same thing*. Give role 2
+the source by default and blind it when the piece leans on repetition or rhythm, where
+reproducing the repetition is itself the calque.
 
-**Roles 2, 3 and 4 run in parallel and none of them edits.** They report; role 1 repairs,
-because it is the only one holding the whole context and because a checker that can edit
-launders its preferences into the copy — the same reason the faithfulness judge is
-forbidden a rewrite field.
+**Every agent gets the whole piece and a different job — that is what splitting the WORK
+means, and the piece itself stays whole.** Chunking rebuilds the failures directly: paragraphs
+1–5 to one agent and 6–10 to another *is* the «тільки я» bug; coin-flip glossary rows exist to
+pin one form across a document, and per-chunk agents each pick freshly; the register check
+needs every second-person form at once; and copy assembled from fragments passes line by line
+and reads as four people.
 
-**Status: under test, and solo stays the default.** Measured so far the mode reads
-slightly better and transmits slightly worse — the repair pass buys idiom and can spend
-fidelity doing it, with second-person erosion (the English "you" becoming "HR", "the
-administrator" or an impersonal system) the known drift class to watch. It becomes the
-default only if it outperforms solo on both axes — reading *and* fidelity — across
-further runs.
+**Roles 2, 3 and 4 run in parallel and report rather than edit** — role 1 repairs, because it
+holds the whole context and because a checker that can edit launders its preferences into the
+copy.
+
+🚩 **Under test; solo stays the default.** It reads slightly better and transmits slightly
+worse — watch second-person erosion, the English *you* drifting to *HR* or an impersonal
+system. The measurement and the bar it has to clear are in
+`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill.

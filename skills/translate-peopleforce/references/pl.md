@@ -57,9 +57,8 @@ says**:
 That last row is why this is a conditional list, not a menu: the gender rule never
 forces the agency change, and the imperative is one escape among five, not the default.
 🚩 Masculine-personal plural agreement (`pracownicy zalogowali się`) has no neutral form
-at all; avoid the construction, say so in the handover, and see
-`translation-corpus/open-flags.md` — a native reviewer has to confirm what is acceptable
-in marketing register.
+at all. Avoid the construction and say in the handover that you did — a native reviewer
+still has to confirm what is acceptable here in marketing register.
 
 **Case and gender are governed across a line break, not only inside a sentence** — the
 rule is `SKILL.md` step 3; what is Polish is the forms. The English answer `Only me` is
@@ -102,6 +101,37 @@ relationship is already obvious is itself a calque:
 Dropping is the default: the test is whether a Polish reader would have written it
 unprompted. A dropped possessive is often also the cleanest way to keep the reader out
 of a predicate adjective.
+
+**`nieobecność` is the system's noun, not a word you put in a sentence about a person.**
+The product records a `nieobecność`; a human takes `wolne` or `urlop`. So *time off* and
+*leave* are **constructions here, not single terms** — reach for the verb phrase:
+
+| The source says | Write | Not |
+|---|---|---|
+| request time off | `wnioskować o czas wolny` | `wnioskować o nieobecność` |
+| take time off | `wziąć wolne` (spoken) · `wnioskować o czas wolny` in copy | `wziąć nieobecność` |
+| take leave / annual leave | `wziąć urlop`, `wnioskować o urlop`, `urlop wypoczynkowy` | |
+| days off, time-off balance | `dni wolne`, `saldo dni wolnych` | |
+| the record, policy or calendar | `nieobecność`, `polityka nieobecności` | |
+
+`czas wolny` runs 129 hits/13 docs and `dni wolne` 59/16, so the noun phrase is what our
+copy actually writes. `wziąć wolne` is natural but **spoken** — zero hits in our written
+corpus — so published prose takes `wnioskować o` plus the noun. The distinction that
+matters: `urlop` is the counted entitlement, `wolne` is being away.
+
+**English `the same` is two different words in Polish, so the source cannot tell you
+which.** Identity — one and the same thing — is `ten sam`. Similarity — another one like it
+— is `taki sam`. Decide from what the sentence actually refers to:
+
+| The source says | Write | Because |
+|---|---|---|
+| the same checklist (one document, reused) | `ta sama lista` | there is one checklist |
+| the same first week (each new hire has their own) | `taki sam pierwszy tydzień` | `ten sam` would claim one literal week everybody shares |
+| the same result (matching, not shared) | `taki sam wynik` | two results that match are not one result |
+
+Identity is the unmarked default and is right more often than not, so the error to watch
+is `ten sam` applied where the source means *a similar one*. A judgement per sentence, and
+**never a find-and-replace**. Note both forms inflect with their noun (`ta sama`, `to samo`).
 
 ---
 
