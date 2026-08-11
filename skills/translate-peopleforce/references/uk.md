@@ -68,8 +68,8 @@ Ukrainian **transliterates** borrowings into Cyrillic where Polish keeps them in
 latin script. That is the sharpest divergence between the two files, so if the target
 is Ukrainian, take the policy from here rather than from `pl.md`.
 
-That is a description, not a licence. A borrowing is the house form only if it passes
-both tests below.
+That is a description, not a licence. A borrowing is the house form once it passes the three
+tests below.
 
 **Test 1 — document spread beats hit count.** Count the articles a form appears in, not
 the times it appears. A form with hundreds of hits across three or four documents is one
@@ -86,16 +86,16 @@ attestations gloss the term (`Розберемо, що таке абсентеї
 розуміють…`), the writer did not assume the reader knew it — so a high hit count may be one
 explainer article repeating its own subject. Check what the hits actually are before treating
 the number as usage. This flags a term for a decision; it does not settle it. `абсентеїзм`
-was reviewed on exactly this evidence and **kept** (owner, 2026-08-11): a term of art is
+was reviewed on exactly this evidence and **kept**: a term of art is
 still the right word in professional HR copy, and glossing it on first mention is normal.
 
 If a borrowing has no attested Ukrainian form and no native rival, **flag the gap — do not
 coin a transliteration** on the strength of the pattern.
 
 **Where both a loan and a Ukrainian rival are attested, both are house forms and the
-context picks.** Owner ruling 2026-08-11. Neither one is the default and neither is a
-defect, so do not swap a form that is already in a piece — choose per sentence, then stay
-consistent inside the piece.
+context picks.** Neither one is the default and neither is a
+defect, so **leave whichever form a piece already carries** and choose per sentence in new
+copy, then stay consistent inside the piece.
 
 What makes the context pick:
 
@@ -117,15 +117,15 @@ Measured over the 180-document uk-UA corpus:
 | `релокейт` | 110 / 12 | `переїзд` | 30 / 8 | both, but check the sense: `переїзд` is the plain physical move, `релокейт` the employment arrangement |
 | `дашборд` | 87 / 21 | `панель` | 20 / 5 | both |
 | `скринінг` | 84 / 11 | `відбір` | 39 / 9 | both |
-| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | **both usable** (owner 2026-08-11). The glossary's `employee benefits`/uk row records a leaning — `бенефіти` for discretionary perks, `пільги` for statutory entitlements — but the two are not in competition and either is correct |
-| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both, **kept after review** (owner 2026-08-11). The count is concentrated — 110 of 119 hits in one explainer article, which glosses the term — so it is a term of art rather than everyday vocabulary, but that is the correct register for professional HR copy. Gloss it on first mention. The senses differ: `прогул` is one unexcused absence, `абсентеїзм` the pattern or metric |
+| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | **both usable**. The glossary's `employee benefits`/uk row records a leaning — `бенефіти` for discretionary perks, `пільги` for statutory entitlements — but the two are not in competition and either is correct |
+| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both, **kept after review**. The count is concentrated — 110 of 119 hits in one explainer article, which glosses the term — so it is a term of art rather than everyday vocabulary, but that is the correct register for professional HR copy. Gloss it on first mention. The senses differ: `прогул` is one unexcused absence, `абсентеїзм` the pattern or metric |
 | `тригер` | 39 / 4 | — | | 🚩 four documents. Attested, but too concentrated to call house usage |
 
 Staying latin: **acronyms** — the glossary's do-not-translate list, kept latin even
 inside Cyrillic copy — and product, brand and customer names. `AI` and `ШІ` are
 interchangeable — neither is the default.
 
-Corpus-measured 2026-08-11, replacing the earlier derived policy: the ten forms are now
+Corpus-measured, replacing an earlier derived policy: the ten forms are now
 attested rather than inferred, and the policy is a **test** rather than a description of
 what the glossary happens to do. That was the flag's actual complaint, and it is answered —
 so extend the pattern to a new borrowing by **running the two tests**, not by pointing at
@@ -168,7 +168,7 @@ optional. The exception is the same one as above — a quote ending in `?`, `!` 
 keeps that mark inside the guillemets and takes **no** comma: `«Скільки це коштує?» —
 запитала вона.`
 
-**Settled 2026-08-11, in `SKILL.md`'s register check:** the house register governs how the
+**Settled in `SKILL.md`'s register check:** the house register governs how the
 copy addresses **the reader**, not how a quoted person speaks about themselves. Inside an
 attributed quotation a real person describing their own experience takes `я / ми`. Two
 independent arms put `ви / ваш` inside a named customer's testimonial, and the register
@@ -240,7 +240,7 @@ ordinary too.
 | If the source says | Write |
 |---|---|
 | `milestone` / `krok milowy` / `hito` | `великий крок уперед` — `важливий крок` where the canvas will not take the full phrase, and `переломний момент` only where the source really means a turning point |
-| `contractor` / `kontraktor` / `B2B contractor` | **`підрядник`** — the default for all three, owner 2026-08-11. Add `на B2B` only where the arrangement itself is the point, keeping `B2B` as the foreign term it is |
+| `contractor` / `kontraktor` / `B2B contractor` | **`підрядник`** — the default for all three. Add `на B2B` only where the arrangement itself is the point, keeping `B2B` as the foreign term it is |
 | the sole-trader status itself, where that status is what the sentence is about | `ФОП` |
 | `workflow` / `proces` | `робочий процес`, or bare `процес` once the context has established which process. `воркфлоу` is a house form too (§4) — but where the word has to agree or inflect, take the Ukrainian one, because the loan is indeclinable and forces an arbitrary agreement (`воркфлоу, що стоїть за ним`) |
 
@@ -256,7 +256,7 @@ clause out, and note the predicate goes to the impersonal `важливо`, not 
 | `звільняє час на важливе` | `звільняє час на те, що справді важливо` |
 | `focus на головне` | `зосередитися на тому, що справді має значення` |
 
-Owner correction 2026-08-10, on the hr-leaders H2. The tell is a preposition followed
+The tell is a preposition followed
 directly by a neuter adjective with no noun and no `те, що`. Adjective-plus-noun
 (`важливе питання`) and predicative use inside an existing relative clause
 (`те, що для неї важливе`) are both fine — the defect is only the bare nominalisation.
@@ -280,7 +280,7 @@ So do not hunt for a second lexeme. Where a piece genuinely needs the two senses
 | the group as a body | `команда`, or the `workforce` row's `працівники` |
 
 Do not reach for `персонал` to break the tie — it is the `staff` cell and carries its own
-row, and it is rare in speech (16r/5p). Recorded 2026-08-11, third time this pattern was
+row, and it is rare in speech (16r/5p). Recorded after this pattern was
 raised as an open cell.
 
 ---
