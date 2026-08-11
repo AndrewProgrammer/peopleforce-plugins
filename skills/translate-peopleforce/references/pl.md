@@ -116,11 +116,15 @@ locale renders uniformly. Ukrainian reached the same answer by its own route and
 loan as an equal variant, so the two languages agree here without one inheriting from the
 other — see the glossary's *workflow* row.
 
-🚩 *well-being* is not on the list either, and the cell is the open question rather than the
-answer: `dobrostan` is the term Polish HR press uses, but it is the **least** attested of the
-three live forms in our own copy — the English loan leads, and `samopoczucie` is wider spread.
-Part of that is a sense split rather than a rivalry, since `dobrostan` names the discipline
-and `samopoczucie` how a person feels. A native picks.
+*well-being* is not on the list either, and **both `dobrostan` and the English loan are house
+forms — the context picks**, exactly as Ukrainian handles its loan pairs. `dobrostan` is real
+current Polish, spread across nine of our articles, properly inflected (`pogorszenia
+dobrostanu`) and naturally collocated (`dobrostan pracowników`, `wspiera dobrostan`,
+`psychologiczny, finansowy i fizyczny dobrostan`). The clincher is one of our own pages
+carrying both at once: anchor text `well-being zespołu` pointing at the slug
+`jak-dbac-o-dobrostan-pracownikow`. Prefer `dobrostan` for the programme or the discipline and
+the loan where the source says *well-being*. `samopoczucie` is a **third and different
+concept** — how a person feels on the day — so keep it out of this slot.
 
 For *payroll* and *compliance* the glossary lexemes win (*płace*, *zgodność*) — the
 English words circulate in Polish HR speech, but the house copy translates them.

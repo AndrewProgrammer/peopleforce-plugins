@@ -164,12 +164,14 @@ Then work through *The last pass before handover* — see **The handover**, belo
       source's word, a line shortened to fit a box — those are edits, not translations. Keep
       the source's choice by default. Where an edit is genuinely needed, take it deliberately
       and name it in one line when handing over. The silent ones are what nobody finds later.
-      **A required explicitation is translation, not an edit** — es, pl and uk each have to
-      state what English leaves implicit, and their §2 lists what. Read the target's §2
-      before counting words the source lacks: the aspect Polish must choose, the case that
-      links a Ukrainian noun stack, the article English must supply going the other way.
-      Reading an added word as a widened claim is the false positive this check invites, and
-      it fires on correct copy.
+      **What the target's grammar forces is translation, not an edit**, and it cuts both
+      ways — each §2 Explicitation states which way for that language. Into es, pl or uk the
+      target must **supply** what English leaves implicit: the aspect Polish chooses, the
+      case that links a Ukrainian noun stack. Into English it must **drop** what English
+      cannot mark: aspect, the reflexive possessive, formal register — one *your*, one
+      *try*, `ви` written as `you`. So a word the source lacks is not automatically an
+      addition, and a distinction the source marked is not automatically lost. Both readings
+      are false positives this check invites, and both fire on correct copy.
       Its mirror: **name any ambiguity you could not resolve.** Where the source is unclear
       enough that you cannot tell what it means, translate it as faithfully as you can and
       say so in the handover with what you took it to mean — a faithful copy of an
@@ -286,35 +288,10 @@ observed mechanics — percent spacing, decimal separator, quote glyphs · any l
 inside Cyrillic · every 🚩 cell used with no decision recorded. These belong to the
 designer and the reviewer and carry **no verdict**.
 
-**In-image copy for a product screen comes from the product's own locale files — always, and
-it outranks every register rule in this skill.**
-
-If a graphic shows a PeopleForce screen, the strings inside it are not ours to translate. They
-already exist, translated, at `config/locales/crowdin/<locale>/`. Look up the **key**, take the
-value, paste it. This holds even when the product's string breaks a rule we otherwise enforce:
-
-- **Register loses.** A screenshot may say `ти` where our copy says `ви`, or keep a loan our
-  glossary rejects — ship the product's string anyway. The reader is looking at the tool, and
-  a caption that disagrees with the screen is worse than a caption in the wrong register.
-- **The glossary loses.** Where the glossary and the product disagree on a screen string, the
-  product wins and the glossary row gets a note recording the split.
-- **Your ear loses.** Paste the product's string exactly as it stands.
-- **Only when the key genuinely has no translation** do you translate it — and flag it, because
-  an untranslated key is a product gap worth a ticket.
-
-**A screenshot is the subject, not the source.** Whatever language the crop is in, take each
-label from the target's own locale file by key — reading labels off the crop and rendering
-them produced seven wrong labels on one chart.
-
-**Ordinary HR nouns take the same locale lookup as module names.** A noun that reads like
-general vocabulary is the one that slips past a product check scoped to feature claims, and
-that is how `overtime` and `dashboard` both shipped wrong.
-
-If a noun names anything an HR person clicks, sees on a screen or files a request for —
-overtime, absence, approval, request, leave balance, work type, dashboard, department, level —
-**grep `config/locales/crowdin/<locale>/` before shipping it.** The product's own translated
-string wins over your instinct and over the corpus, because it is what the reader sees in the
-tool. Where the product and the corpus disagree, record both and flag it.
+**Product screens have their own rules, and they outrank every register rule here.** If a
+graphic shows a PeopleForce screen — or the copy carries any noun an HR person clicks —
+read `references/product-screens.md`: the strings already exist, translated, in the
+product's locale files, and they win over the glossary, the register and your ear.
 
 **What this pass cannot see, stated so a clean result is not read as approval:** meaning —
 nothing here compares the target against the source, so read them together for operative
@@ -348,6 +325,10 @@ findings.
 
 `references/glossary.md` — concept-keyed terms in all four languages, plus the
 do-not-translate lists.
+
+`references/product-screens.md` — read only when a graphic shows a PeopleForce screen, or
+the copy carries a noun an HR person clicks. The product's locale files outrank this skill
+there.
 
 `references/agent-prompts.md` — read only when farming out checks 2 and 3 (see *If you
 have agents*).

@@ -129,8 +129,10 @@ and with measured outputs; *desempeño* pairs with *evaluación*.
   implement
 - **incorporación** — flowing prose, the human experience of joining
 
-Useful move on first mention: introduce with *incorporación* and gloss with
-*(onboarding)*.
+**The gloss move**: on first mention, write the natural Spanish form and put the English in
+brackets after it — *incorporación (onboarding)*. It buys both readings at the cost of two
+words, and it works for any pair on this page where one form is the market's word and the
+other is the one the reader may already know.
 
 **feedback**
 
@@ -141,8 +143,8 @@ Useful move on first mention: introduce with *incorporación* and gloss with
 | **comentarios** | literal survey comments — a different concept, not a synonym |
 
 Both are correct Spanish and neither is being retired; the split is **register, not sense**, so
-`feedback` leads wherever ordinary marketing prose allows it. Same gloss move works here:
-*feedback (retroalimentación)* on first mention.
+`feedback` leads wherever ordinary marketing prose allows it. **The gloss move** applies with
+the halves swapped, since here the loan is the natural form: *feedback (retroalimentación)*.
 
 ---
 

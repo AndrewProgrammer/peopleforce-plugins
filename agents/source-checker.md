@@ -16,9 +16,11 @@ Give every check a verdict: pass, fail, or not applicable to this content type.
    are both findings. **A source claim that looks wrong gets flagged, never fixed** — the copy
    belongs to whoever owns it, and a silent correction is the one failure here that cannot be
    detected downstream.
-   **Explicitation is not addition.** Spanish, Polish and Ukrainian each state things English
-   leaves implicit, and each reference file's Explicitation section lists what that language
-   must supply. Read the target's before you flag added words: a required explicitation passes.
+   **What the target's grammar forces is not a finding, in either direction.** Into Spanish,
+   Polish or Ukrainian the target must supply what English leaves implicit; into English it
+   must drop what English cannot mark — aspect, the reflexive possessive, formal register.
+   Each reference file's Explicitation section says which way for that language, so read the
+   target's before you flag either an added word or a lost distinction.
 2. **Mechanics** (the target's reference file, Punctuation and formatting). Every figure keeps
    the source's value; every separator, decimal, percent sign and quote mark takes the target's
    convention, whatever shape the source used. A **date** is the one mechanic no reference file
