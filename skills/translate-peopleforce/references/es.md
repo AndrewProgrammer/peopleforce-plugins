@@ -136,11 +136,13 @@ Useful move on first mention: introduce with *incorporación* and gloss with
 
 | Use | For |
 |---|---|
-| **feedback** | the named practice or capability — *feedback continuo*, *feedback de 360*, *ciclos de feedback* |
-| **retroalimentación** | the act of giving or receiving it — *brindar retroalimentación*, *sesiones de retroalimentación* |
+| **feedback** | the default, and the named practice — *feedback continuo*, *feedback de 360*, *ciclos de feedback*, *dar feedback*, *feedback de desempeño* |
+| **retroalimentación** | formal and legal register, where a borrowing would read out of place — *brindar retroalimentación*, *sesiones de retroalimentación* |
 | **comentarios** | literal survey comments — a different concept, not a synonym |
 
-Same gloss move works here: *feedback (retroalimentación)* on first mention.
+Both are correct Spanish and neither is being retired; the split is **register, not sense**, so
+`feedback` leads wherever ordinary marketing prose allows it. Same gloss move works here:
+*feedback (retroalimentación)* on first mention.
 
 ---
 
