@@ -193,8 +193,10 @@ quoted sentence rather than to the one carrying it: `«Скільки це ко�
 additional period.
 
 **An attribution before direct speech ends in a colon, not a full stop.** Write
-`Марія, HR-директорка Nova Post: «…»` — a full stop there leaves the quotation standing
-as an orphan paragraph with nothing linking it to the speaker.
+`Марія, HR-директорка Нової Пошти: «…»` — a full stop there leaves the quotation standing
+as an orphan paragraph with nothing linking it to the speaker. Note the company name in
+Cyrillic and in the genitive: a Ukrainian company follows the language of the copy, per the
+glossary's *Company and brand names*.
 
 **Where the attribution follows the quote, a comma sits after the closing guillemet,
 before the dash:** `«Ми нарешті бачимо тиждень наперед», — каже Марія.` The comma is not

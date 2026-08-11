@@ -11,11 +11,7 @@ they are what makes the reader a member of the market rather than a generic revi
 | `es` | Spanish | Argentina *(or Uruguay — say which)* | voseo, Río de la Plata |
 | `pl` | Polish | Poland | informal `Ty` |
 | `uk` | Ukrainian | Ukraine | formal lower-case `ви` |
-| `en` | English | **Europe**, not one country | informal `you` |
-
-**`en` takes Europe, not a country** — which is why that cell breaks the pattern. The reader is
-an HR director at a European company working in English, often not a native speaker; `en.md` §1
-states what follows from that.
+| `en` | English | **Europe**, not one country — see `en.md` §1 | informal `you` |
 
 ---
 
@@ -50,23 +46,27 @@ need.
 
 ## The blind reader — check 2, and the whole-piece review
 
-**Give it:** the target, and the target's reference file. **Never** the source, the English, the
-translator's notes, or the rationale. Withhold these by staging what the agent can reach, not by
+**Give it:** the target, the target's reference file, and the content type. **Never** the source,
+the English, the translator's notes, or the rationale. The content type is structure, not source
+— knowing it is a fixed canvas rather than an article tells the reader nothing about what the
+original said. Withhold these by staging what the agent can reach, not by
 asking it to look away — a prompt that says "do not read X" is an honour system, and the point
 of this role is that it *cannot* know what the line was aiming at.
 
-> You are an HR director at a [COUNTRY] company of around 200 people. You are the person who
-> chooses and signs for HR software. [LANGUAGE] is your working language and the language you
-> run HR in — you write job adverts, policies and announcements in it every day.
+> You run HR at a [COUNTRY] company, and you are the person who chooses and signs for HR
+> software. [LANGUAGE] is your working language and the language you run HR in — you write job
+> adverts, policies and announcements in it every day.
 >
-> You have landed on a vendor's blog. You are reading as a prospect: someone this company is
-> trying to sell to.
+> You are reading this as a prospect: someone this company is trying to sell to.
 >
 > Read [STAGED DIRECTORY]. Your whole value here is that you read this the way your market
 > reads it, with nothing to compare against.
 >
-> **Read each piece all the way through before writing anything about it.** Then answer at the
-> level of the whole piece — marketing copy works or fails as a piece, not as a row of sentences.
+> **Read the whole thing before writing anything about it.** The content type is [TYPE] —
+> flowing text, fixed canvas, or mixed — and it changes how much there is to read, not how you
+> read it. Then answer at the level of the whole piece, because copy works or fails as a piece
+> rather than as a row of sentences. Where a question below does not apply to what you were
+> given, say so and move on.
 >
 > 1. **What is this company telling me, and why should I care?** Two sentences in your own
 >    words, written before you look back at the text. If you cannot answer, that is the finding.
@@ -78,7 +78,7 @@ of this role is that it *cannot* know what the line was aiming at.
 >    partway through, a shift in tone, a sentence you had to read twice?
 > 4. **Do you believe it?** Does anything read as overclaiming, vague, or hedged in a way that
 >    makes you doubt it? Would you forward this to your CEO?
-> 5. **Would you publish it if it were your company's blog?** Yes or no, and what would have to
+> 5. **Would you let this out under your own company's name?** Yes or no, and what would have to
 >    change first.
 > 6. **Only last, line-level:** anything a [COUNTRY] HR professional would simply not have
 >    written. Quote the span and say what is wrong. Do not rewrite the piece.
@@ -91,8 +91,10 @@ of this role is that it *cannot* know what the line was aiming at.
 >
 > You are reviewing, not editing. Change nothing on disk.
 
-**Keep the market, the seniority and the job specific** — a generic native reader returns
-proofreading, the buyer persona returns the domain errors that lose the sale.
+**Keep the market and the buying role** — a generic native reader returns proofreading, a
+person who signs for the software returns the domain errors that lose the sale. Company size
+and job title are deliberately vague: pinning them narrows the reader to one segment when the
+copy has to work across all of them.
 
 **Its failure mode is inseparable from its value:** unable to see the source, it will sometimes
 confidently infer one. Role 1's prompt carries the consequence — route every finding through
@@ -100,10 +102,10 @@ someone holding the source.
 
 ## Reads-as-native — check 3
 
-**Give it:** the source, the target, the direction, and the target's reference file. **Fresh
-context, source in hand** — two mechanisms, not one. Fresh context makes the judgement
-independent: this agent did not write the line, so it cannot reconstruct what the line meant to
-say. The source stays visible because naming which structure was imported requires seeing what
+**Give it:** the source, the target, the direction, the content type, and the target's reference
+file. **Fresh context, source in hand** — two mechanisms, not one. Fresh context makes the
+judgement independent: this agent did not write the line, so it cannot reconstruct what the line
+meant to say. The source stays visible because naming which structure was imported requires seeing what
 it was imported from — blinding this role measurably stops it discriminating
 (`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill).
 
@@ -111,14 +113,17 @@ it was imported from — blinding this role measurably stops it discriminating
 > skeleton?** You hold the source so you can name the structure, and you did not write the
 > translation, so read what is on the page rather than what it was reaching for.
 >
-> You get the source, the target, the direction, and the target language's reference file.
+> You get the source, the target, the direction, the content type [TYPE], and the target
+> language's reference file.
 >
-> **Test each line by its shape:**
+> **Test each unit by its shape.** What counts as a unit follows the content type: a sentence or
+> a heading in flowing text, one string in a fixed canvas, both in mixed. Which test to run
+> follows the unit's grammar, not the format it sits in:
 >
-> - **Line with a verb** — back-translate it word for word into the source language. An exact
+> - **With a verb** — back-translate it word for word into the source language. An exact
 >   grammatical round-trip means the translation kept the source's verb and the preposition that
 >   verb governs. Name the line and the structure it imported.
-> - **Line without a verb** — judge it on its own: would a native copywriter have built the
+> - **Without a verb** — judge it on its own: would a native copywriter have built the
 >   phrase this way? A verbless line round-trips cleanly in every direction, so the round-trip
 >   result carries no information here.
 > - **Every rule in the reference file's Calques section, against every line** — these are the
@@ -221,9 +226,15 @@ actual authority. **Traced** is this role's leading word — the prompt defines 
 > You are reviewing. The translator holds the whole context and makes the repairs, so change
 > nothing on disk.
 
-🚩 **Roles 3 and 4 are re-authored and unrun** — the inherited versions had run, these have
-not. `translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill —
-records what changed and the five wrong findings each gap would have produced.
+**Roles 3 and 4 are re-authored and now RUN** — first live run 2026-08-11 on `UK-QUOTE-01/en`,
+both dispatched with the prompts as written. Both produced correctly-scoped findings and each
+caught something the other did not, which is the split working: role 3 found the
+masculine-appositive disagreement (`HR-директор … сказала`), role 4 found a company name in the
+wrong script and a stale glossary claim in the handover. Both independently found the missing
+colon before direct speech, and **role 3 correctly refused it as another role's business** —
+the scope fence held. `translation-corpus/evidence-and-retirement.md` — maintainer-only,
+outside the skill — records what changed and the five wrong findings each gap would have
+produced.
 
 **These two prompts also ship as plugin subagents**
 (`translate-peopleforce-plugin/agents/native-read.md` and `…/agents/source-checker.md`, outside
@@ -244,8 +255,8 @@ only what the table cannot say.
 | Role | Gets | Does |
 |---|---|---|
 | **1 Translator** | source, brief, glossary, reference file, product connector | Everything in *Process*, plus the product and fact checks |
-| **2 HR reader** | the target and its reference file — **nothing else** | Check 2: would an HR specialist in that country have written this? |
-| **3 Native-read** | the target, the direction **and the source** — separate context, not blinded | Check 3: does it read as written-in-the-language, or is the English structure showing? |
+| **2 HR reader** | the target, its reference file and the content type — **nothing else** | Check 2: would an HR specialist in that country have written this? |
+| **3 Native-read** | the target, the direction, the content type **and the source** — separate context, not blinded | Check 3: does it read as written-in-the-language, or is the English structure showing? |
 | **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus checks 4–10 |
 | **back to 1** | every finding | The one repair pass |
 
