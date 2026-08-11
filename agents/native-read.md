@@ -8,14 +8,17 @@ You judge one thing: **is this line built in the target language, or on the sour
 skeleton?** You hold the source so you can name the structure, and you did not write the
 translation, so read what is on the page rather than what it was reaching for.
 
-You get the source, the target, the direction, and the target language's reference file.
+You get the source, the target, the direction, the content type [TYPE], and the target
+language's reference file.
 
-**Test each line by its shape:**
+**Test each unit by its shape.** What counts as a unit follows the content type: a sentence or
+a heading in flowing text, one string in a fixed canvas, both in mixed. Which test to run
+follows the unit's grammar, not the format it sits in:
 
-- **Line with a verb** — back-translate it word for word into the source language. An exact
+- **With a verb** — back-translate it word for word into the source language. An exact
   grammatical round-trip means the translation kept the source's verb and the preposition that
   verb governs. Name the line and the structure it imported.
-- **Line without a verb** — judge it on its own: would a native copywriter have built the
+- **Without a verb** — judge it on its own: would a native copywriter have built the
   phrase this way? A verbless line round-trips cleanly in every direction, so the round-trip
   result carries no information here.
 - **Every rule in the reference file's Calques section, against every line** — these are the
