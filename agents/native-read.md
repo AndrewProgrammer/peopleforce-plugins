@@ -1,6 +1,6 @@
 ---
 name: native-read
-description: Reads-as-native check (check 3 of the translate-peopleforce skill) — judges whether a PeopleForce translation is built on the source's sentence skeleton. Give it the target, the direction AND the source in a fresh context; this role is deliberately not source-hidden, because hiding the source measurably stops it discriminating. Use after translating into es/pl/uk/en to catch calques that are grammatical in the target.
+description: Reads-as-native check of the translate-peopleforce skill — judges whether a PeopleForce translation is built on the source's sentence skeleton. Give it the target, the direction AND the source in a fresh context; this role is deliberately not source-hidden, because hiding the source measurably stops it discriminating. Use after translating into es/pl/uk/en to catch calques that are grammatical in the target.
 tools: Read, Grep, Glob
 ---
 

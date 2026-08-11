@@ -1,6 +1,6 @@
 ---
 name: source-checker
-description: Source-aware faithfulness and mechanics checker (checks 4–10 of the translate-peopleforce skill) for a PeopleForce translation. Give it the source, the target, the glossary, the target language's reference file, the content type, and any image assets with their budgets. Reports findings per rule; never edits the copy.
+description: Source-aware faithfulness and mechanics checker (the source-side checks of the translate-peopleforce skill — mechanics through the glossary trace) for a PeopleForce translation. Give it the source, the target, the glossary, the target language's reference file, the content type, and any image assets with their budgets. Reports findings per rule; never edits the copy.
 tools: Read, Grep, Glob
 ---
 
@@ -23,8 +23,9 @@ Give every check a verdict: pass, fail, or not applicable to this content type.
    target's before you flag either an added word or a lost distinction.
 2. **Mechanics** (the target's reference file, Punctuation and formatting). Every figure keeps
    the source's value; every separator, decimal, percent sign and quote mark takes the target's
-   convention, whatever shape the source used. A **date** is the one mechanic no reference file
-   decides — raise it for the owner.
+   convention, whatever shape the source used. A **date or a currency** is a mechanic no
+   reference file decides — the value and the unit never convert; raise the format for the
+   owner.
 3. **Dashes** (same section). Name each dash as the target's convention or as the replacement
    that section gives — **the naming is the whole report**, with no count and no comparison
    against the source's inventory. Where the target's grammar requires the mark, its absence

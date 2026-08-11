@@ -184,8 +184,9 @@ actual authority. **Traced** is this role's leading word — the prompt defines 
 >    target's before you flag either an added word or a lost distinction.
 > 2. **Mechanics** (the target's reference file, Punctuation and formatting). Every figure keeps
 >    the source's value; every separator, decimal, percent sign and quote mark takes the target's
->    convention, whatever shape the source used. A **date** is the one mechanic no reference file
->    decides — raise it for the owner.
+>    convention, whatever shape the source used. A **date or a currency** is a mechanic no
+>    reference file decides — the value and the unit never convert; raise the format for the
+>    owner.
 > 3. **Dashes** (same section). Name each dash as the target's convention or as the replacement
 >    that section gives — **the naming is the whole report**, with no count and no comparison
 >    against the source's inventory. Where the target's grammar requires the mark, its absence
@@ -236,11 +237,12 @@ the scope fence held. `translation-corpus/evidence-and-retirement.md` — mainta
 outside the skill — records what changed and the five wrong findings each gap would have
 produced.
 
-**These two prompts also ship as plugin subagents**
-(`translate-peopleforce-plugin/agents/native-read.md` and `…/agents/source-checker.md`, outside
-this skill). They are the same text, so an edit here that does not reach the plugin puts the two
-installs out of step — the failure this file exists to prevent. `scripts/pull-skill.sh` syncs
-`skills/` only; the agent files are copied by hand.
+**Three of these prompts also ship as plugin subagents**
+(`translate-peopleforce-plugin/agents/blind-hr-reader.md`, `…/native-read.md` and
+`…/source-checker.md`, outside this skill). They are the same text, so an edit here that does
+not reach the plugin puts the two installs out of step — the failure this file exists to
+prevent. The agent files are still copied by hand, but `scripts/pull-skill.sh` compares all
+three against this file and reports drift — run it after any edit here.
 
 ---
 
@@ -255,16 +257,16 @@ only what the table cannot say.
 | Role | Gets | Does |
 |---|---|---|
 | **1 Translator** | source, brief, glossary, reference file, product connector | Everything in *Process*, plus the product and fact checks |
-| **2 HR reader** | the target, its reference file and the content type — **nothing else** | Check 2: would an HR specialist in that country have written this? |
-| **3 Native-read** | the target, the direction, the content type **and the source** — separate context, not blinded | Check 3: does it read as written-in-the-language, or is the English structure showing? |
-| **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus checks 4–10 |
+| **2 HR reader** | the target, its reference file and the content type — **nothing else** | The HR-specialist read: would an HR specialist in that country have written this? |
+| **3 Native-read** | the target, the direction, the content type **and the source** — separate context, not blinded | The reads-as-native check: does it read as written-in-the-language, or is the source's structure showing? |
+| **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus the source-side checks — mechanics through the glossary trace |
 | **back to 1** | every finding | The one repair pass |
 
 **A separate context is what does the work here; blinding is a second, narrower thing and
 only role 2 wants it.** Role 2 is the one that must read without the source, because a reader
 holding it reads the translation as making sense — it knows what the line was aiming at. Roles
 3 and 4 both hold the source and stay separate because they ask different questions: role 3
-asks *whose sentence structure is this*, role 4 asks *does it say the same thing*. Give role 2
+asks *whose sentence structure is this*, role 4 asks *does it say the same thing*. Give role 3
 the source by default and blind it when the piece leans on repetition or rhythm, where
 reproducing the repetition is itself the calque.
 

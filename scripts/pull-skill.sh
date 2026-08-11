@@ -35,7 +35,7 @@ def norm(t):
     return re.sub(r'\s+', ' ', t).strip()
 stored = norm(prompts.read_text())
 drift = False
-for name in ('native-read', 'source-checker'):
+for name in ('blind-hr-reader', 'native-read', 'source-checker'):
     f = agents / f'{name}.md'
     if not f.exists():
         print(f'  MISSING agents/{name}.md'); drift = True; continue
