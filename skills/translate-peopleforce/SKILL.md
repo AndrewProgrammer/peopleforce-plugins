@@ -1,6 +1,6 @@
 ---
 name: translate-peopleforce
-description: Translate PeopleForce content between English, Spanish, Polish and Ukrainian, in either direction. Also use when reviewing an existing translation against house style.
+description: Translate or localize PeopleForce content between English, Spanish, Polish and Ukrainian (en, es, pl, uk), in any direction. Also use when reviewing an existing translation against house style — register, glossary, punctuation, or whether the copy reads native.
 ---
 
 # Translating PeopleForce content
@@ -27,6 +27,14 @@ deliverable.
 
    Whatever the type, a piece with graphics is also an image job — the image check
    applies to all three.
+
+   Two edges the table does not carry. **SEO fields** — slug, meta title, meta
+   description — ship with flowing text but behave as a fixed canvas: translate them
+   with the piece, report characters beside the budget (or beside the English count,
+   with the budget named unknown), and raise slug conventions in the handover rather
+   than guess them. **Timed text** — subtitles, captions — is out of scope: it adds
+   reading-speed budgets this skill does not carry, so say so rather than treat it as
+   flowing text.
 
 2. **Read the target language's reference file** — `references/es.md`, `en.md`,
    `pl.md`, `uk.md`. Register and punctuation are decided there and differ per
@@ -80,7 +88,7 @@ faithfully, flag loudly.
 
 ## Checks before handing over
 
-Twelve checks: ten apply to everything, two are **ads only** (fixed canvas and mixed).
+Eleven checks: nine apply to everything, two are **ads only** (fixed canvas and mixed).
 Then work through *The last pass before handover* — see **The handover**, below.
 
 - [ ] **One register throughout** — the one the target file's §1 sets. **Done when** every
@@ -119,8 +127,9 @@ Then work through *The last pass before handover* — see **The handover**, belo
 
 - [ ] **Mechanics belong to the target.** A figure keeps its value exactly as the source
       has it; every separator, decimal, percent and quote mark is set from the target
-      file's §5, whatever shape the source used. A **date** is the one mechanic no §5
-      decides — if the copy carries one, raise it in the handover. **Done when** both
+      file's §5, whatever shape the source used. A **date or a currency** is a mechanic no
+      §5 decides — the value and the unit never convert; if the copy carries either, raise
+      the format in the handover rather than guess it. **Done when** both
       sweeps have covered the whole target: a mechanic correct in the headline and left in
       source shape in a caption is a fail.
 
@@ -137,14 +146,6 @@ Then work through *The last pass before handover* — see **The handover**, belo
       into a gendered form rather than scanning the piece — the failure is one line in
       thirty. Where a language has a construction with **no** neutral form, its own file
       says so and says what to do instead.
-
-- [ ] **Nothing changed that wasn't translation.** Casing, a near-synonym in place of the
-      source's word, a line shortened to fit a box — those are edits, not translations. Keep
-      the source's choice by default. Where an edit is genuinely needed, take it deliberately
-      and name it in one line in the handover. **Done when** every departure from the
-      source's own wording is either reverted or named — the silent ones are what nobody
-      finds later. Failure replay over the ten known errors from the lifecycle-ads job:
-      5/10 caught without this check, 8/10 with it.
 
 - [ ] **Ads only — report the length; the number is information, not a target** (scoring
       it produces worse translations, not shorter ones). Give the shortest faithful line
@@ -179,7 +180,10 @@ Then work through *The last pass before handover* — see **The handover**, belo
 - [ ] **Nothing changed that wasn't translation.** Casing, a near-synonym in place of the
       source's word, a line shortened to fit a box — those are edits, not translations. Keep
       the source's choice by default. Where an edit is genuinely needed, take it deliberately
-      and name it in one line when handing over. The silent ones are what nobody finds later.
+      and name it in one line when handing over. **Done when** every departure from the
+      source's own wording is either reverted or named — the silent ones are what nobody
+      finds later. Failure replay over the ten known errors from the lifecycle-ads job:
+      5/10 caught without this check, 8/10 with it.
       **What the target's grammar forces is translation, not an edit**, and it cuts both
       ways — each §2 Explicitation states which way for that language. Into es, pl or uk the
       target must **supply** what English leaves implicit: the aspect Polish chooses, the
@@ -204,10 +208,11 @@ Then work through *The last pass before handover* — see **The handover**, belo
 ### If you have agents
 
 **Solo is the default and needs no agents and no connectors.** If the caller has agents,
-two checks — and only two — can be farmed out, because one context cannot do them: you
-cannot unsee the source, and a model back-translating its own output reconstructs what it
-meant rather than what it wrote. The mode, what each role may see, and the prompts are in
-`references/agent-prompts.md`. Never split the TEXT across agents — governed units, the
+two checks require a context that is not yours: the HR-specialist read — you cannot unsee
+the source — and the reads-as-native check — a model back-translating its own output
+reconstructs what it meant rather than what it wrote. The four-role mode can additionally
+delegate the source-side checks to a separate checker; the mode, what each role may see,
+and the prompts are all in `references/agent-prompts.md`. Never split the TEXT across agents — governed units, the
 glossary's one-form-per-piece job and the register check all need the whole piece at once.
 
 ## The handover

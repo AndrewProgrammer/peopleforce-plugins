@@ -44,7 +44,7 @@ need.
 >   budget · image copy per asset with `seen / total` · every 🚩 or `—` pick you made · and
 >   anything you could not resolve, named rather than quietly decided.
 
-## The blind reader — check 2, and the whole-piece review
+## The blind reader — the HR-specialist read, and the whole-piece review
 
 **Give it:** the target, the target's reference file, and the content type. **Never** the source,
 the English, the translator's notes, or the rationale. The content type is structure, not source
@@ -100,7 +100,7 @@ copy has to work across all of them.
 confidently infer one. Role 1's prompt carries the consequence — route every finding through
 someone holding the source.
 
-## Reads-as-native — check 3
+## Reads-as-native — built in the target, or on the source's skeleton
 
 **Give it:** the source, the target, the direction, the content type, and the target's reference
 file. **Fresh context, source in hand** — two mechanisms, not one. Fresh context makes the
@@ -157,7 +157,7 @@ it was imported from — blinding this role measurably stops it discriminating
 >
 > You are reviewing. The translator makes the repairs, so change nothing on disk.
 
-## Source-aware checker — checks 4–10
+## Source-aware checker — the source-side checks
 
 **Give it:** the source, the target, `glossary.md`, the target's reference file, the content type
 (fixed canvas / flowing text / mixed), any image assets with their budgets, and — whenever the
