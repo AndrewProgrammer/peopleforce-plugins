@@ -5,8 +5,6 @@ description: Translate or localize PeopleForce content between English, Spanish,
 
 # Translating PeopleForce content
 
-Translate between English, Spanish, Polish and Ukrainian, in any direction.
-
 **Register, glossary and mechanics hold for everything.** What the content type changes is the
 space and the structure, so settle the type first.
 
@@ -19,22 +17,24 @@ deliverable.
 1. **Name the content type before you translate a word.** It decides which checks
    apply and which parts of the reference file you need.
 
-   | Type | What it adds, what it drops |
-   |---|---|
-   | **Fixed canvas** — ad, social graphic, slide, chip, UI string | Both **ads only** checks apply: length and figure position. Skip **§Structure** — a chip has no heading skeleton to carry across. |
-   | **Flowing text** — article, case study, guide | **§Structure applies**: sentence case and question-led headings always; if the target file's §6 Structure also gives a comparison skeleton or a closing heading, follow those. Let the target run as long as it needs — length is information here, not a check. |
-   | **Mixed** — landing page, email | Headline and stat blocks behave like a fixed canvas, body like flowing text. Say which you treated how. |
+   - **Fixed canvas** — ad, social graphic, slide, chip, UI string. Both **ads only**
+     checks apply: length and figure position. Skip **§Structure** — a chip has no
+     heading skeleton to carry across.
+   - **Flowing text** — article, case study, guide. **§Structure applies**: sentence case
+     and question-led headings always; if the target file's §6 Structure also gives a
+     comparison skeleton or a closing heading, follow those. Let the target run as long
+     as it needs — length is information here, not a check.
+   - **Mixed** — landing page, email. Headline and stat blocks behave like a fixed
+     canvas, body like flowing text. Say which you treated how.
 
    Whatever the type, a piece with graphics is also an image job — the image check
    applies to all three.
 
-   Two edges the table does not carry. **SEO fields** — slug, meta title, meta
+   One edge those three do not carry. **SEO fields** — slug, meta title, meta
    description — ship with flowing text but behave as a fixed canvas: translate them
    with the piece, report characters beside the budget (or beside the English count,
    with the budget named unknown), and raise slug conventions in the handover rather
-   than guess them. **Timed text** — subtitles, captions — is out of scope: it adds
-   reading-speed budgets this skill does not carry, so say so rather than treat it as
-   flowing text.
+   than guess them.
 
 2. **Read the target language's reference file** — `references/es.md`, `en.md`,
    `pl.md`, `uk.md`. Register and punctuation are decided there and differ per
@@ -97,9 +97,8 @@ Then work through *The last pass before handover* — see **The handover**, belo
       sample: one slipped form fails the piece. **Register governs how the copy addresses
       the reader — not how a quoted person speaks about themselves.** Inside a named
       customer's testimonial a real person describing their own experience takes the first
-      person, in whatever form the target uses; read literally, this check argues for
-      putting the house second person in their mouth, and two independent arms did exactly
-      that.
+      person, in whatever form the target uses. Read literally, this check argues for putting
+      the house second person in their mouth, which is a mistake it has actually produced.
 
 - [ ] **It reads like HR, not like translated HR** — as though written by someone doing the
       job in the target country, not by someone translating it. Read it as that person: an HR
@@ -108,12 +107,12 @@ Then work through *The last pass before handover* — see **The handover**, belo
       only makes sense next to the source is not finished. This pass judges naturalness and
       reads past untranslated leftovers, so **sweep for leftover source-language text
       separately**, over the whole target — a separate pass, because a reader judging whether
-      copy sounds like their own does not switch modes to audit for foreign script. **Short all-caps labels are what survive
-      it**: `Q:`, `A1:`, `A2:` sat in Latin inside Ukrainian ad copy and three instruments
-      read past them, including a blinded persona read that praised the line's grammar.
-      Where such a label carries meaning the reader needs, translate it (`Питання:`,
-      `Відповідь 1:`); where it is only layout scaffolding, drop it — either way, decide
-      rather than leave it in the source's script. **Done when** every line — headings,
+      copy sounds like their own does not switch modes to audit for foreign script. **Short
+      all-caps labels are what survive it** — `Q:`, `A1:`, `A2:` have sat in Latin inside
+      Ukrainian ad copy and been read straight past. Where such a label carries
+      meaning the reader needs, translate it (`Питання:`, `Відповідь 1:`); where it is only
+      layout scaffolding, drop it — either way, decide rather than leave it in the source's
+      script. **Done when** every line — headings,
       chips, captions, image copy — has been read once with the source covered, **and** the
       whole target has been scanned for source-script runs of any length, single letters
       included.
@@ -183,8 +182,7 @@ Then work through *The last pass before handover* — see **The handover**, belo
       the source's choice by default. Where an edit is genuinely needed, take it deliberately
       and name it in one line when handing over. **Done when** every departure from the
       source's own wording is either reverted or named — the silent ones are what nobody
-      finds later. Failure replay over the ten known errors from the lifecycle-ads job:
-      5/10 caught without this check, 8/10 with it.
+      finds later.
       **What the target's grammar forces is translation, not an edit**, and it cuts both
       ways — each §2 Explicitation states which way for that language. Into es, pl or uk the
       target must **supply** what English leaves implicit: the aspect Polish chooses, the
@@ -201,7 +199,8 @@ Then work through *The last pass before handover* — see **The handover**, belo
 - [ ] **Every term traces back to the glossary.** A PeopleForce product or module name
       stays exactly as written; a feature takes the established locale form — both in
       `glossary.md`. **Done when** every product, module and feature term has been traced
-      to the row it came from and every flagged cell used is recorded in `flag_decisions`.
+      to the row it came from and every flagged cell used has its pick recorded in the
+      handover's *Words I am not sure about* list.
       Where you were **uncertain** about a term the glossary does not flag, record that the
       same way — the declaration is owed by your uncertainty, not by the marker.
       A term rendered from memory is untraced, whether or not it happens to match.
@@ -243,30 +242,20 @@ says now, what it should say — an asset nobody opened is outstanding work, not
 #### The two lists: what you were not sure about
 
 **Write them as lists, not prose** — prose gets summarised away; a list has a row or it
-does not. **Every row carries a proposed answer**: you have just spent the job on this
-copy and know more about each question than the reader does, so propose, and say what you
-would do if nobody replies. The reader should be able to answer *"all of them except 2
-and 5"* and be finished.
+does not. **Every row carries a proposed answer** — you know more about each question than
+the reader does, so propose, and say what you would do if nobody replies. The reader
+should be able to answer *"all of them except 2 and 5"* and be finished.
 
 **Words I am not sure about** — the term · what you wrote · why · **proposed**. Include
 🚩 cells, terms with no row, product-versus-market disagreements, guessed spellings.
-
-> | Term | What I wrote | Why | **Proposed** |
-> |---|---|---|---|
-> | `adoption` | `почали користуватися` | no glossary row; the alternatives each change the claim | **keep it and add a row** |
-> | *Denikeeva* | `Денікєєва` | **guessed spelling of a real named person** | **confirm with her, or revert to the source's latin.** Blocking either way |
 
 **Lines I am not sure about** — the line · what is uncertain · what you did · **proposed**.
 Include ambiguous or wrong source lines, constructions you could argue either way, claims
 that could not be verified.
 
-> | Line | What is uncertain | What I did | **Proposed** |
-> |---|---|---|---|
-> | `Як переможця премії…` | source says *finalist* eight times, *winner* once | translated both faithfully | **fix the English** — it blocks publication in all four languages |
-
 **A guessed spelling of a named person is blocking, not a note** — the one error class
-that embarrasses a real third party. If it cannot be confirmed, prefer the source's
-original script: a name left in latin is a smaller defect than a name spelled wrong in
+that embarrasses a real third party; unconfirmed, prefer the source's own script, since a
+name left in latin is a smaller defect than a name spelled wrong in
 Cyrillic. **If either list runs past about ten rows**, say so and order it by what it
 costs to be wrong — that is the piece asking for a reviewer before a publisher, not a
 failure.
@@ -280,13 +269,13 @@ slip.
 **1. The do-not-ship strings.** Search the finished target for each — these are the errors
 invisible to a reader who knows what the copy *meant* to say.
 
-| Target | Never ship | Ship |
-|---|---|---|
-| any | `Peopleforce` · `People Force` · `PEOPLEFORCE` · `Peoplehr` · `Peoplesign` | `PeopleForce` · `PeopleHR` · `PeopleSign`, exact casing |
-| uk | `Піплфорс` · `Пиплфорс` · any Cyrillic transliteration of a product name | the latin original |
-| uk | `ейчар` | `HR`, latin |
-| es | `RR. HH.` · `RH` | `RRHH` |
-| es | `reporte` · `coste` · `absentismo` | `informe` · `costo` · `ausentismo` |
+**Product and brand names ship in their exact casing, in every language** —
+`PeopleForce`, `PeopleHR`, `PeopleSign`. The failure is any other casing or spacing of
+them: `Peopleforce`, `People Force`, `PEOPLEFORCE`, `Peoplehr`, `Peoplesign`.
+
+**In Ukrainian they also stay in the latin alphabet.** A product name is never
+transliterated to Cyrillic — `Піплфорс` and `Пиплфорс` are the forms that actually appear,
+but the rule is the alphabet, not those two strings. `HR` is latin too, never `ейчар`.
 
 `Core HR` and `CoreHR` are both live product spellings, and `core HR processes` is
 ordinary English — casing is **not** checked on that one.
@@ -345,43 +334,37 @@ findings.
 
 ## References
 
-`references/glossary.md` — concept-keyed terms in all four languages, plus the
-do-not-translate lists.
+**Two files are read on every job.** The target's own reference file — `references/es.md`,
+`pl.md`, `uk.md` or `en.md` — even for a short one (step 2), and
+`references/glossary.md`, which holds the concept-keyed terms in all four languages plus
+the do-not-translate lists.
 
-`references/product-screens.md` — read only when a graphic shows a PeopleForce screen, or
-the copy carries a noun an HR person clicks. The product's locale files outrank this skill
-there.
+**Two are conditional.** Read `references/product-screens.md` only when a graphic shows a
+PeopleForce screen, or when the copy carries a noun an HR person clicks — the product's
+own locale files outrank this skill there. Read `references/agent-prompts.md` only when
+farming out checks (see *If you have agents*).
 
-`references/agent-prompts.md` — read only when farming out checks 2 and 3 (see *If you
-have agents*).
+**One is never read to do the work.** `translation-corpus/evidence-and-retirement.md` is
+maintainer-only and sits outside the skill: it holds the measurement behind each rule, and
+it is not an input to translating or reviewing.
 
-`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill:
-the measurement behind each rule. Nothing in it is needed to translate or review.
+Register is the one difference worth knowing before you open a language file: **es** is
+informal `tú` — neutral LatAm, never `vosotros` — **pl** is informal `Ty`, **uk** is
+**formal** — lower-case `ви` — and **en** is informal `you`. Translating into or out of
+Ukrainian always shifts register.
 
-`references/es.md`, `pl.md`, `uk.md`, `en.md` — **the same sections under the same
-numbers in every file**, so a section number means one thing everywhere:
-
-`1. Register` · `2. Explicitation` · `4. Anglicism policy` ·
+The four language files share their section numbers, so a number means one thing
+everywhere: `1. Register` · `2. Explicitation` · `4. Anglicism policy` ·
 `5. Punctuation and formatting` · `6. Structure` · `7. Calques` ·
-`8. Two English words, one Ukrainian word` · `9. Long and short forms`
-
-**`uk.md` §8 and `uk.md` §9 are Ukrainian-only, because the phenomena are** — numbers above
-seven are where one language keeps what only it needs, and shared numbering holds from one
-to seven.
+`8. Two English words, one Ukrainian word` · `9. Long and short forms`.
+Numbering runs **1, 2, 4, 5, 6, 7** — the third slot was retired
+(`translation-corpus/evidence-and-retirement.md` records what it held and why it went),
+the gaps stay open so a number keeps meaning one thing everywhere a section is cited,
+and **`en.md` has no §4** because English as the target raises no anglicism question.
+**`uk.md` §8 and `uk.md` §9 are Ukrainian-only, because the phenomena are.**
 
 `en.md` has no §8 · `es.md` has no §8 · `pl.md` has no §8 ·
 `en.md` has no §9 · `es.md` has no §9 · `pl.md` has no §9.
 
-Those six read as repetition and are not: the reference checker matches one file-and-number
-pair per statement, so collapsing them — or letting a line wrap between *has no* and the
-number — reintroduces the findings they suppress.
-
-Numbering runs **1, 2, 4, 5, 6, 7**. The third slot was retired, and **`en.md` has no §4**
-because English as the target raises no anglicism question. The gaps stay open so a number
-means one thing in every file and in the eval registry —
-`translation-corpus/evidence-and-retirement.md` records what the third slot held and why it
-went.
-
-The one difference worth knowing before you open the file is register: **es** is voseo,
-**pl** is informal `Ty`, **uk** is **formal** — lower-case `ви` — and **en** is informal
-`you`. Translating into or out of Ukrainian always shifts register.
+Those six are checker-read, one file-and-number pair per statement — do not collapse them
+or let a line wrap between *has no* and the number.

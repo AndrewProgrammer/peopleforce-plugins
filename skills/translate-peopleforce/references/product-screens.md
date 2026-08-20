@@ -32,3 +32,10 @@ overtime, absence, approval, request, leave balance, work type, dashboard, depar
 **grep `config/locales/crowdin/<locale>/` before shipping it.** The product's own translated
 string wins over your instinct and over the corpus, because it is what the reader sees in the
 tool. Where the product and the corpus disagree, record both and flag it.
+
+**The lookup runs through the `peopleforce-sources` connector** — that path lives in the
+product's repo, not in this one. **No connector, no locale access:** do not guess a screen
+string and do not render one from the crop — use the glossary form, flag the line *"product
+string unverified: no locale access"*, and list the keys the lookup would have covered. The
+same degraded rule as *Product claims* in `SKILL.md`: a delivery never blocks on a lookup,
+and an unverified name ships flagged, never false.

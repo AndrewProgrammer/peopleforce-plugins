@@ -43,11 +43,16 @@ dropping a distinction English does not have — going the other way.
 English needs word order and prepositions for. Coming from either, English has to
 supply what was never there:
 
-| The source drops | English states it | Not |
-|---|---|---|
-| the article | `the employee lifecycle`, `a demo`, `the team` | bare nouns as subjects |
-| the subject pronoun | `we help you hire` | `helps you hire` |
-| fixed word order | `HR teams trust PeopleForce` | source order preserved |
+**Supply the article.** A noun that reaches English bare needs `the` or `a` — a bare noun
+as a subject is the signature of an article-less source.
+
+**Supply the subject pronoun.** English verbs cannot stand without one, so a source that
+left the subject to the verb ending gets it stated: `we help you hire`, not
+`helps you hire`.
+
+**Impose English word order.** English has no case to carry role, so word order does that
+job and the source's order is not evidence about it. Rebuild the sentence around
+subject-verb-object rather than preserving the order you were given.
 
 **Spanish, Polish and Ukrainian also force distinctions English does not have.** If
 the source marks one of these, let it go and use English's single form:
@@ -80,14 +85,10 @@ question nobody asked.
 *(No §4 — there is no anglicism question when English is the target. The gap stays so
 section numbers align across all four files.)*
 
-| Convention | Rule |
-|---|---|
-| Dash | see below — no count, no budget |
-| En dash `–` | ranges only (`2020–2024`) |
-| Quotes | `“ ”`; pick one style per piece and hold it |
-| Percent | `30%` — unspaced |
-| Thousands | `1,000` — comma |
-| Decimal | `4.6` — period |
+Thousands take a **comma** (`1,000`) and decimals a **period** (`4.6`). Percent is
+**unspaced**: `30%`. Quotes are `“ ”` — pick one style per piece and hold it. The **en
+dash `–` is for ranges only** (`2020–2024`). Em dashes carry no count and no budget; the
+rule for them is below.
 
 **Em dashes: the only test is whether the English reads as though it was written in
 English.** That test is the whole rule, and it settles every case:
@@ -97,9 +98,8 @@ English.** That test is the whole rule, and it settles every case:
 - **A comma, a colon or parentheses is the default**, and an em dash is the mark you reach
   for when the sentence genuinely wants that break. Where a dash is the right mark, keep it.
 
-Written this way because the machine habit is to splice clauses with dashes whenever the
-source had a mark somewhere near, and a rule phrased as a dash prohibition has been measured
-on this corpus to produce the mirroring it forbade. Write the sentence a native would write.
+The habit to watch is splicing clauses with dashes whenever the source had a mark somewhere
+near. Write the sentence a native would write.
 
 ---
 
@@ -130,14 +130,12 @@ not *all stages*. Everywhere else keep whatever the source had: governed by a
 preposition (`for every team member`, `at every stage`) and opening a clause
 (`Each module covers a different process`).
 
-Leave these to English idiom:
-
-| Construction | English | Not |
-|---|---|---|
-| time span | `monthly`, `16 hours saved every month` | `each month` mechanically |
-| ratio | `three out of four employees` | `three of each four` |
-| any size | `companies of any size` | `of every size` |
-| reciprocal | `each other`, `compared against each other` | `between themselves` |
+**Four constructions are English idiom rather than distributives, and a mechanical
+`each`/`every` breaks all four.** A **time span** takes an adverb or a natural phrase —
+`monthly`, `16 hours saved every month` — not `each month` applied by default. A **ratio**
+is `three out of four employees`, never `three of each four`. **Any size** is `companies of
+any size`, not `of every size`. And a **reciprocal** is `each other` — `compared against
+each other` — never `between themselves`.
 
 **Articles and possessives** arrive over-specified from the inflected languages. If a
 Polish or Ukrainian phrase links nouns through case, restructure it to a bare English

@@ -1,17 +1,35 @@
 #!/bin/bash
-# Re-sync the plugin's skill files from the canonical copy in PeopleForce Content.
+# Re-sync the plugin's skill files from the canonical copy of the skill.
 # Run the corpus checks there FIRST (check_glossary_sync.py, check_skill_refs.py),
 # then this, then bump version in .claude-plugin/plugin.json before pushing.
 set -euo pipefail
 
-CANON="/Users/andrewkapusta/Desktop/PeopleForce Content/.claude/skills/translate-peopleforce"
 HERE="$(cd "$(dirname "$0")/.." && pwd)"
 DEST="$HERE/skills/translate-peopleforce"
 
-if [ ! -f "$CANON/SKILL.md" ]; then
-  echo "canonical skill not found at: $CANON" >&2
+# CANON is resolved RELATIVE to this repo, not hardcoded. It used to be an absolute
+# path into ~/Desktop/PeopleForce Content, that directory stopped existing, and the
+# `set -e` + explicit guard below meant every sync after that exited 1 — silently, as
+# far as anyone reading the plugin was concerned. The plugin drifted four files behind
+# canonical before anyone noticed. A sibling-relative default cannot rot that way, and
+# TRANSLATE_SKILL_CANON overrides it when the checkout does not sit beside the content
+# repo. First hit wins.
+: "${TRANSLATE_SKILL_CANON:=}"
+for c in \
+  "$TRANSLATE_SKILL_CANON" \
+  "$HERE/../.claude/skills/translate-peopleforce" \
+  "$HERE/../../.claude/skills/translate-peopleforce"
+do
+  [ -n "$c" ] && [ -f "$c/SKILL.md" ] && CANON="$(cd "$c" && pwd)" && break
+done
+
+if [ -z "${CANON:-}" ]; then
+  echo "canonical skill not found. Looked beside this repo and one level up." >&2
+  echo "Set TRANSLATE_SKILL_CANON=/path/to/.claude/skills/translate-peopleforce" >&2
   exit 1
 fi
+
+echo "canonical: $CANON"
 
 rsync -a --delete --exclude .DS_Store "$CANON/" "$DEST/"
 find "$DEST" -name .DS_Store -delete 2>/dev/null || true

@@ -8,7 +8,7 @@ they are what makes the reader a member of the market rather than a generic revi
 
 | Target | `[LANGUAGE]` | `[COUNTRY]` | Register the reader expects |
 |---|---|---|---|
-| `es` | Spanish | Argentina *(or Uruguay — say which)* | voseo, Río de la Plata |
+| `es` | Spanish | **Latin America**, not one country — name the market the piece targets (Mexico, Colombia, Argentina…) | informal `tú`, neutral LatAm — `ustedes` for plural, never `vosotros` |
 | `pl` | Polish | Poland | informal `Ty` |
 | `uk` | Ukrainian | Ukraine | formal lower-case `ви` |
 | `en` | English | **Europe**, not one country — see `en.md` §1 | informal `you` |
@@ -32,7 +32,7 @@ need.
 > - Apply the glossary **as you go**, not as a pass afterwards. A term you rendered from
 >   memory that happens to match the cell is still untraced; trace it.
 > - Where a cell carries 🚩 or `—`, make the pick and record it in the hand-off. Do not coin
->   a form that is not in the table.
+>   a form that is not in the glossary.
 > - **Stage the target alone in [DIRECTORY]** before any review starts. The blind reader must
 >   not be able to reach the source, your notes or your rationale — withheld by staging, not
 >   by instruction.
@@ -40,6 +40,16 @@ need.
 >   hold the whole context, so you decide which are real. A blind-reader finding is evidence
 >   that a line reads oddly, never evidence about what the line should say — check it against
 >   the source before acting on it.
+> - **A reviewer's rewrite is a demonstration of its diagnosis, never copy.** Take the
+>   diagnosis and re-author the line yourself, in the register you have been writing in. A
+>   rewrite column is written to prove a point about structure; pasted in, it lands flat, and
+>   twenty of them flatten the piece.
+> - **A finding is actionable only if it names a defect** — a rule from a reference file, a
+>   faithfulness gap, an untraced term. *Reads better* is not a defect. Where the current line
+>   and the proposed line are both correct, keep yours.
+> - **When the proposed line is shorter, say which word went and why the source licenses
+>   losing it.** The recurring failure is deleting the word that carries the meaning: a
+>   process noun's complement, an intensifier the source has, the head of a compound.
 > - Hand over: the finished target · every line still over budget, with its count and its
 >   budget · image copy per asset with `seen / total` · every 🚩 or `—` pick you made · and
 >   anything you could not resolve, named rather than quietly decided.
@@ -227,15 +237,10 @@ actual authority. **Traced** is this role's leading word — the prompt defines 
 > You are reviewing. The translator holds the whole context and makes the repairs, so change
 > nothing on disk.
 
-**Roles 3 and 4 are re-authored and now RUN** — first live run 2026-08-11 on `UK-QUOTE-01/en`,
-both dispatched with the prompts as written. Both produced correctly-scoped findings and each
-caught something the other did not, which is the split working: role 3 found the
-masculine-appositive disagreement (`HR-директор … сказала`), role 4 found a company name in the
-wrong script and a stale glossary claim in the handover. Both independently found the missing
-colon before direct speech, and **role 3 correctly refused it as another role's business** —
-the scope fence held. `translation-corpus/evidence-and-retirement.md` — maintainer-only,
-outside the skill — records what changed and the five wrong findings each gap would have
-produced.
+**Roles 3 and 4 are re-authored and live** — first run 2026-08-11 on `UK-QUOTE-01/en`, both
+dispatched with the prompts as written: correctly-scoped findings, each caught something the
+other did not, and the scope fence held. The run record is in
+`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill.
 
 **Three of these prompts also ship as plugin subagents**
 (`translate-peopleforce-plugin/agents/blind-hr-reader.md`, `…/native-read.md` and
@@ -251,16 +256,25 @@ three against this file and reports drift — run it after any edit here.
 **Solo is the default**, and `SKILL.md`'s *If you have agents* carries the decision of
 whether to farm out at all. What this section adds is the shape once you have.
 
-The table is the single source for who holds what — each role's **Give it:** line above adds
-only what the table cannot say.
+This section is the single source for who holds what — each role's **Give it:** line above
+adds only what it cannot say.
 
-| Role | Gets | Does |
-|---|---|---|
-| **1 Translator** | source, brief, glossary, reference file, product connector | Everything in *Process*, plus the product and fact checks |
-| **2 HR reader** | the target, its reference file and the content type — **nothing else** | Check 2: does it read like HR, or like translated HR? |
-| **3 Native-read** | the target, the direction, the content type **and the source** — separate context, not blinded | The reads-as-native check: does it read as written-in-the-language, or is the source's structure showing? |
-| **4 Source-aware checker** | source, target, assets, glossary | Faithfulness, plus the source-side checks — mechanics through the glossary trace |
-| **back to 1** | every finding | The one repair pass |
+**Role 1, the translator**, gets the source, the brief, the glossary, the target's
+reference file and product connector access. It does everything in *Process*, plus the
+product and fact checks.
+
+**Role 2, the HR reader**, gets the target, its reference file and the content type —
+**nothing else**. It runs check 2: does this read like HR, or like translated HR?
+
+**Role 3, the native-read**, gets the target, the direction, the content type **and the
+source** — a separate context, not blinded. It runs the reads-as-native check: does this
+read as written-in-the-language, or is the source's structure showing?
+
+**Role 4, the source-aware checker**, gets the source, the target, the assets and the
+glossary. It checks faithfulness, plus the source-side checks — mechanics through the
+glossary trace.
+
+**Then back to role 1** with every finding, for the one repair pass.
 
 **A separate context is what does the work here; blinding is a second, narrower thing and
 only role 2 wants it.** Role 2 is the one that must read without the source, because a reader
@@ -285,3 +299,37 @@ copy.
 worse — watch second-person erosion, the English *you* drifting to *HR* or an impersonal
 system. The measurement and the bar it has to clear are in
 `translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill.
+
+### The repair pass has a register floor
+
+**Measured on the 2026-08-12 onboarding-framework run, three languages, owner adjudicating
+line by line.** The mode won on everything checkable — list wording, parallelism, term
+consistency, faithfulness catches a single context cannot make (`postępy` restored to a ✔️
+line that had dropped it), and it localised a device the literal pass had transliterated
+(`Antywzorzec` → `Чого робити не варто:` where no attested Ukrainian noun exists). It lost,
+consistently, on voice. The owner's verdict: *four-role is better overall, but some moments
+are overly formal, and that decreases nativeness.*
+
+The drift has three named shapes, all of them in the repair pass rather than in the reviews:
+
+**Corporate flattening** — a warm line is replaced by a neutral one that breaks no rule.
+Nothing in the checks fires, because nothing is wrong; the line is simply colder than the
+one it replaced.
+
+**Load-bearing deletion** — a line is trimmed of padding and the word carrying the sense
+goes out with it. The tell is that the repair is shorter and the claim is weaker.
+
+**Solving a problem the line does not have** — a rule is applied by shape rather than by
+reading, so a fix lands on a construction that was never the one the rule describes. The
+guard is to check that the construction in front of you is the one the rule names, not
+merely one that looks like it.
+
+So the repair pass carries one extra rule beyond the checks: **the repaired line may not be
+more formal, or less specific, than the line it replaces.** If a finding's only effect is to
+make copy read more like a policy document, the diagnosis was about structure and the
+structure was already fine — record the finding as considered and rejected.
+
+**Ship the merge, not the arm.** Until this is fixed at the source, a run that matters is
+finished by putting the two versions side by side and taking the solo voice as the base with
+the four-role's *defect* fixes applied on top. A word-level diff makes that a ten-minute job;
+`Framework-solo-vs-four-role-diff.html` in the content repo is the worked example.

@@ -32,11 +32,10 @@ Ukrainian is the forms. The English answer `Only me` is invariant; the Ukrainian
 not: `Тільки мені` under `Кому PeopleForce показує…?`, never `Тільки я`. A subhead
 agreeing with a headline's noun takes `Одна платформа.` → `Створена`.
 
-| The source drops | Ukrainian states it | Not |
-|---|---|---|
-| the verb's aspect | `Спробуйте` for a one-off act, `розвивайте` for an ongoing one | `Пробуйте`, `розвиньте` |
-| the relative pronoun, and the comma before it | `інструменти, які потрібні вашій команді` | `інструменти потрібні команді` |
-| the case links in a noun stack | `управління життєвим циклом співробітника` | bare nominatives |
+Three things the source will be missing: **the verb's aspect**, **the relative pronoun and
+the comma before it** — `інструменти, які потрібні вашій команді`, not `інструменти
+потрібні команді` — and **the case links inside a noun stack**, as in `управління життєвим
+циклом співробітника`, where a run of bare nominatives is the calque.
 
 Aspect is the one an English or Spanish source gives no signal for at all — each has
 a single *try* and Ukrainian makes you choose. **Meaning picks it, not the fact that
@@ -63,36 +62,31 @@ write `ваш` and leave it there — the site does exactly this (*«Розум�
 **`відсутність` is the system's noun, not a word you put in a sentence about a person.**
 The product records a `відсутність`; a human takes a `вихідний` or a `відпустка`. Ukrainian
 therefore renders *time off* and *leave* as **verb phrases rather than as single nouns**, and
-the noun the system uses is the one that must not appear in them:
+`відсутність` is the noun that must not appear in them: requesting time off is `оформити
+вихідний` or `подати заявку на вихідний`, never `оформити відсутність`, and taking a day off
+is `взяти вихідний`, never `взяти відсутність`. `відсутність` keeps only the system senses —
+the record, the policy, the calendar (`політика відсутностей`).
 
-| The source says | Write | Not |
-|---|---|---|
-| request time off | `оформити вихідний`, `подати заявку на вихідний` | `оформити відсутність` |
-| take a day off | `взяти вихідний` | `взяти відсутність` |
-| take leave / annual leave | `взяти відпустку`, `оформити відпустку` | |
-| days off, time-off balance | `вихідні`, `залишок днів відпустки` | |
-| the record, policy or calendar | `відсутність`, `політика відсутностей` | |
-
-`вихідний` runs 105 hits/22 docs and `день відпустки` 16/6, so the noun is what our copy
-writes; the bare verb phrases are thinner (`взяти відпустку` 5, `взяти вихідний` 3) and
-belong to speech more than to print. The distinction that matters: `відпустка` is the
-counted entitlement, `вихідний` is a single day away.
+**Which noun depends on what is being named.** `відпустка` is the counted entitlement —
+`взяти відпустку`, `оформити відпустку`, `залишок днів відпустки`. `вихідний` is a single
+day away, and days off are `вихідні`. `вихідний` runs 105 hits/22 docs and `день відпустки`
+16/6, so the noun is what our copy writes; the bare verb phrases are thinner
+(`взяти відпустку` 5, `взяти вихідний` 3) and belong to speech more than to print.
 
 **English `the same` is two different words in Ukrainian, so the source cannot tell you
 which.** Identity — one and the same thing — is `той самий`. Similarity — another one like
-it — is `такий самий` or `однаковий`. Decide from what the sentence actually refers to:
+it — is `такий самий` or `однаковий`. Decide from what the sentence actually refers to.
 
-| The source says | Write | Because |
-|---|---|---|
-| the same checklist (one document, reused) | `той самий чек-лист` | there is one checklist |
-| the same first week (each new hire has their own) | `такий самий перший тиждень` | `той самий` would claim one literal week everybody shares |
-| the same result (matching, not shared) | `однаковий результат` | two results that match are not one result |
+The case that catches people is a thing each person has their own copy of: `the same first
+week` is `такий самий перший тиждень`, because `той самий` would claim one literal week
+everybody shares. Two results that match are `однаковий результат` for the same reason —
+they are not one result.
 
 **Identity is the unmarked default** — `той самий` runs 138r/14p across 56 calls against
 `такий самий` 20r/0p in 15, about 7:1 — so it is right more often than not, and wrong
 exactly where the source means *a similar one*. That makes it a judgement per sentence and
-**never a find-and-replace**: an arm wrote `той самий перший тиждень` and so claimed a
-single week shared by every hire. 🚩 three list items in published copy await a native read.
+**never a find-and-replace**: `той самий перший тиждень` has been written for *the same first
+week*, and it claims a single week shared by every hire.
 
 ---
 
@@ -137,46 +131,51 @@ What makes the context pick:
   indeclinable loan breaks (`воркфлоу, що стоїть за ним`).
 - **Is the line a UI label, a heading or a chip?** The loan is usually shorter and is what
   the reader sees on screen.
-- **Is the sentence about the statutory or the discretionary version of the thing?** That
-  is a sense split, not a style choice — see `бенефіти` below.
+- **Do the two forms name different things?** Some pairs split by sense, not style —
+  `релокейт` is the employment arrangement and `переїзд` the physical move; `абсентеїзм`
+  is the pattern and `прогул` a single absence. Check the sense before swapping.
 
 Measured over the 180-document uk-UA corpus:
 
-| Loan | hits / docs | Ukrainian rival | rival hits / docs | Notes |
-|---|---|---|---|---|
-| `рекрутинг` | 915 / 81 | — | | no rival — the loan |
-| `онбординг` | 767 / 63 | — | | no rival — the loan |
-| `офбординг` | 151 / 16 | — | | no rival — the loan |
-| `воркфлоу` | 240 / 25 | `робочий процес` | 300 / 57 | both. Prefer `робочий процес` where the word must agree or inflect — the loan is indeclinable, and three of four source-blind native passes flagged it for that. Short form `процес` once context has fixed which process |
-| `релокейт` | 110 / 12 | `переїзд` | 30 / 8 | both, but check the sense: `переїзд` is the plain physical move, `релокейт` the employment arrangement |
-| `дашборд` | 87 / 21 | `панель` | 20 / 5 | both |
-| `скринінг` | 84 / 11 | `відбір` | 39 / 9 | both |
-| `бенефіти` | 113 / 20 | `пільги` | 179 / 22 | both, and the split is by sense — see the glossary's `employee benefits`/uk row |
-| `абсентеїзм` | 119 / 4 | `прогул` | 69 / 12 | both, and the loan is a term of art: **gloss it on first mention**. Sense split and the concentrated count are on the glossary's `absenteeism` row |
-| `тригер` | 39 / 4 | — | | 🚩 four documents. Attested, but too concentrated to call house usage |
+**Three loans have no Ukrainian rival in the corpus, so the loan simply is the word** —
+`рекрутинг` (915 hits / 81 docs), `онбординг` (767 / 63) and `офбординг` (151 / 16).
+
+**Where a loan and a Ukrainian form are both live, a condition decides, and there are four
+kinds of condition.**
+
+- **Inflection decides for `воркфлоу` (240 / 25) against `робочий процес` (300 / 57).**
+  Prefer the Ukrainian wherever the word must agree or inflect, because the loan is
+  indeclinable and forces an arbitrary agreement; three of four source-blind native passes
+  flagged it for exactly that. Short form `процес` once context has fixed which process.
+- **Sense decides for `релокейт` (110 / 12) against `переїзд` (30 / 8).** `переїзд` is the
+  plain physical move, `релокейт` the employment arrangement.
+- **Nothing decides for `бенефіти` (113 / 20) against `пільги` (179 / 22), or for
+  `дашборд` (87 / 21) against `панель` (20 / 5), or `скринінг` (84 / 11) against `відбір`
+  (39 / 9).** No sense signal is recorded for any of them — for benefits, speech runs 2r/0p
+  each way — so pick one and hold it through the piece, per the glossary's
+  `employee benefits`/uk row.
+- **`абсентеїзм` (119 / 4) against `прогул` (69 / 12) is a term of art, so gloss the loan
+  on first mention.** The sense split and the concentrated count are on the glossary's
+  `absenteeism` row.
+
+🚩 **`тригер` (39 / 4) is not callable as house usage in prose** — four documents is too
+concentrated. As the *workflow trigger* term it is settled, because it is the product's own
+verified string; see the glossary's `workflow trigger`/uk row.
 
 Staying latin: **acronyms** — the glossary's do-not-translate list, kept latin even
 inside Cyrillic copy — and product, brand and customer names. `AI` and `ШІ` are
 interchangeable — neither is the default.
 
-Corpus-measured, replacing an earlier derived policy: the ten forms are now
-attested rather than inferred, and the policy is a **test** rather than a description of
-what the glossary happens to do. That was the flag's actual complaint, and it is answered —
-so extend the pattern to a new borrowing by **running the three tests**, not by pointing at
-this list. One 🚩 remains, and it is about concentration rather than about which word is right.
+Extend the pattern to a new borrowing by **running the three tests**, not by pointing at
+this list — the list is what the tests found, not the policy itself.
 
 ---
 
 ## 5. Punctuation and formatting
 
-| Convention | Rule |
-|---|---|
-| Primary quotes | **`« »`** |
-| Secondary quotes | `„ ”` — nested quotes only |
-| Apostrophe | `’` (as in *п’ять*, *об’єкт*) |
-| Percent | `30%` — unspaced |
-| Thousands | **`1 000`** — space |
-| Decimal | `4,6` — comma |
+Thousands take a **space** (`1 000`) and decimals a **comma** (`4,6`). Percent is
+**unspaced**: `30%`. The apostrophe is `’`, as in *п’ять*, *об’єкт*. Primary quotes are
+**`« »`** and `„ ”` is for a nested quote only.
 
 Quote marks are the target's own: whatever shape the source used, set `« »` in
 Ukrainian, and `„ ”` for a nested quote inside it.
@@ -204,16 +203,11 @@ optional. The exception is the same one as above — a quote ending in `?`, `!` 
 keeps that mark inside the guillemets and takes **no** comma: `«Скільки це коштує?» —
 запитала вона.`
 
-**Settled in `SKILL.md`'s register check:** the house register governs how the
-copy addresses **the reader**, not how a quoted person speaks about themselves. Inside an
-attributed quotation a real person describing their own experience takes `я / ми`. Two
-independent arms put `ви / ваш` inside a named customer's testimonial, and the register
-check as previously worded argued for it — which is why the carve-out now sits on the check
-itself rather than here.
-
-**What is still open** is narrower and it is not a Ukrainian question: whether the **English
-source** should be writing testimonials in the second person at all. Where it does, translate
-the person's own voice and say so in the handover.
+**Testimonials** (the carve-out lives on `SKILL.md`'s register check): house register
+governs how the copy addresses **the reader**; inside an attributed quotation a real person
+describing their own experience takes `я / ми` — putting `ви / ваш` in a named customer's
+mouth is the recurring mistake here. If the **English source** itself writes a testimonial
+in the second person, translate the person's own voice and raise it in the handover.
 
 ### The copula тире is grammar
 
@@ -256,14 +250,12 @@ a plural instead — a verbless pair whose other half states a count, where the 
 one-against-many: `Одна платформа, усі етапи`, **not** `кожен етап`. Bare nominative
 with nothing governing it is exactly where the English structure slides through intact.
 
-Leave these to Ukrainian idiom, they are not distributives:
-
-| Construction | Ukrainian | Not |
-|---|---|---|
-| time span | `щомісяця`, `щосекунди` | `кожного місяця` as a default |
-| numeral above one | `кожні шість місяців` | `кожен шість` |
-| ratio | `троє з чотирьох співробітників` | `з кожних чотирьох` |
-| reciprocal | `між собою`, `одне одному` | `кожен одному` |
+**Four constructions are Ukrainian idiom rather than distributives, and a mechanical
+`кожен` breaks all four.** A **time span** takes the prefixed adverb — `щомісяця`,
+`щосекунди` — not `кожного місяця` by default. A **ratio** is `троє з чотирьох
+співробітників`, never `з кожних чотирьох`. A **reciprocal** is `між собою` or `одне
+одному`, never `кожен одному`. And with a **numeral above one**, `кожен` takes the plural
+and agrees: `кожні шість місяців`, never `кожен шість`.
 
 **Aspect and the relative pronoun with its comma** are the other two silent calques —
 see §2.
@@ -280,24 +272,27 @@ dictionary-attested and still not something a Kyiv HR specialist says. Test the
 collocation, not the word: if the pairing describes ordinary work, the word has to be
 ordinary too.
 
-| If the source says | Write |
-|---|---|
-| `milestone` / `krok milowy` / `hito` | `великий крок уперед` — `важливий крок` where the canvas will not take the full phrase, and `переломний момент` only where the source really means a turning point |
-| `contractor` / `kontraktor` / `B2B contractor` | **`підрядник`** — the default for all three. Add `на B2B` only where the arrangement itself is the point, keeping `B2B` as the foreign term it is |
-| the sole-trader status itself, where that status is what the sentence is about | `ФОП` |
-| `workflow` / `proces` | `робочий процес`, or bare `процес` once the context has established which process. `воркфлоу` is a house form too (§4) — but where the word has to agree or inflect, take the Ukrainian one, because the loan is indeclinable and forces an arbitrary agreement (`воркфлоу, що стоїть за ним`) |
+**`milestone`** — and its `krok milowy` and `hito` equivalents — is `великий крок уперед`.
+Shorten to `важливий крок` where the canvas will not take the full phrase, and reach for
+`переломний момент` only where the source really means a turning point.
+
+**`contractor`** — including `kontraktor` and `B2B contractor` — is **`підрядник`** by
+default for all three. Add `на B2B` only where the arrangement itself is the point, keeping
+`B2B` as the foreign term it is. Where the sole-trader status is itself what the sentence is
+about, that is `ФОП`.
+
+**`workflow`** — and `proces` — is `робочий процес`, or bare `процес` once the context has
+established which process. `воркфлоу` is a house form too (§4), but where the word has to
+agree or inflect, take the Ukrainian one: the loan is indeclinable and forces an arbitrary
+agreement (`воркфлоу, що стоїть за ним`).
 
 The tell is a word that marks an era sitting in a sentence about an ordinary working
 month.
 
 **Do not nominalise a bare neuter adjective.** English *what matters* and Polish
 `na to, co ważne` both compress comfortably; Ukrainian does not. Write the relative
-clause out, and note the predicate goes to the impersonal `важливо`, not the adjective:
-
-| Not | Write |
-|---|---|
-| `звільняє час на важливе` | `звільняє час на те, що справді важливо` |
-| `focus на головне` | `зосередитися на тому, що справді має значення` |
+clause out, and note the predicate goes to the impersonal `важливо`, not the adjective —
+`звільняє час на те, що справді важливо`, never `звільняє час на важливе`.
 
 The tell is a preposition followed
 directly by a neuter adjective with no noun and no `те, що`. Adjective-plus-noun
@@ -309,18 +304,16 @@ directly by a neuter adjective with no noun and no `те, що`. Adjective-plus-
 ## 8. Two English words, one Ukrainian word
 
 `employee` and `staff member` both go to **`співробітник`**. This is deliberate, not a
-table error: English routinely distinguishes where Ukrainian does not, and dropping a
+glossary error: English routinely distinguishes where Ukrainian does not, and dropping a
 distinction the target lacks is correct behaviour. Polish does the same thing with
 `pracownik`, for the same reason.
 
 So do not hunt for a second lexeme. Where a piece genuinely needs the two senses apart,
-**the construction carries it, not the noun**:
-
-| Sense | Write |
-|---|---|
-| the person as a member of your company | `наш співробітник`, `співробітники компанії` |
-| one individual picked out of the group | `один із співробітників`, `окремий співробітник` |
-| the group as a body | `команда`, or the `workforce` row's `працівники` |
+**the construction carries it, not the noun.** For the person as a member of your company,
+a possessive or a genitive does the work — `наш співробітник`, `співробітники компанії`.
+For one individual picked out of the group, a partitive or `окремий` does it —
+`один із співробітників`, `окремий співробітник`. For the group as a body, change the noun
+to `команда`, or take the `workforce` row's `працівники`.
 
 Do not reach for `персонал` to break the tie — it is the `staff` cell and carries its own
 row, and it is rare in speech (16r/5p). Recorded after this pattern was
