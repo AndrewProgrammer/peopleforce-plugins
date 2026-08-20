@@ -10,12 +10,21 @@ paragraph nine matches paragraph one) and deliberate house deviations.
 |---|---|
 | 🚩 | **On a cell, not a row.** That language's term is not settled — never examined, or examined and disputed. Use it and stay consistent; a flag on Spanish says nothing about Polish. |
 | 🚩 *inside a Notes cell* | **Scoped to the sentence around it**, often not this row's term — commonly the term is decided but the product's own screen string is unverified. Never read a note flag as a flag on the term. |
-| — | No established form. If a cell holds this, ask before choosing a form. |
+| — | No established form. Never coin one silently: propose a rendering, record it in the handover's *Words I am not sure about*, and ask before publishing only where the caller can answer. |
+| *(empty cell)* | Not yet examined for that language. Treat it like a term with no row: translate on your own judgement and list the term in *Words I am not sure about*. |
 | `a (x) / b (y)` | Several established terms, **chosen by context**. The bracket is the trigger, not a gloss. |
 | `a / b` | Several established terms, **interchangeable** — pick one and stay consistent within the piece. |
 
 An unflagged cell means no open question is recorded against it — which is not the same
 as verified.
+
+**The map.** Rules first — the EN column, inflection, the do-not-translate lists — then
+six tables: **People and roles** (employee, candidate, recruiter) · **Core HR** (hiring,
+onboarding, performance, payroll, time off) · **Culture and workplace** (wellbeing,
+engagement, relocation) · **Product and system vocabulary** (workflow, dashboard, feature
+nouns) · **Compliance and legal** (GDPR, contracts, pay transparency) · **Business
+vocabulary** (pricing, growth, the closing heading). A cross-reference like *see the
+leave row* names a row in one of these.
 
 ## The EN column
 
@@ -192,7 +201,7 @@ in-image strings come from the product's locale files (`references/product-scree
 | **job profile** | perfil de puesto / descripción de puesto (running prose) | profil stanowiskowy | профіль посади | The product names this `perfil de puesto`, so that heads the cell and `descripción de puesto` is prose. The reusable role definition carrying level and pay band — not the person's own profile, and not a job ad. |
 | **sick leave** | licencia por enfermedad | zwolnienie chorobowe (the product's own wording) / L4 / zwolnienie lekarskie (speech, and formal written copy respectively) | лікарняний | pl carries three forms and the product picks the one reps do not: `zwolnienie chorobowe` is the product's wording, `L4` is what reps and clients say out loud, `zwolnienie lekarskie` is the formal written register. Follow the product for product lines, `zwolnienie lekarskie` in formal copy, and expect `L4` in quotes and interviews. |
 | **absence policy** | política de licencias (the product label) / política de vacaciones (spoken register, and copy where the policy really is about holiday) | polityka nieobecności | політика відсутностей | **The product carries both forms** — `política de licencias` in the UI titles, `política de ausencias` beside them — so the glossary picks what the screen titles say: `política de licencias`. Reps' `política de vacaciones` names the commonest leave type rather than the category. The `time off` row's `ausencia` is the record sense, not evidence for the policy label. |
-| **timesheet** | registro de horas | karta pracy | табель обліку робочого часу | **es:** The filled record, distinct from *time tracking* the capability. **uk takes the full form always — see that row before shortening it.** · **uk:** **The full form only.** This overrides the product, which shortens to `Табель` in buttons and mail subjects. Bare `табель` is not wrong on a screen, but it is not what we write — do not reintroduce it as a short variant. |
+| **timesheet** | registro de horas | karta pracy | табель обліку робочого часу | **es:** The filled record, distinct from *time tracking* the capability. **uk takes the full form always — see that row before shortening it.** · **uk:** **In copy, the full form only** — a deliberate house deviation from the product, which shortens to `Табель` in buttons and mail subjects. Inside a product screenshot the product's own shortening stands; in everything we write, do not reintroduce `табель` as a short variant. |
 | **self-assessment** | autoevaluación | samoocena | самооцінка |  |
 | **review cycle** | ciclo de evaluación (the product label) / proceso de evaluación (running prose, which is where reps put it) | cykl ocen | цикл оцінювання | `proceso de evaluación` is what ES reps say and is fine in prose |
 | **evaluation template** | plantilla de evaluación | arkusz oceny | — | The question set an evaluator fills. pl is a sheet, not a template — do not back-translate it to `szablon`. No uk form attested |

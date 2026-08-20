@@ -8,6 +8,12 @@ paste it exactly. It outranks the glossary, the register and your ear; where the
 disagree, ship the product's string and flag the split in the handover. Never render text
 read off the crop — the screenshot is the subject, not the source.
 
+**The product outranks only where it agrees with itself.** One key, one value is a fact;
+where the locale carries two live forms for the same concept, that is an open question,
+not a licence — use the glossary form and flag the split. And a glossary row may record a
+deliberate house deviation from a product string — the row says so explicitly, and in
+copy the row wins; inside a screenshot the product's own string still stands.
+
 **A key with no translation, or no connector:** use the glossary form, flag the line
 *"product string unverified: no locale access"*, and list the keys the lookup would have
 covered — a delivery never blocks on a lookup, and an unverified name ships flagged,

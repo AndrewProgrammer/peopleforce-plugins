@@ -1,8 +1,9 @@
 # Agent prompts
 
-**Substitute the bracketed fields before sending.** Nothing else in the prompt changes
-between languages — the persona's country, language and city are the only variables, and
-they are what makes the reader a member of the market rather than a generic reviewer.
+**Substitute every bracketed field before sending.** `[LANGUAGE]`, `[COUNTRY]` and
+`[REGISTER FROM THE TABLE]` come from the market table below, and they are what makes the
+reader a member of the market rather than a generic reviewer; `[SOURCE LANGUAGE]`,
+`[TYPE]` and `[STAGED DIRECTORY]` vary per job, not per language.
 
 ## The market table
 
@@ -19,9 +20,9 @@ they are what makes the reader a member of the market rather than a generic revi
 
 **Give it:** the source, the brief, `glossary.md`, the target's reference file, and product
 connector access. **In fast (solo) mode there is no prompt to store** — `SKILL.md` *is* the
-translator's instructions. This text matters only in precise mode, when role 1 is a subagent
-with the other three beside it; what it adds is the staging and hand-off a fast run does not
-need.
+translator's instructions. This text matters only in precise mode — and there **you are
+role 1**: translate in your own context, stage the target, spawn roles 2–4, and run the
+repair pass yourself. What it adds is the staging and hand-off a fast run does not need.
 
 > You translate into [LANGUAGE] from [SOURCE LANGUAGE]; the content type is [TYPE]. Follow
 > `SKILL.md`'s Process and the target's reference file. **You do not review your own work** —
@@ -29,9 +30,10 @@ need.
 >
 > - Apply the glossary **as you go**, not as a pass afterwards. A term you rendered from
 >   memory that happens to match the cell is still untraced; trace it.
-> - Where a cell carries 🚩 or `—`, make the pick and record it in the hand-off. Do not coin
->   a form that is not in the glossary.
-> - **Stage the target alone in [DIRECTORY]** before any review starts. The blind reader must
+> - Where a cell carries 🚩, make the pick and record it in the hand-off. Where it carries
+>   `—` there is no form to pick: do not coin one silently — propose a rendering, flag it
+>   in the hand-off's *Words* list, and leave the decision to whoever can answer.
+> - **Stage the target alone in [STAGED DIRECTORY]** before any review starts. The blind reader must
 >   not be able to reach the source, your notes or your rationale — withheld by staging, not
 >   by instruction.
 > - You own **the single repair pass**. Findings arrive from three roles that cannot edit; you
@@ -213,9 +215,10 @@ word — the prompt defines it.
 > 8. **Glossary trace, both directions.** Every concept the source uses has a cell licensing what
 >    the target wrote, and Polish and Ukrainian inflect, so look for the case form rather than the
 >    lemma. Name an untraced term even when it matches. Two cell shapes decide themselves:
->    a **condition** in brackets picks by context, including by market — `liquidación` is
->    Argentine and `nómina` is every other Spanish market — and a **🚩 or `—`** cell needs the
->    translator's recorded pick in the handover.
+>    a **condition** in brackets picks by context, including by market — the payroll-run row
+>    picks `liquidación` for Argentina and `nómina` for every other Spanish market — and a
+>    **🚩 or `—`** cell needs the translator's recorded pick (for `—`, a proposed form) in
+>    the handover.
 > 9. **Product names outrank the glossary.** Where the handover records a confirmed product form
 >    that contradicts a cell, the product form passes and the cell is the finding. Where the
 >    handover says the product check did not run, the glossary alone is the standard and the
@@ -243,11 +246,13 @@ Who holds what is each role's **Give it:** line above.
 only role 2 wants it.** Role 2 must read without the source, because a reader holding it
 reads the translation as making sense — it knows what the line was aiming at. Roles 3 and 4
 both hold the source and stay separate because they ask different questions: role 3 asks
-*whose sentence structure is this*, role 4 asks *does it say the same thing*. Blind role 3
-only when the piece leans on repetition or rhythm, where reproducing the repetition is
-itself the calque. **A three-role variant merges the native-read into the source-aware
-checker** — they hold the same inputs — when fewer agents are wanted; role 2's blindness is
-never mergeable.
+*whose sentence structure is this*, role 4 asks *does it say the same thing*. Role 3 is
+never blinded — its round-trip test needs the source in hand; where the piece leans on
+repetition or rhythm, tell role 3 so in one line, because reproducing the repetition is
+itself a calque, and naming it is role 3's job. **A three-role variant merges the
+native-read into the source-aware checker** when fewer agents are wanted — both hold the
+source, so the merge loses no blindness; give the merged role the union of the two
+**Give it:** lines, the direction included. Role 2's blindness is never mergeable.
 
 **Every agent gets the whole piece and a different job — the piece itself stays whole.**
 Chunking rebuilds the failures directly: governed pairs land in different chunks, per-chunk

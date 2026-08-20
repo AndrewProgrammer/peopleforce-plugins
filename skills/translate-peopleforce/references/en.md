@@ -78,8 +78,8 @@ had a mark somewhere near.
 
 ## 6. Structure
 
-**Sentence case, question-led headings, and this section applying to articles only are
-set once, in `SKILL.md` step 1.** If the source heading is a question, keep it a question
+**Sentence case, question-led headings, and this section applying to flowing text (and
+the flowing body of a mixed piece) are set once, in `SKILL.md` step 1.** If the source heading is a question, keep it a question
 in English.
 
 ---

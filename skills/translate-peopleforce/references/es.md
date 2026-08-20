@@ -71,8 +71,8 @@ the term the target industry uses and record the choice in the handover.
 Anglicised **verbs** (*setear*, *customizar*, *parametrizar*) are not cleared LatAm-wide —
 write *configurar*, *personalizar*, *ajustar*.
 
-Pairs that split by meaning or register — *recruitment*, *screening*, *performance*,
-*onboarding*, *feedback* — are glossary rows; the conditions are in the cells. **The
+Pairs that split by meaning or register — *screening*, *performance*, *onboarding*,
+*feedback* — are glossary rows; the conditions are in the cells. **The
 gloss move**: on first mention, write the market's natural form and bracket the other —
 *incorporación (onboarding)* — whichever half is the loan.
 
@@ -107,8 +107,8 @@ testimonial-heavy piece and record it in the handover.
 
 ## 6. Structure
 
-**Sentence case, question-led headings, and this section applying to articles only are
-set once, in `SKILL.md` step 1.** Keep a question heading a question — flattening it to a
+**Sentence case, question-led headings, and this section applying to flowing text (and
+the flowing body of a mixed piece) are set once, in `SKILL.md` step 1.** Keep a question heading a question — flattening it to a
 noun phrase is how the content stops getting found.
 
 ---

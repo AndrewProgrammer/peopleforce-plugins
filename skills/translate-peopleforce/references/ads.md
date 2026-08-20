@@ -1,6 +1,6 @@
 # Ads-only checks — fixed canvas and mixed
 
-Two checks in addition to `SKILL.md`'s nine, for any job step 1 typed as **fixed canvas**
+Two checks in addition to `SKILL.md`'s ten, for any job step 1 typed as **fixed canvas**
 or **mixed**. A flowing-text job never runs them.
 
 - [ ] **Report the length; the number is information, not a target** (scoring it produces

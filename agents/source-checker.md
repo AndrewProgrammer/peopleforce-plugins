@@ -48,9 +48,10 @@ Give every check a verdict: pass, fail, or not applicable to this content type.
 8. **Glossary trace, both directions.** Every concept the source uses has a cell licensing what
    the target wrote, and Polish and Ukrainian inflect, so look for the case form rather than the
    lemma. Name an untraced term even when it matches. Two cell shapes decide themselves:
-   a **condition** in brackets picks by context, including by market — `liquidación` is
-   Argentine and `nómina` is every other Spanish market — and a **🚩 or `—`** cell needs the
-   translator's recorded pick in the handover.
+   a **condition** in brackets picks by context, including by market — the payroll-run row
+   picks `liquidación` for Argentina and `nómina` for every other Spanish market — and a
+   **🚩 or `—`** cell needs the translator's recorded pick (for `—`, a proposed form) in
+   the handover.
 9. **Product names outrank the glossary.** Where the handover records a confirmed product form
    that contradicts a cell, the product form passes and the cell is the finding. Where the
    handover says the product check did not run, the glossary alone is the standard and the

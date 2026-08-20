@@ -14,7 +14,8 @@ reviewer subagents.
 skills/
   translate-peopleforce/
     SKILL.md           # process + checks
-    references/        # glossary.md, es.md, en.md, pl.md, uk.md, agent-prompts.md
+    references/        # the glossary, the four language files, and the
+                       # conditional rule files (ads, product-screens, agent-prompts)
 agents/
   blind-hr-reader.md   # reads the translation as a local HR buyer would
   native-read.md       # does it read as written-in-the-language, or translated?
@@ -35,6 +36,8 @@ claude
 ```
 
 The repo is private, so this uses your existing git credentials (`gh auth login` or SSH).
+Installs and `autoUpdate` follow the repo's **default branch, `main`** — that is the
+release line; nothing ships from side branches.
 
 Once installed, just ask for a translation or a review — the skill picks itself up. It
 also answers to `/peopleforce-translation:translate-peopleforce`.
@@ -67,6 +70,17 @@ never reaches that person.
 Updates land **in the background shortly after Claude Code starts**, so a new version
 shows up in the next session rather than the one already open. You may be prompted to run
 `/reload-plugins`. Anyone without `autoUpdate` can pull on demand:
+
+```bash
+# inside Claude Code:
+#   /plugin marketplace update peopleforce-plugins
+#   /plugin update peopleforce-translation
+```
+
+## Holding a version
+
+If a release misbehaves, set `"autoUpdate": false` in the snippet above (or in your own
+settings) — the install then freezes on the version it has. Return to current later with:
 
 ```bash
 # inside Claude Code:

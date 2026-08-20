@@ -86,8 +86,10 @@ Polish keeps noticeably more English than Spanish. **Which anglicisms are establ
 a glossary question, and the pl cell is the answer** — including acronyms, and including
 where the pl cell keeps English while the es cell does not. Each language's policy stands
 on its own: per-word, per-language, checked — never generalised from a neighbouring word
-or language. The split pairs — *workflow*, *well-being*, *payroll*, *compliance*,
-*performance* — are glossary rows; the conditions are in the cells.
+or language. And the pl cells answer more conservatively than Polish's reputation
+suggests: *workflow*, *payroll*, *compliance* and *performance* all translate — no
+English survives in those cells — while *well-being* splits, on the condition in its
+row's note.
 
 ---
 
@@ -119,8 +121,8 @@ testimonial-heavy piece and record it in the handover.
 
 ## 6. Structure
 
-**Sentence case, question-led headings, and this section applying to articles only are
-set once, in `SKILL.md` step 1.**
+**Sentence case, question-led headings, and this section applying to flowing text (and
+the flowing body of a mixed piece) are set once, in `SKILL.md` step 1.**
 
 Comparison and "alternatives" articles follow a fixed skeleton, most rigidly in Polish:
 `Czym jest X` → `Najważniejsze funkcje` → `Cennik` → `Oceny użytkowników`, closing with

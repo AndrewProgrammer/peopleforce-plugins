@@ -86,10 +86,10 @@ carries; in new copy choose per sentence, then stay consistent inside the piece.
 picks: a slot that must inflect or agree → the Ukrainian form; a UI label, heading or
 chip → the loan is usually shorter; a sense split → check it before swapping. The settled
 pairs and their conditions are glossary rows: *workflow*, *relocation*, *employee
-benefits*, *dashboard*, *screening*, *absenteeism*, *workflow trigger*.
+benefits*, *dashboard*, *screening*, *absenteeism*.
 
-Staying latin: **acronyms** — the glossary's do-not-translate list — and product, brand
-and customer names. `AI` and `ШІ` are interchangeable.
+Staying latin: **acronyms** and **product, brand and customer names** — the glossary's
+do-not-translate lists are the single authority, row-level exceptions included.
 
 Extend the pattern to a new borrowing by **running the three tests** — the rows are what
 the tests found, not the policy.
@@ -133,8 +133,8 @@ dash for style rather than the copula → use a comma, a colon, or split the sen
 
 ## 6. Structure
 
-**Sentence case, question-led headings, and this section applying to articles only are
-set once, in `SKILL.md` step 1.**
+**Sentence case, question-led headings, and this section applying to flowing text (and
+the flowing body of a mixed piece) are set once, in `SKILL.md` step 1.**
 
 Comparison articles use the conventional explicit `Плюси:` / `Мінуси:` blocks. For the
 closing heading, take the form from the glossary's *summary* row and hold it through the
