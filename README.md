@@ -35,9 +35,12 @@ claude
 #   /plugin install peopleforce-translation@peopleforce-plugins
 ```
 
-The repo is private, so this uses your existing git credentials (`gh auth login` or SSH).
+The repo is public — no git credentials needed to install.
 Installs and `autoUpdate` follow the repo's **default branch, `main`** — that is the
 release line; nothing ships from side branches.
+
+Public here means readable, not reusable: the contents stay proprietary to PeopleForce
+under the terms in `LICENSE`.
 
 Once installed, just ask for a translation or a review — the skill picks itself up. It
 also answers to `/peopleforce-translation:translate-peopleforce`.
