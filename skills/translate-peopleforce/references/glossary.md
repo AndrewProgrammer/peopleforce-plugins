@@ -52,10 +52,8 @@ shorten to.
 **This rule is the single authority — the language files point here and do not restate
 it.** In Polish, Ukrainian and Spanish alike an acronym stays latin, uppercase and
 unexpanded, and the expansion is never printed. In Ukrainian this **overrides §4's
-transliteration pattern**: latin stays latin inside Cyrillic copy.
-
-Two are not verbatim and live as glossary rows instead: **GDPR** (Polish `RODO`) and
-**AI** (Spanish `IA`; Ukrainian `ШІ` and latin `AI` interchangeably).
+transliteration pattern**: latin stays latin inside Cyrillic copy. An acronym with its
+own row (*GDPR*, *AI*) takes the row.
 
 ### English terms kept as-is
 
