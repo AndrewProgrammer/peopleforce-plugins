@@ -8,7 +8,7 @@ they are what makes the reader a member of the market rather than a generic revi
 
 | Target | `[LANGUAGE]` | `[COUNTRY]` | Register the reader expects |
 |---|---|---|---|
-| `es` | Spanish | **Latin America**, not one country — name the market the piece targets (Mexico, Colombia, Argentina…) | informal `tú`, neutral LatAm — `ustedes` for plural, never `vosotros` |
+| `es` | Spanish | Latin America | informal `tú`, neutral LatAm — `ustedes` for plural, never `vosotros` |
 | `pl` | Polish | Poland | informal `Ty` |
 | `uk` | Ukrainian | Ukraine | formal lower-case `ви` |
 | `en` | English | **Europe**, not one country — see `en.md` §1 | informal `you` |
@@ -18,12 +18,10 @@ they are what makes the reader a member of the market rather than a generic revi
 ## The translator — role 1
 
 **Give it:** the source, the brief, `glossary.md`, the target's reference file, and product
-connector access. **In solo mode there is no prompt to store** — `SKILL.md` *is* the
-translator's instructions. This text matters only when role 1 is a subagent with the other
-three running beside it, and what it adds is the staging and hand-off the solo run does not
+connector access. **In fast (solo) mode there is no prompt to store** — `SKILL.md` *is* the
+translator's instructions. This text matters only in precise mode, when role 1 is a subagent
+with the other three beside it; what it adds is the staging and hand-off a fast run does not
 need.
-
-🚩 **A draft: authored from existing rules, never sent.** Send it once and correct it.
 
 > You translate into [LANGUAGE] from [SOURCE LANGUAGE]; the content type is [TYPE]. Follow
 > `SKILL.md`'s Process and the target's reference file. **You do not review your own work** —
@@ -57,11 +55,10 @@ need.
 ## The blind reader — the HR-specialist read, and the whole-piece review
 
 **Give it:** the target, the target's reference file, and the content type. **Never** the source,
-the English, the translator's notes, or the rationale. The content type is structure, not source
-— knowing it is a fixed canvas rather than an article tells the reader nothing about what the
-original said. Withhold these by staging what the agent can reach, not by
-asking it to look away — a prompt that says "do not read X" is an honour system, and the point
-of this role is that it *cannot* know what the line was aiming at.
+the English, the translator's notes, or the rationale. Withhold by staging what the agent can
+reach, not by asking it to look away — "do not read X" is an honour system, and the point of
+this role is that it *cannot* know what the line was aiming at. The content type is structure,
+not source.
 
 > You run HR at a [COUNTRY] company, and you are the person who chooses and signs for HR
 > software. [LANGUAGE] is your working language and the language you run HR in — you write job
@@ -103,8 +100,7 @@ of this role is that it *cannot* know what the line was aiming at.
 
 **Keep the market and the buying role** — a generic native reader returns proofreading, a
 person who signs for the software returns the domain errors that lose the sale. Company size
-and job title are deliberately vague: pinning them narrows the reader to one segment when the
-copy has to work across all of them.
+and job title stay deliberately vague, so the reader is not narrowed to one segment.
 
 **Its failure mode is inseparable from its value:** unable to see the source, it will sometimes
 confidently infer one. Role 1's prompt carries the consequence — route every finding through
@@ -113,11 +109,10 @@ someone holding the source.
 ## Reads-as-native — built in the target, or on the source's skeleton
 
 **Give it:** the source, the target, the direction, the content type, and the target's reference
-file. **Fresh context, source in hand** — two mechanisms, not one. Fresh context makes the
-judgement independent: this agent did not write the line, so it cannot reconstruct what the line
-meant to say. The source stays visible because naming which structure was imported requires seeing what
-it was imported from — blinding this role measurably stops it discriminating
-(`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill).
+file. **Fresh context, source in hand** — fresh context makes the judgement independent (this
+agent did not write the line), and the source stays visible because naming an imported
+structure requires seeing what it was imported from; blinding this role measurably stops it
+discriminating.
 
 > You judge one thing: **is this line built in the target language, or on the source's
 > skeleton?** You hold the source so you can name the structure, and you did not write the
@@ -169,11 +164,10 @@ it was imported from — blinding this role measurably stops it discriminating
 
 ## Source-aware checker — the source-side checks
 
-**Give it:** the source, the target, `glossary.md`, the target's reference file, the content type
-(fixed canvas / flowing text / mixed), any image assets with their budgets, and — whenever the
-job carries a graphic — `product-screens.md`. This role owns the graphics check, so without that
-file it is checking in-image copy against the glossary while the product's locale files are the
-actual authority. **Traced** is this role's leading word — the prompt defines it.
+**Give it:** the source, the target, `glossary.md`, the target's reference file, the content
+type, any image assets with their budgets, and — whenever the job carries a graphic —
+`product-screens.md`: this role owns the graphics check. **Traced** is this role's leading
+word — the prompt defines it.
 
 > You verify a translation against its source and the house rules. You get the source, the
 > target, `glossary.md`, the target language's reference file, the content type, any image
@@ -237,99 +231,30 @@ actual authority. **Traced** is this role's leading word — the prompt defines 
 > You are reviewing. The translator holds the whole context and makes the repairs, so change
 > nothing on disk.
 
-**Roles 3 and 4 are re-authored and live** — first run 2026-08-11 on `UK-QUOTE-01/en`, both
-dispatched with the prompts as written: correctly-scoped findings, each caught something the
-other did not, and the scope fence held. The run record is in
-`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill.
-
-**Three of these prompts also ship as plugin subagents**
-(`translate-peopleforce-plugin/agents/blind-hr-reader.md`, `…/native-read.md` and
-`…/source-checker.md`, outside this skill). They are the same text, so an edit here that does
-not reach the plugin puts the two installs out of step — the failure this file exists to
-prevent. The agent files are still copied by hand, but `scripts/pull-skill.sh` compares all
-three against this file and reports drift — run it after any edit here.
-
 ---
 
-## The four-role mode — a mode, not the default
+## Precise mode — the four-role shape
 
-**Solo is the default**, and `SKILL.md`'s *If you have agents* carries the decision of
-whether to farm out at all. What this section adds is the shape once you have.
-
-This section is the single source for who holds what — each role's **Give it:** line above
-adds only what it cannot say.
-
-**Role 1, the translator**, gets the source, the brief, the glossary, the target's
-reference file and product connector access. It does everything in *Process*, plus the
-product and fact checks.
-
-**Role 2, the HR reader**, gets the target, its reference file and the content type —
-**nothing else**. It runs check 2: does this read like HR, or like translated HR?
-
-**Role 3, the native-read**, gets the target, the direction, the content type **and the
-source** — a separate context, not blinded. It runs the reads-as-native check: does this
-read as written-in-the-language, or is the source's structure showing?
-
-**Role 4, the source-aware checker**, gets the source, the target, the assets and the
-glossary. It checks faithfulness, plus the source-side checks — mechanics through the
-glossary trace.
-
-**Then back to role 1** with every finding, for the one repair pass.
+**Fast (solo) is the default**; `SKILL.md`'s *Two modes* carries the choice, made by the
+caller before the job starts. What this section adds is the shape once precise is chosen.
+Who holds what is each role's **Give it:** line above.
 
 **A separate context is what does the work here; blinding is a second, narrower thing and
-only role 2 wants it.** Role 2 is the one that must read without the source, because a reader
-holding it reads the translation as making sense — it knows what the line was aiming at. Roles
-3 and 4 both hold the source and stay separate because they ask different questions: role 3
-asks *whose sentence structure is this*, role 4 asks *does it say the same thing*. Give role 3
-the source by default and blind it when the piece leans on repetition or rhythm, where
-reproducing the repetition is itself the calque.
+only role 2 wants it.** Role 2 must read without the source, because a reader holding it
+reads the translation as making sense — it knows what the line was aiming at. Roles 3 and 4
+both hold the source and stay separate because they ask different questions: role 3 asks
+*whose sentence structure is this*, role 4 asks *does it say the same thing*. Blind role 3
+only when the piece leans on repetition or rhythm, where reproducing the repetition is
+itself the calque. **A three-role variant merges the native-read into the source-aware
+checker** — they hold the same inputs — when fewer agents are wanted; role 2's blindness is
+never mergeable.
 
-**Every agent gets the whole piece and a different job — that is what splitting the WORK
-means, and the piece itself stays whole.** Chunking rebuilds the failures directly: paragraphs
-1–5 to one agent and 6–10 to another *is* the «тільки я» bug; coin-flip glossary rows exist to
-pin one form across a document, and per-chunk agents each pick freshly; the register check
-needs every second-person form at once; and copy assembled from fragments passes line by line
-and reads as four people.
+**Every agent gets the whole piece and a different job — the piece itself stays whole.**
+Chunking rebuilds the failures directly: governed pairs land in different chunks, per-chunk
+agents pick coin-flip glossary rows freshly, the register check needs every second-person
+form at once, and copy assembled from fragments passes line by line and reads as four
+people.
 
-**Roles 2, 3 and 4 run in parallel and report rather than edit** — role 1 repairs, because it
-holds the whole context and because a checker that can edit launders its preferences into the
-copy.
-
-🚩 **Under test; solo stays the default.** It reads slightly better and transmits slightly
-worse — watch second-person erosion, the English *you* drifting to *HR* or an impersonal
-system. The measurement and the bar it has to clear are in
-`translation-corpus/evidence-and-retirement.md` — maintainer-only, outside the skill.
-
-### The repair pass has a register floor
-
-**Measured on the 2026-08-12 onboarding-framework run, three languages, owner adjudicating
-line by line.** The mode won on everything checkable — list wording, parallelism, term
-consistency, faithfulness catches a single context cannot make (`postępy` restored to a ✔️
-line that had dropped it), and it localised a device the literal pass had transliterated
-(`Antywzorzec` → `Чого робити не варто:` where no attested Ukrainian noun exists). It lost,
-consistently, on voice. The owner's verdict: *four-role is better overall, but some moments
-are overly formal, and that decreases nativeness.*
-
-The drift has three named shapes, all of them in the repair pass rather than in the reviews:
-
-**Corporate flattening** — a warm line is replaced by a neutral one that breaks no rule.
-Nothing in the checks fires, because nothing is wrong; the line is simply colder than the
-one it replaced.
-
-**Load-bearing deletion** — a line is trimmed of padding and the word carrying the sense
-goes out with it. The tell is that the repair is shorter and the claim is weaker.
-
-**Solving a problem the line does not have** — a rule is applied by shape rather than by
-reading, so a fix lands on a construction that was never the one the rule describes. The
-guard is to check that the construction in front of you is the one the rule names, not
-merely one that looks like it.
-
-So the repair pass carries one extra rule beyond the checks: **the repaired line may not be
-more formal, or less specific, than the line it replaces.** If a finding's only effect is to
-make copy read more like a policy document, the diagnosis was about structure and the
-structure was already fine — record the finding as considered and rejected.
-
-**Ship the merge, not the arm.** Until this is fixed at the source, a run that matters is
-finished by putting the two versions side by side and taking the solo voice as the base with
-the four-role's *defect* fixes applied on top. A word-level diff makes that a ten-minute job;
-`Framework-solo-vs-four-role-diff.html` in the content repo is the worked example.
+**Roles 2, 3 and 4 run in parallel and report rather than edit** — role 1 repairs, because
+it holds the whole context and because a checker that can edit launders its preferences into
+the copy. **Then back to role 1** with every finding, for the one repair pass.

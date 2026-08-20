@@ -1,8 +1,8 @@
 # English
 
-English is the most common source language, so this file matters mostly for
-writing *into* English — from Ukrainian or Spanish — and for recognising what to
-strip when translating out.
+English is the most common source language, so this file matters mostly for writing
+*into* English — from Ukrainian or Spanish — and for recognising what to strip when
+translating out.
 
 ---
 
@@ -10,107 +10,77 @@ strip when translating out.
 
 Address the reader directly as `you`.
 
-**The audience is Europe, not one English-speaking country.** The reader is an HR
-professional at a European company who works in English — frequently not a native
-speaker, and not British or American by default. Two consequences for the copy:
+**The audience is Europe, not one English-speaking country.**
 
 - **Idiom that only lands in one country is wrong here even when it is perfectly good
-  English.** A phrase a Londoner reads as ordinary and a Warsaw HR director reads as
-  opaque has failed, because the second one is the reader.
-- **Nothing needs localising to a national market** — no British-versus-American spelling
-  question to settle, no national institutions to gloss. Where a national reference is
-  unavoidable, make the sentence carry it.
-- **Unless the source country is the subject.** This English serves readers across Europe,
-  not one country, which is exactly why an institution that *is* the topic has to stay:
-  the Polish pay-transparency bill, `umowa zlecenie`, `L4`, ЄДРПОУ, Ukrainian
-  military-registration duties. Keep the source market's own name for it and gloss it on
-  first mention, because the reader sits in a different market. The rule above is about
-  incidental national colour; generalising away the subject is the failure mode here.
+  English.**
+- **Nothing localises to a national market** — where a national reference is unavoidable,
+  make the sentence carry it.
+- **Unless the source country is the subject.** An institution that *is* the topic stays
+  — the Polish pay-transparency bill, `umowa zlecenie`, ЄДРПОУ — under the source
+  market's own name, glossed on first mention. The rule above is about incidental
+  national colour; generalising away the subject is the failure mode here.
 
-**Ukrainian sources are formal** (lower-case `ви`, per `uk.md` §1). If the source reads
-deferential, still write `you` — English carries the register shift down, and `you` is
-correct there too.
+**Ukrainian sources are formal** (`uk.md` §1). If the source reads deferential, still
+write `you` — English carries the register shift down.
 
 ---
 
 ## 2. Explicitation
 
-English is on the receiving end of two opposite problems, so this section cuts
-both ways: explicitation coming from the inflected languages, and *implicitation* —
-dropping a distinction English does not have — going the other way.
+This section cuts both ways: explicitation coming from the inflected languages, and
+*implicitation* — dropping a distinction English does not have — going the other way.
 
-**Polish and Ukrainian have no articles**, and both let case carry work that
-English needs word order and prepositions for. Coming from either, English has to
-supply what was never there:
+**Polish and Ukrainian have no articles and let case do what English does with word order
+and prepositions.** Coming from either, supply what was never there:
 
-**Supply the article.** A noun that reaches English bare needs `the` or `a` — a bare noun
-as a subject is the signature of an article-less source.
+- **The article** — a noun that reaches English bare needs `the` or `a`.
+- **The subject pronoun** — `we help you hire`, not `helps you hire`.
+- **English word order** — the source's order is not evidence; rebuild around
+  subject-verb-object.
 
-**Supply the subject pronoun.** English verbs cannot stand without one, so a source that
-left the subject to the verb ending gets it stated: `we help you hire`, not
-`helps you hire`.
+**If the source marks a distinction English does not have, let it go and use English's
+single form:**
 
-**Impose English word order.** English has no case to carry role, so word order does that
-job and the source's order is not evidence about it. Rebuild the sentence around
-subject-verb-object rather than preserving the order you were given.
+- **Aspect** — `Wypróbuj` and `Wypróbowuj` are both just *try*; *keep on trying* would
+  add a distinction English does not mark.
+- **The reflexive possessive** — `swoim` / `своєю` and `Twoim` / `вашою` are one word:
+  *your*.
+- **Formal register** — `ви` is *you*; carry any seriousness in word choice instead
+  (§1).
+- **Identity against similarity** — all three targets split *the same* two ways; English
+  writes **`the same`** for both. Reach for *identical* or *a similar* only where the
+  sentence would otherwise be genuinely ambiguous.
 
-**Spanish, Polish and Ukrainian also force distinctions English does not have.** If
-the source marks one of these, let it go and use English's single form:
-
-- **Aspect.** `Wypróbuj` and `Wypróbowuj` are both just *try* — a paraphrase like
-  *keep on trying* would be adding a distinction English does not mark.
-- **The reflexive possessive.** `swoim` / `своєю` versus `Twoim` / `вашою` is one
-  word in English: *your*.
-- **Formal register.** Ukrainian `ви` has no English equivalent — write *you* and
-  carry any seriousness in word choice instead (§1).
-- **Identity against similarity.** All three targets split *the same* two ways —
-  identity (`той самий` / `ten sam` / `el mismo`) against similarity (`такий самий` /
-  `taki sam` / `igual`). English has one word for both, so write **`the same`** and let
-  the distinction go. Reach for *identical* or *a similar* only where the sentence would
-  otherwise be genuinely ambiguous about which was meant.
-
-**Governance across a line break inverts here** (the inverse of `SKILL.md` step 3,
-which still owns which pairs count as linked and how you spot them): the governed line
-arrives already marked, and English has to *drop* the marking, so the English failure is
-**over-supply**. If an answer option answers a question whose English form already spends
-the marking (`Who does PeopleForce show your salary data to?`), write the bare pronoun
-the question leaves room for: «тільки мені» / `Tylko mnie` is `Only me` — not `Only to
-me`, which re-states what the question already said, and not `Only I`, which answers a
-question nobody asked.
+**Governance across a line break inverts here** (`SKILL.md` step 3 still owns which
+pairs count as linked): the governed line arrives already marked, and English drops the
+marking, so the English failure is **over-supply**. «тільки мені» / `Tylko mnie` is
+`Only me` — not `Only to me`, not `Only I`.
 
 ---
 
 ## 5. Punctuation and formatting
 
-*(No §4 — there is no anglicism question when English is the target. The gap stays so
-section numbers align across all four files.)*
+*(No §4 — no anglicism question when English is the target; the gap keeps section
+numbers aligned.)*
 
-Thousands take a **comma** (`1,000`) and decimals a **period** (`4.6`). Percent is
-**unspaced**: `30%`. Quotes are `“ ”` — pick one style per piece and hold it. The **en
-dash `–` is for ranges only** (`2020–2024`). Em dashes carry no count and no budget; the
-rule for them is below.
+Thousands take a **comma** (`1,000`), decimals a **period** (`4.6`). Percent is
+**unspaced**: `30%`. Quotes are `“ ”` — one style per piece. The **en dash `–` is for
+ranges only** (`2020–2024`).
 
 **Em dashes: the only test is whether the English reads as though it was written in
-English.** That test is the whole rule, and it settles every case:
-
-- **Each dash earns its place from the sentence it sits in** — English punctuation is
-  decided in English, so a Polish `–` sitting nearby is not what licenses an English `—`.
-- **A comma, a colon or parentheses is the default**, and an em dash is the mark you reach
-  for when the sentence genuinely wants that break. Where a dash is the right mark, keep it.
-
-The habit to watch is splicing clauses with dashes whenever the source had a mark somewhere
-near. Write the sentence a native would write.
+English.** Each dash is decided in English — a Polish `–` nearby licenses nothing.
+Default to a comma, a colon or parentheses; keep a dash where the sentence genuinely
+wants that break. The habit to watch is splicing clauses with dashes because the source
+had a mark somewhere near.
 
 ---
 
 ## 6. Structure
 
-**Sentence case, question-led headings, and this section applying to articles only are all
-set once, in `SKILL.md` step 1.** What follows is only what English adds.
-
-Question-led headings are consistent across all four languages (`¿Qué es…`,
-`Czym jest…`, `Що таке…`) — if the source heading is a question, keep it a question in
-English. Common openers: `What is…`, `How to…`, `What are…`, `Why is…`.
+**Sentence case, question-led headings, and this section applying to articles only are
+set once, in `SKILL.md` step 1.** If the source heading is a question, keep it a question
+in English.
 
 ---
 
@@ -118,26 +88,22 @@ English. Common openers: `What is…`, `How to…`, `What are…`, `Why is…`.
 
 Source away, read each line as an HR specialist working in English at a European company
 would — someone who buys this software. Then check the calques below **against the rule,
-not by ear**: they get past precisely because they are grammatical English. They are
-where it happens most often, not the whole set.
+not by ear** — they pass precisely because they are grammatical.
 
-**`every` / `each`.** English runs the opposite way from the other three in one slot:
-in a verbless pair whose other half states a count, English wants the **singular
-distributive** where Spanish, Polish and Ukrainian want a plural totality. So
+**`every` / `each`.** English runs the opposite way from the other three in one slot: a
+verbless pair whose other half states a count takes the **singular distributive** —
 `Una plataforma, todas las etapas` / `Jedna platforma, wszystkie etapy` /
-`Одна платформа, усі етапи` all come into English as **`One platform, every stage`** —
-not *all stages*. Everywhere else keep whatever the source had: governed by a
-preposition (`for every team member`, `at every stage`) and opening a clause
-(`Each module covers a different process`).
+`Одна платформа, усі етапи` all come into English as **`One platform, every stage`**,
+not *all stages*. Everywhere else keep whatever the source had: governed by a preposition
+(`at every stage`) or opening a clause (`Each module covers a different process`).
 
-**Four constructions are English idiom rather than distributives, and a mechanical
-`each`/`every` breaks all four.** A **time span** takes an adverb or a natural phrase —
-`monthly`, `16 hours saved every month` — not `each month` applied by default. A **ratio**
-is `three out of four employees`, never `three of each four`. **Any size** is `companies of
-any size`, not `of every size`. And a **reciprocal** is `each other` — `compared against
-each other` — never `between themselves`.
+**Four constructions are English idiom, and a mechanical `each`/`every` breaks all
+four.** A **time span**: `monthly`, `16 hours saved every month` — not `each month` by
+default. A **ratio**: `three out of four employees`, never `three of each four`. **Any
+size**: `companies of any size`. A **reciprocal**: `each other`, never
+`between themselves`.
 
-**Articles and possessives** arrive over-specified from the inflected languages. If a
-Polish or Ukrainian phrase links nouns through case, restructure it to a bare English
-noun stack: `zarządzanie cyklem życia pracownika` is `employee lifecycle management`,
-where an `of`-chain would give *management of the lifecycle of the employee*.
+**Articles and possessives arrive over-specified.** If a Polish or Ukrainian phrase links
+nouns through case, restructure to a bare English noun stack:
+`zarządzanie cyklem życia pracownika` is `employee lifecycle management`, not an
+`of`-chain.
