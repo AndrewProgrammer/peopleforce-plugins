@@ -30,24 +30,16 @@ deliverable.
    Whatever the type, a piece with graphics is also an image job — the image check
    applies to all three.
 
-   One edge those three do not carry. **SEO fields** — slug, meta title, meta
-   description — ship with flowing text but behave as a fixed canvas: translate them
-   with the piece, report characters beside the budget (or beside the English count,
-   with the budget named unknown), and raise slug conventions in the handover rather
-   than guess them.
-
 2. **Read the target language's reference file** — `references/es.md`, `en.md`,
    `pl.md`, `uk.md`. Register and punctuation are decided there and differ per
-   language; getting them wrong makes a whole piece read wrong, so read the file
-   even for a short job.
+   language.
 
 3. **Translate governed units together.** A case, gender or number ending is set by the
    word that **governs** it, and that word often sits in a different line, cell or field —
-   so translate governing and governed lines in one pass, both in front of you.
-   `Only me`, answering `Who does PeopleForce show your salary data to?`, came back as
-   «тільки я» — *only I*: correct alone, wrong under its question; the dative «тільки мені»
-   is the only rendering the question allows (forms: your target's §2 Explicitation; into English the
-   marking is dropped rather than supplied — `en.md` §2).
+   so translate governing and governed lines in one pass, both in front of you. A line that
+   is correct read alone can be wrong under the line that governs it. The forms are in your
+   target's §2 Explicitation; into English the marking is dropped rather than supplied
+   (`en.md` §2).
 
    Linked pairs: a question and its answer options · a headline and its subhead · a stat
    block read as a column · a CTA and the line it completes · any phrase whose first part
@@ -58,8 +50,7 @@ deliverable.
    relied on — the third is the one a reviewer should look at hardest.
 
    Where nothing governs anything, work in spans of roughly ten sentences — a fallback,
-   never a boundary: a span that stops between a question and its answers reproduces
-   «тільки я» exactly.
+   never a boundary. Never let a span end between two lines that govern each other.
 
 4. **Translate the meaning, applying `references/glossary.md` in the same pass** — a term
    is picked at the moment you write the line, never retro-fitted into finished copy.
@@ -161,8 +152,8 @@ Then work through *The last pass before handover* — see **The handover**, belo
 - [ ] **Ads only — a figure holds its position in every language.** Stat blocks and ad
       sets get read as a column, language versions side by side, the eye tracking the
       numbers down the frame: if the figure opens the English line it opens all of them,
-      and if it closes, it closes everywhere — `50% faster hiring` → `50% szybsza
-      rekrutacja` → `На 50% швидший найм` (a leading preposition still leads). Where
+      and if it closes, it closes everywhere. A preposition in front of the figure still
+      counts as leading. Where
       holding the position would force ungrammatical word order, the language wins: move
       it and name the line that broke rank in the handover, with its reason. In flowing
       text the figure sits where the sentence needs it. Read the column, not the line.
@@ -319,8 +310,7 @@ copy.
 
 1. Steps 1–2 of *Process*: name the content type, read the target's reference file.
 2. Read the target against the source in governed units (step 3) — a defect whose cause
-   sits in the governing line is invisible one segment at a time; «тільки я» is correct
-   read alone.
+   sits in the governing line is invisible one segment at a time.
 3. Run every check above, and the last pass, on the copy as it stands.
 4. **A verdict per check — pass, fail, or not applicable — and a finding per defect:**
    where it is (line, cell or asset) · which rule it breaks (file and §) · what the
