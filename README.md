@@ -1,7 +1,7 @@
 # PeopleForce Translation plugin
 
-House translation system for PeopleForce content — English, Spanish (neutral Latin
-American, `tú`), Polish and Ukrainian, in any direction. Ships the `translate-peopleforce`
+House translation system for PeopleForce content — English, Spanish, Polish and
+Ukrainian, in any direction. Ships the `translate-peopleforce`
 skill (process, checks, concept-keyed glossary, per-language reference files) plus three
 reviewer subagents.
 
@@ -44,14 +44,6 @@ under the terms in `LICENSE`.
 
 Once installed, just ask for a translation or a review — the skill picks itself up. It
 also answers to `/peopleforce-translation:translate-peopleforce`.
-
-## The product lookup (optional, but you want it)
-
-The skill checks product names and claims against the **PeopleForce Sources connector**
-(`peopleforce-sources`) — the product's own locale strings outrank the glossary for
-anything shown on a screen. Without the connector, translations still ship: product
-names just arrive flagged *unverified* in the handover instead of confirmed. Ask the
-maintainer to get the connector enabled for your Claude account.
 
 ## Team install, and keeping it current
 
