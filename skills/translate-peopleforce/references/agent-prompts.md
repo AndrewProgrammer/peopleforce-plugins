@@ -16,13 +16,58 @@ reader a member of the market rather than a generic reviewer; `[SOURCE LANGUAGE]
 
 ---
 
+## Precise mode — the four-role shape
+
+**Fast (solo) is the default**; `SKILL.md`'s *Two modes* carries the choice, made by the
+caller before the job starts. What this section adds is the shape once precise is chosen.
+Who holds what is each role's **Give it:** line below.
+
+**Installed as the plugin, roles 2–4 are the named agents `blind-hr-reader`,
+`native-read` and `source-checker` — spawn those, passing every bracketed value in the
+task message; they carry these same prompts with read-only tools.** Each agent body opens
+with the same rule: The task message that spawned you supplies every bracketed value —
+read them from it. **The blockquotes below are the same text, kept for a manual run
+without the plugin.**
+
+**Role 1 still runs every check itself — `SKILL.md`'s checks 1–11, plus 12–13 where they
+apply.** The roles are additional eyes, not replacements: the reviews are spawned after
+role 1's own checks, and their findings feed the one repair pass, which runs before the
+last pass.
+
+**A separate context is what does the work here; blinding is a second, narrower thing and
+only role 2 wants it.** Role 2 must read without the source, because a reader holding it
+reads the translation as making sense — it knows what the line was aiming at. Roles 3 and 4
+both hold the source and stay separate because they ask different questions: role 3 asks
+*whose sentence structure is this*, role 4 asks *does it say the same thing*. Role 3 is
+never blinded — its round-trip test needs the source in hand; where the piece leans on
+repetition or rhythm, tell role 3 so in one line, because reproducing the repetition is
+itself a calque, and naming it is role 3's job. **Roles 3 and 4 receive their inputs as
+absolute file paths in the task message** — separation of context, not blindness, is
+their design. **A three-role variant merges the native-read into the source-aware
+checker** when fewer agents are wanted — both hold the source, so the merge loses no
+blindness; give the merged role the union of the two **Give it:** lines, the direction
+included. Role 2's blindness is never mergeable.
+
+**Every agent gets the whole piece and a different job — the piece itself stays whole.**
+Chunking rebuilds the failures directly: governed pairs land in different chunks, per-chunk
+agents pick coin-flip glossary rows freshly, the register check needs every second-person
+form at once, and copy assembled from fragments passes line by line and reads as four
+people.
+
+**Roles 2, 3 and 4 run in parallel and report rather than edit** — role 1 repairs, because
+it holds the whole context and because a checker that can edit launders its preferences into
+the copy. **Then back to role 1** with every finding, for the one repair pass.
+
+---
+
 ## The translator — role 1
 
 **Give it:** the source, the brief, `glossary.md`, the target's reference file, and product
 connector access. **In fast (solo) mode there is no prompt to store** — `SKILL.md` *is* the
 translator's instructions. This text matters only in precise mode — and there **you are
 role 1**: translate in your own context, stage the target, spawn roles 2–4, and run the
-repair pass yourself. What it adds is the staging and hand-off a fast run does not need.
+repair pass yourself. What it adds is the staging and the hand-offs between roles that a
+fast run does not need.
 
 > You translate into [LANGUAGE] from [SOURCE LANGUAGE]; the content type is [TYPE]. Follow
 > `SKILL.md`'s Process and the target's reference file. **You do not review your own work** —
@@ -30,12 +75,15 @@ repair pass yourself. What it adds is the staging and hand-off a fast run does n
 >
 > - Apply the glossary **as you go**, not as a pass afterwards. A term you rendered from
 >   memory that happens to match the cell is still untraced; trace it.
-> - Where a cell carries 🚩, make the pick and record it in the hand-off. Where it carries
+> - Where a cell carries 🚩, make the pick and record it in the handover. Where it carries
 >   `—` there is no form to pick: do not coin one silently — propose a rendering, flag it
->   in the hand-off's *Words* list, and leave the decision to whoever can answer.
-> - **Stage the target alone in [STAGED DIRECTORY]** before any review starts. The blind reader must
->   not be able to reach the source, your notes or your rationale — withheld by staging, not
->   by instruction.
+>   in the handover's *Words I am not sure about* list, and leave the decision to whoever
+>   can answer.
+> - **[STAGED DIRECTORY] is a fresh directory outside the job's working tree** — the
+>   session scratchpad is right — **holding exactly two files: the target text and the
+>   target language's reference file, nothing else** — not the source, not your notes, not
+>   the glossary. You create it before any review starts. The blind reader must not be able
+>   to reach the source or your rationale — withheld by staging, not by instruction.
 > - You own **the single repair pass**. Findings arrive from three roles that cannot edit; you
 >   hold the whole context, so you decide which are real. A blind-reader finding is evidence
 >   that a line reads oddly, never evidence about what the line should say — check it against
@@ -167,14 +215,15 @@ discriminating.
 ## Source-aware checker — the source-side checks
 
 **Give it:** the source, the target, `glossary.md`, the target's reference file, the content
-type, any image assets with their budgets, and — whenever the job carries a graphic —
-`product-screens.md`: this role owns the graphics check. **Traced** is this role's leading
-word — the prompt defines it.
+type, any image assets with their budgets, and — whenever the job carries a graphic or the
+copy carries a noun an HR person clicks — `product-screens.md`: this role owns the graphics
+check. **Traced** is this role's leading word — the prompt defines it.
 
 > You verify a translation against its source and the house rules. You get the source, the
 > target, `glossary.md`, the target language's reference file, the content type, any image
-> assets with their budgets, and `product-screens.md` where the job has graphics. Naturalness
-> belongs to two other roles — spend your effort on what only the source can settle.
+> assets with their budgets, and `product-screens.md` where the job has graphics or the copy
+> carries a noun an HR person clicks. Naturalness belongs to two other roles — spend your
+> effort on what only the source can settle.
 >
 > Give every check a verdict: pass, fail, or not applicable to this content type.
 >
@@ -202,9 +251,9 @@ word — the prompt defines it.
 >    form or is named, with the device its language uses to avoid one (es §2, pl §2, uk §1;
 >    English writes `they`).
 > 5. **Ads only — length.** Give the character count per string beside its budget, or beside the
->    English count with the budget named unknown. The number is information for the designer;
->    report it without a verdict.
-> 6. **Ads only — figure position.** Mark each figure as opening or closing its English line, and
+>    source line's count with the budget named unknown. The number is information for the
+>    designer; report it without a verdict.
+> 6. **Ads only — figure position.** Mark each figure as opening or closing its source line, and
 >    say whether the position holds in the target column. Name any line that broke rank and why.
 > 7. **Graphics.** Where an asset shows a PeopleForce screen, its strings come from the
 >    product's locale files and outrank the glossary and the register both — `product-screens.md`
@@ -223,6 +272,16 @@ word — the prompt defines it.
 >    that contradicts a cell, the product form passes and the cell is the finding. Where the
 >    handover says the product check did not run, the glossary alone is the standard and the
 >    unverified names are already flagged — confirm they are, and read no further into it.
+> 10. **Register (`SKILL.md` check 1).** Match every second-person form — pronoun, possessive,
+>    verb ending, imperative — against the target file's §1; one slipped form fails the piece.
+>    Inside a named customer's testimonial a real person describing their own experience takes
+>    the first person — correct, not a finding.
+> 11. **Untranslated source language (check 3).** Where the scripts differ, any source-script
+>    run of any length is a finding unless a do-not-translate list licenses it; where the
+>    scripts are shared, sweep for source-language words and labels instead.
+> 12. **Completeness (check 4).** Walk the source block by block — headings, body, chips,
+>    captions, list items, CTAs, image copy — and confirm each block's counterpart in the
+>    target. A block with no counterpart and no recorded reason is a finding.
 >
 > **Report** one row per finding: where (line, cell or asset) · which rule, by file and section ·
 > what the target says now · the repair you would make. Counts and inventories carry information
@@ -234,32 +293,3 @@ word — the prompt defines it.
 > You are reviewing. The translator holds the whole context and makes the repairs, so change
 > nothing on disk.
 
----
-
-## Precise mode — the four-role shape
-
-**Fast (solo) is the default**; `SKILL.md`'s *Two modes* carries the choice, made by the
-caller before the job starts. What this section adds is the shape once precise is chosen.
-Who holds what is each role's **Give it:** line above.
-
-**A separate context is what does the work here; blinding is a second, narrower thing and
-only role 2 wants it.** Role 2 must read without the source, because a reader holding it
-reads the translation as making sense — it knows what the line was aiming at. Roles 3 and 4
-both hold the source and stay separate because they ask different questions: role 3 asks
-*whose sentence structure is this*, role 4 asks *does it say the same thing*. Role 3 is
-never blinded — its round-trip test needs the source in hand; where the piece leans on
-repetition or rhythm, tell role 3 so in one line, because reproducing the repetition is
-itself a calque, and naming it is role 3's job. **A three-role variant merges the
-native-read into the source-aware checker** when fewer agents are wanted — both hold the
-source, so the merge loses no blindness; give the merged role the union of the two
-**Give it:** lines, the direction included. Role 2's blindness is never mergeable.
-
-**Every agent gets the whole piece and a different job — the piece itself stays whole.**
-Chunking rebuilds the failures directly: governed pairs land in different chunks, per-chunk
-agents pick coin-flip glossary rows freshly, the register check needs every second-person
-form at once, and copy assembled from fragments passes line by line and reads as four
-people.
-
-**Roles 2, 3 and 4 run in parallel and report rather than edit** — role 1 repairs, because
-it holds the whole context and because a checker that can edit launders its preferences into
-the copy. **Then back to role 1** with every finding, for the one repair pass.

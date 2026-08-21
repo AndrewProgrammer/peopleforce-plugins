@@ -3,15 +3,13 @@
 ## 1. Register — formal, lower-case `ви`
 
 **Ukrainian is the only one of the four that addresses the reader formally.** Use `ви`
-and its forms, **lower case**: `ви`, `ваш`, `вашої` — capitalising mid-sentence reads
-like correspondence, not marketing.
+and its forms, **lower case**.
 
 **Holding `ви` also keeps the copy gender-neutral for free:** formal `ви` takes plural
 agreement, and the plural past carries no gender marking.
 
 English, Spanish and Polish marketing copy are all informal, so **into Ukrainian the
-register shifts up; out of Ukrainian it shifts down.** Carrying the source's register
-across is the most common way a Ukrainian translation goes wrong.
+register shifts up; out of Ukrainian it shifts down.**
 
 ---
 
@@ -59,18 +57,26 @@ one* — a thing each person has their own copy of: `the same first week` is
 
 ---
 
+*(No §3 — retired; the numbering is held so a section number means the same thing in
+every language file.)*
+
 ## 4. Anglicism policy
 
 Ukrainian **transliterates** borrowings into Cyrillic where Polish keeps them latin — if
 the target is Ukrainian, take the policy from here, not from `pl.md`. That is a
 description, not a licence: a borrowing is a house form once it passes three tests.
+**Tests 1 and 3 are evidence standards — how the rows were decided against the
+maintainer's corpus, which a translation job does not have.** On a job, run Test 2 plus
+the flag-never-coin rule, list the term in *Words I am not sure about*, and never report
+a Test 1 or 3 result without naming the documents actually consulted.
 
 **Test 1 — document spread beats hit count.** A form frequent in three or four documents
 is one writer's habit; a form spread across dozens is house usage.
 
-**Test 2 — the form must decline.** An indeclinable transliteration that forces an
-arbitrary agreement (`воркфлоу, що стоїть за ним`) is a defect however frequent — if the
-loan cannot inflect where the sentence needs it, write the Ukrainian form.
+**Test 2 — the form must decline.** If the loan cannot take the case its slot demands,
+write the Ukrainian form: `Керуйте воркфлоу з одного місця` freezes where the sentence
+needs an instrumental, while `Керуйте робочими процесами з одного місця` declines. An
+indeclinable transliteration is a defect however frequent.
 
 **Test 3 — a word the corpus stops to explain needs a look, not an automatic pass.** If
 attestations gloss the term, the count may be one explainer repeating its own subject.
@@ -114,10 +120,10 @@ ending in one takes no additional period and no comma.
 genitive, per the glossary's *Company and brand names*.
 
 **Where the attribution follows the quote, a comma sits after the closing guillemet,
-before the dash:** `«Ми нарешті бачимо тиждень наперед», — каже Марія.` The comma is not
-optional.
+before the dash:** `«Тепер ми плануємо тиждень заздалегідь», — каже Марія.` The comma is
+not optional.
 
-**Testimonials** (the carve-out lives on `SKILL.md`'s register check): house register
+**Testimonials** (the carve-out lives on `SKILL.md`'s check 1): house register
 governs how the copy addresses the reader; inside an attributed quotation a real person
 speaks as `я / ми` — putting `ви / ваш` in a named customer's mouth is the recurring
 mistake here. If the English source itself writes a testimonial in the second person,
@@ -144,10 +150,10 @@ piece.
 
 ## 7. Calques
 
-Source away, read each line as an HR specialist in Kyiv would — someone who buys this
-software. Then check the calques below **against the rule, not by ear** — they pass
-precisely because they are grammatical. Of the four languages this is where calques bite
-hardest.
+Put the source out of sight and read each line as an HR specialist in Kyiv — someone who
+buys this software — would read it. Then check the calques below by **applying each rule
+to the whole text, not by ear**: these constructions are grammatical in Ukrainian, so the
+ear lets them pass. Of the four languages this is where calques bite hardest.
 
 **`кожен`.** Keep it where the source has a distributive: governed by a preposition
 (`на кожному етапі`) or opening a clause (`Кожна метрика має свою розрахункову формулу`).

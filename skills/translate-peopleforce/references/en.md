@@ -61,8 +61,9 @@ marking, so the English failure is **over-supply**. «тільки мені» / 
 
 ## 5. Punctuation and formatting
 
-*(No §4 — no anglicism question when English is the target; the gap keeps section
-numbers aligned.)*
+*(No §3 — retired in every language file — and no §4: English as the target raises no
+anglicism question. The gaps keep section numbers aligned, so a number means one thing
+everywhere.)*
 
 Thousands take a **comma** (`1,000`), decimals a **period** (`4.6`). Percent is
 **unspaced**: `30%`. Quotes are `“ ”` — one style per piece. The **en dash `–` is for
@@ -86,9 +87,10 @@ in English.
 
 ## 7. Calques
 
-Source away, read each line as an HR specialist working in English at a European company
-would — someone who buys this software. Then check the calques below **against the rule,
-not by ear** — they pass precisely because they are grammatical.
+Put the source out of sight and read each line as an HR specialist working in English at
+a European company — someone who buys this software — would read it. Then check the
+calques below by **applying each rule to the whole text, not by ear**: these
+constructions are grammatical in English, so the ear lets them pass.
 
 **`every` / `each`.** English runs the opposite way from the other three in one slot: a
 verbless pair whose other half states a count takes the **singular distributive** —

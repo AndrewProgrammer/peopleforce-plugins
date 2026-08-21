@@ -1,21 +1,15 @@
 # Spanish
 
-Target variety: **neutral Latin American Spanish** — one register for every LatAm market,
-not a national variety.
-
----
-
 ## 1. Register — tuteo
 
-**The pronoun is *tú*** — possessive *tu*, object pronoun *te*. A formal legal notice is
-the one slot that takes *usted* instead.
+**Into Spanish — from English, Polish or Ukrainian alike — address the reader as *tú***:
+possessive *tu*, object pronoun *te*. The variety is **neutral Latin American Spanish** —
+one register for every LatAm market.
 
 **The plural is *ustedes*, never *vosotros*** — a Peninsular plural is a tell, not a
 variant.
 
-**What this skill produces is tuteo** — every translation, every review rewrite, every
-market. Voseo in a human-written Argentine draft is a stylistic choice, not a defect —
-leave it alone in review.
+**Every translation and every review rewrite is tuteo**, whatever the market.
 
 ---
 
@@ -56,6 +50,9 @@ nouns, second person for third, and infinitive UI labels all do this cleanly —
 
 ---
 
+*(No §3 — retired; the numbering is held so a section number means the same thing in
+every language file.)*
+
 ## 4. Anglicism policy
 
 The glossary rows are the authority, and each language's policy stands on its own — never
@@ -67,9 +64,6 @@ do-not-translate lists.
 English term is often what the market says, and tolerance varies by industry — so no
 single rule holds yet. Follow the glossary row where one exists; where none does, take
 the term the target industry uses and record the choice in the handover.
-
-Anglicised **verbs** (*setear*, *customizar*, *parametrizar*) are not cleared LatAm-wide —
-write *configurar*, *personalizar*, *ajustar*.
 
 Pairs that split by meaning or register — *screening*, *performance*, *onboarding*,
 *feedback* — are glossary rows; the conditions are in the cells. **The
@@ -100,9 +94,6 @@ is a full sentence, and even after `?` or `!`: `…sin adivinanzas”.` ·
 **An attribution after the quote joins with a comma, not a dash:** `“…con
 anticipación”, dice María.` The raya is for dialogue and incisos, not testimonials.
 
-🚩 From RAE orthography, not yet exercised on a job — confirm on the first
-testimonial-heavy piece and record it in the handover.
-
 ---
 
 ## 6. Structure
@@ -115,10 +106,11 @@ noun phrase is how the content stops getting found.
 
 ## 7. Calques
 
-Source away, read each line as an HR specialist in any LatAm market would — someone who
-buys this software. Then check the calques below **against the rule, not by ear** — they
-pass precisely because they are grammatical. They are where it happens most often, not
-the whole set.
+Put the source out of sight and read each line as an HR specialist in any LatAm market —
+someone who buys this software — would read it. Then check the calques below by
+**applying each rule to the whole text, not by ear**: these constructions are grammatical
+in Spanish, so the ear lets them pass. They are where it happens most often, not the
+whole set.
 
 **`cada` renders a distributive and nothing else.** Keep it where the source really has
 one: governed by a preposition (`en cada etapa`) or opening a clause (`Cada módulo se

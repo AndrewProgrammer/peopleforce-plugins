@@ -1,11 +1,13 @@
 {
   "name": "peopleforce-translation",
   "displayName": "PeopleForce Translation",
-  "version": "2.2.0",
-  "description": "House translation system for PeopleForce content — EN/ES/PL/UK in any direction: two modes (fast solo, precise multi-role), process and checks, concept-keyed glossary, per-language reference files, and read-only reviewer subagents (blind HR reader, native-read, source-aware checker). Spanish is neutral Latin American tú.",
+  "version": "2.3.0",
+  "description": "House translation system for PeopleForce content — EN/ES/PL/UK in any direction: two modes (fast solo, precise multi-role), numbered checks with a completeness walk, concept-keyed glossary, per-language reference files, and read-only reviewer subagents (blind HR reader, native-read, source-aware checker). Spanish is neutral Latin American tú.",
   "author": {
     "name": "PeopleForce Marketing"
   },
+  "homepage": "https://github.com/AndrewProgrammer/peopleforce-plugins",
+  "repository": "https://github.com/AndrewProgrammer/peopleforce-plugins",
   "license": "UNLICENSED",
-  "keywords": ["translation", "localization", "peopleforce", "es", "pl", "uk"]
+  "keywords": ["translation", "localization", "review", "glossary", "peopleforce", "en", "es", "pl", "uk", "english", "spanish", "polish", "ukrainian"]
 }

@@ -8,7 +8,7 @@
     {
       "name": "peopleforce-translation",
       "source": "./",
-      "description": "Translate PeopleForce content between English, Spanish, Polish and Ukrainian, in either direction — house process, checks, glossary and reviewer subagents."
+      "description": "Translate PeopleForce content between English, Spanish, Polish and Ukrainian, in any direction — house process, checks, glossary and reviewer subagents."
     }
   ]
 }

@@ -3,11 +3,12 @@
 ## 1. Register — informal
 
 Address the reader as **`Ty`** — capitalise `Ty`, `Twój`, `Ci` in direct address.
-Second-person imperatives are standard: `Zarezerwuj`, `Sprawdź`, `Pobierz`.
+Second-person imperatives are standard.
 
-**The we-form sidesteps the register choice, and Polish uses it heavily** (`możemy`,
-`sprawdzamy`) — the natural form for a line that would sound presumptuous in the second
-person, and customers use it as readily as we do, so it reads ordinary, not corporate.
+**Polish also writes many lines in the first person plural** (`możemy`, `sprawdzamy`).
+Reach for it where a second-person line would sound pushy: the we-form is ordinary Polish
+marketing usage, not corporate hedging — and it carries no second-person form at all, so
+nothing in it can slip register.
 
 ---
 
@@ -55,8 +56,8 @@ is the calque).
 - **Perfective** for a single completed act — `Wypróbuj`, `Zarezerwuj`.
 - **Imperfective** for the ongoing or habitual — `zatrudniaj, wdrażaj, rozwijaj` name
   continuing activities.
-- **Imperfective after a negation, always** — `Nie zarządzaj`; a negated perfective is
-  not a form Polish has.
+- **Imperfective after a negation** — `Nie zarządzaj`; a negated perfective is a warning
+  about a mishap (`Nie zgub tego!`), almost never what marketing copy means.
 
 **`swój` vs `Twój`:** English *your* gives no signal. `Twój` is correct when the reader
 owns something the sentence is *about*; when they act on their own thing, it is `swój`.
@@ -67,10 +68,8 @@ apply. The test is whether Polish written from scratch would have the possessive
 dropped one is often the cleanest way to keep the reader out of a predicate adjective.
 
 **`nieobecność` is the system's noun** — the record, the policy, the calendar — never a
-word for a person's time off; the glossary's *time off* and *leave* rows carry the map.
-What is grammar here: *time off* is a construction, not a term —
-`wnioskować o czas wolny`, never `wziąć nieobecność`; `wziąć wolne` is spoken register,
-so published prose takes `wnioskować o` plus the noun.
+word for a person's time off. The term map and the verb phrases (`wnioskować o czas
+wolny`, never `wziąć nieobecność`) live on the glossary's *time off* and *leave* rows.
 
 **English `the same` splits: identity is `ten sam`, similarity is `taki sam`.** Both
 inflect with their noun; decide per sentence, never by find-and-replace. Identity is the
@@ -80,16 +79,17 @@ thing each person has their own copy of: `the same first week` is
 
 ---
 
+*(No §3 — retired; the numbering is held so a section number means the same thing in
+every language file.)*
+
 ## 4. Anglicism policy
 
-Polish keeps noticeably more English than Spanish. **Which anglicisms are established is
-a glossary question, and the pl cell is the answer** — including acronyms, and including
-where the pl cell keeps English while the es cell does not. Each language's policy stands
-on its own: per-word, per-language, checked — never generalised from a neighbouring word
-or language. And the pl cells answer more conservatively than Polish's reputation
-suggests: *workflow*, *payroll*, *compliance* and *performance* all translate — no
-English survives in those cells — while *well-being* splits, on the condition in its
-row's note.
+**Which anglicisms are established is a glossary question, and the pl cell is the
+answer** — including acronyms. Check the row per word; never generalise from a
+neighbouring word or from another language's cell. Expect the cells to answer more
+conservatively than Polish's reputation suggests: *workflow*, *payroll*, *compliance* and
+*performance* all translate — no English survives in those cells — while *well-being*
+splits, on the condition in its row's note.
 
 ---
 
@@ -111,11 +111,7 @@ is an error; hold one pattern through the piece.
 
 **An attribution before direct speech ends in a colon** (`Maria, dyrektorka HR: „…”`).
 Where the attribution follows the quote, the myślnik with **no comma before it**:
-`„…tydzień naprzód” – mówi Maria.` The comma Ukrainian requires in that slot is
-Ukrainian, not Polish.
-
-🚩 From PWN orthography, not yet exercised on a job — confirm on the first
-testimonial-heavy piece and record it in the handover.
+`„…tydzień naprzód” – mówi Maria.`
 
 ---
 
@@ -126,16 +122,16 @@ the flowing body of a mixed piece) are set once, in `SKILL.md` step 1.**
 
 Comparison and "alternatives" articles follow a fixed skeleton, most rigidly in Polish:
 `Czym jest X` → `Najważniejsze funkcje` → `Cennik` → `Oceny użytkowników`, closing with
-`Podsumowanie`.
+the glossary's *summary*-row form.
 
 ---
 
 ## 7. Calques
 
-Source away, read each line as an HR specialist in Warsaw would — someone who buys this
-software. Then check the calques below **against the rule, not by ear** — they pass
-precisely because they are grammatical. They are where it happens most often, not the
-whole set.
+Put the source out of sight and read each line as an HR specialist in Warsaw — someone
+who buys this software — would read it. Then check the calques below by **applying each
+rule to the whole text, not by ear**: these constructions are grammatical in Polish, so
+the ear lets them pass. They are where it happens most often, not the whole set.
 
 **`każdy`.** Keep it where the source has a distributive: governed by a preposition
 (`na każdym etapie`) or opening a clause (`Każde państwo członkowskie UE definiuje własne

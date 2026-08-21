@@ -45,6 +45,14 @@ under the terms in `LICENSE`.
 Once installed, just ask for a translation or a review — the skill picks itself up. It
 also answers to `/peopleforce-translation:translate-peopleforce`.
 
+## The product lookup (optional, but you want it)
+
+The skill checks product names and claims against the **PeopleForce Sources connector**
+(`peopleforce-sources`) — the product's own locale strings outrank the glossary for
+anything shown on a screen. Without the connector, translations still ship: product
+names just arrive flagged *unverified* in the handover instead of confirmed. Ask the
+maintainer to get the connector enabled for your Claude account.
+
 ## Team install, and keeping it current
 
 Commit this to the project's `.claude/settings.json`. Claude Code offers teammates the
@@ -96,3 +104,7 @@ settings) — the install then freezes on the version it has. Return to current 
 A project with its own `.claude/skills/translate-peopleforce/` folder uses that copy and
 ignores the plugin's. Everything looks fine — the skill works, it is just the old one. If
 you want the plugin's version in such a project, delete the local folder.
+
+The same applies to a personal copy in `~/.claude/skills/translate-peopleforce/` — check
+both. Asking Claude to list its skills shows the duplicate: the plugin's copy is the one
+namespaced `peopleforce-translation:translate-peopleforce`.
