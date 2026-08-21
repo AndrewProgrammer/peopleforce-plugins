@@ -116,19 +116,6 @@ including nothing; a delivery never blocks on a lookup.
 - **Never silently correct the source's claim** — it belongs to whoever owns the copy:
   translate faithfully, flag loudly.
 
-## What this skill does not cover
-
-- **A fifth language.** The house system carries no authority outside en, es, pl and uk —
-  no register, no mechanics, no glossary column. Say so; proceed only if the caller
-  insists, with every choice flagged unverified.
-- **A mixed-language source** (an English body carrying Polish quotes): name the source
-  language per segment and run each segment in its own direction.
-- **A source that is itself a translation:** ask for the original; failing that, name the
-  relay in the handover and put suspect phrasings in *Lines I am not sure about*.
-- **A bare terminology question** ("what does PeopleForce call X in Polish?") is a third,
-  smaller branch: read the glossary row and answer with the cell, its condition and any
-  🚩 — no mode, no process, no handover.
-
 ## Checks before handing over
 
 Eleven checks apply to everything; a fixed canvas or mixed job adds checks 12–13 in

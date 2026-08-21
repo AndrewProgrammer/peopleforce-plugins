@@ -135,9 +135,7 @@ not source.
 >    partway through, a shift in tone, a sentence you had to read twice?
 > 4. **Do you believe it?** Does anything read as overclaiming, vague, or hedged in a way that
 >    makes you doubt it? Would you forward this to your CEO?
-> 5. **Would you let this out under your own company's name?** Yes or no, and what would have to
->    change first.
-> 6. **Only last, line-level:** anything a [COUNTRY] HR professional would simply not have
+> 5. **Only last, line-level:** anything a [COUNTRY] HR professional would simply not have
 >    written. Quote the span and say what is wrong. Do not rewrite the piece.
 >
 > Weight 2, 3 and 4 above everything else: individually correct sentences still add up to copy
