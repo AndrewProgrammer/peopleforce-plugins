@@ -146,8 +146,8 @@ nothing.
       labels (`Q:`, `A1:`) are what survive it: translate a label that carries meaning,
       drop layout scaffolding, never leave it in the source's language. Where the scripts
       differ (uk paired with anything), the sweep is mechanical: any source-script run of
-      any length, single letters included, is a finding unless a do-not-translate list
-      licenses it. Where the scripts are shared (en–es, en–pl, es–pl), scan for
+      any length, single letters included, is a finding unless a glossary row, an
+      acronym, or a product, brand or customer name licenses it. Where the scripts are shared (en–es, en–pl, es–pl), scan for
       source-language words and labels instead — the script proves nothing there. **Done
       when** the whole target has had the sweep its script pairing calls for.
 
@@ -224,9 +224,9 @@ nothing.
       stays exactly as written; a feature takes the established locale form — both in
       `glossary.md`. **Done when** every product, module and feature term is either
       traced to the row it came from or listed in the handover's *Words I am not sure
-      about* as a no-row term, and every 🚩 or `—` cell used has its pick recorded in the
-      same list. Record **uncertainty** the same way even where the glossary does not
-      flag — the declaration is owed by your uncertainty, not by the marker. A term
+      about* as a no-row term, and every `—` cell used has its pick recorded in the
+      same list. Record **uncertainty** the same way even where the glossary marks
+      nothing — the declaration is owed by your uncertainty, not by the marker. A term
       rendered from memory is untraced, whether or not it happens to match.
 
 ## The repair read
@@ -244,9 +244,8 @@ finished.
 
 - **A line that overruns with no faithful shorter form.** Cutting meaning to fit a box is
   the wrong trade — hand over the shortest faithful line and the number.
-- **A 🚩 or `—` term.** For 🚩, use the flagged form; for `—` there is no form to use —
-  propose one, never as settled. Either way, hold it through the piece and record which
-  way you went.
+- **A `—` term.** There is no established form — propose one, never as settled, hold it
+  through the piece and record the proposal.
 
 ## The last pass before handover
 
@@ -257,14 +256,14 @@ slip.
 **1. Glossary, read in both directions.** For every glossary concept the **source** uses,
 confirm the target carries an approved rendering — a concept present in the source and
 absent from the target is the miss easiest to make reading the target alone. Then the
-reverse: every 🚩 or `—` cell you used gets a recorded decision. Inspect, don't assume — a found
+reverse: every `—` cell you used gets a recorded decision. Inspect, don't assume — a found
 term is not approval, an absent one is not an error, and Polish and Ukrainian inflect, so
 a term is present in a case form, not as the lemma the table lists.
 
 **2. Report these, score none of them:** character count beside its budget, per
 fixed-canvas string (the headline and stat blocks of a mixed piece included — flowing
 lines carry no count) · observed mechanics — percent spacing, decimal separator, quote
-glyphs · any latin left inside Cyrillic · every 🚩 or `—` cell used with no decision
+glyphs · any latin left inside Cyrillic · every `—` cell used with no decision
 recorded. These belong to the designer and the reviewer and carry **no verdict**.
 
 **Product screens have their own rules, and they outrank every register rule here.** If a
@@ -312,7 +311,7 @@ nobody replies. The reader should be able to answer *"all of them except 2 and 5
 finished.
 
 **Words I am not sure about** — the term · what you wrote · why · **proposed**. Include
-🚩 cells, `—` cells with the form you proposed, terms with no row, product-versus-market
+`—` cells with the form you proposed, terms with no row, product-versus-market
 disagreements, guessed spellings.
 
 **Lines I am not sure about** — the line · what is uncertain · what you did · **proposed**.
@@ -338,7 +337,7 @@ copy.
    stands; the last pass's reports attach to the findings. **The repair read's licence
    does not extend to a review** — its re-read happens, but its output is findings, not
    changes. A review runs fast (solo) unless the caller asks for precise.
-   **A reviewed piece usually arrives with no handover:** treat every 🚩 or `—` cell it
+   **A reviewed piece usually arrives with no handover:** treat every `—` cell it
    used as an unrecorded pick — a finding, not a fail of the copy — and run the
    product-name check on the glossary alone, verdicts marked unverified.
 4. **A verdict per check, by number — pass, fail, or not applicable — and a finding per
@@ -355,8 +354,7 @@ alongside the findings.
 
 **Two files are read on every job.** The target's own reference file — `references/es.md`,
 `pl.md`, `uk.md` or `en.md` — even for a short one (step 2), and
-`references/glossary.md`, which holds the concept-keyed terms in all four languages plus
-the do-not-translate lists.
+`references/glossary.md`, which holds the concept-keyed terms in all four languages.
 
 **Three are conditional.** Read `references/ads.md` only for a fixed canvas or mixed job.
 Read `references/product-screens.md` only when a graphic shows a PeopleForce screen, or

@@ -57,13 +57,12 @@ every language file.)*
 
 The glossary rows are the authority, and each language's policy stands on its own — never
 generalised from Polish. The pattern: Spanish usually translates where Polish keeps the
-English word, and keeps acronyms, product, brand and customer names per the
-do-not-translate lists.
+English word, and keeps acronyms, product, brand and customer names as the source writes
+them.
 
-🚩 **How far anglicisms travel is under owner review.** Our main ICP is tech, where the
-English term is often what the market says, and tolerance varies by industry — so no
-single rule holds yet. Follow the glossary row where one exists; where none does, take
-the term the target industry uses and record the choice in the handover.
+Our main ICP is tech, where the English term is often what the market says, and tolerance
+varies by industry. Follow the glossary row where one exists; where none does, take the
+term the target industry uses and record the choice in the handover.
 
 Pairs that split by meaning or register — *screening*, *performance*, *onboarding*,
 *feedback* — are glossary rows; the conditions are in the cells. **The

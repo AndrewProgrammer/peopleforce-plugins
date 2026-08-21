@@ -51,8 +51,7 @@ Give every check a verdict: pass, fail, or not applicable to this content type.
    lemma. Name an untraced term even when it matches. Two cell shapes decide themselves:
    a **condition** in brackets picks by context, including by market — the payroll-run row
    picks `liquidación` for Argentina and `nómina` for every other Spanish market — and a
-   **🚩 or `—`** cell needs the translator's recorded pick (for `—`, a proposed form) in
-   the handover.
+   **`—`** cell needs the translator's proposed form recorded in the handover.
 9. **Product names outrank the glossary.** Where the handover records a confirmed product form
    that contradicts a cell, the product form passes and the cell is the finding. Where the
    handover says the product check did not run, the glossary alone is the standard and the
@@ -62,8 +61,9 @@ Give every check a verdict: pass, fail, or not applicable to this content type.
    Inside a named customer's testimonial a real person describing their own experience takes
    the first person — correct, not a finding.
 11. **Untranslated source language (check 3).** Where the scripts differ, any source-script
-   run of any length is a finding unless a do-not-translate list licenses it; where the
-   scripts are shared, sweep for source-language words and labels instead.
+   run of any length is a finding unless a glossary row, an acronym, or a product, brand
+   or customer name licenses it; where the scripts are shared, sweep for source-language
+   words and labels instead.
 12. **Completeness (check 4).** Walk the source block by block — headings, body, chips,
    captions, list items, CTAs, image copy — and confirm each block's counterpart in the
    target. A block with no counterpart and no recorded reason is a finding.

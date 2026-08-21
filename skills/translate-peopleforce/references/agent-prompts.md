@@ -75,10 +75,9 @@ fast run does not need.
 >
 > - Apply the glossary **as you go**, not as a pass afterwards. A term you rendered from
 >   memory that happens to match the cell is still untraced; trace it.
-> - Where a cell carries 🚩, make the pick and record it in the handover. Where it carries
->   `—` there is no form to pick: do not coin one silently — propose a rendering, flag it
->   in the handover's *Words I am not sure about* list, and leave the decision to whoever
->   can answer.
+> - Where a cell carries `—` there is no form to pick: do not coin one silently — propose
+>   a rendering, record it in the handover's *Words I am not sure about* list, and leave
+>   the decision to whoever can answer.
 > - **[STAGED DIRECTORY] is a fresh directory outside the job's working tree** — the
 >   session scratchpad is right — **holding exactly two files: the target text and the
 >   target language's reference file, nothing else** — not the source, not your notes, not
@@ -99,7 +98,7 @@ fast run does not need.
 >   losing it.** The recurring failure is deleting the word that carries the meaning: a
 >   process noun's complement, an intensifier the source has, the head of a compound.
 > - Hand over: the finished target · every line still over budget, with its count and its
->   budget · image copy per asset with `seen / total` · every 🚩 or `—` pick you made · and
+>   budget · image copy per asset with `seen / total` · every `—` pick you made · and
 >   anything you could not resolve, named rather than quietly decided.
 
 ## The blind reader — the HR-specialist read, and the whole-piece review
@@ -264,8 +263,7 @@ check. **Traced** is this role's leading word — the prompt defines it.
 >    lemma. Name an untraced term even when it matches. Two cell shapes decide themselves:
 >    a **condition** in brackets picks by context, including by market — the payroll-run row
 >    picks `liquidación` for Argentina and `nómina` for every other Spanish market — and a
->    **🚩 or `—`** cell needs the translator's recorded pick (for `—`, a proposed form) in
->    the handover.
+>    **`—`** cell needs the translator's proposed form recorded in the handover.
 > 9. **Product names outrank the glossary.** Where the handover records a confirmed product form
 >    that contradicts a cell, the product form passes and the cell is the finding. Where the
 >    handover says the product check did not run, the glossary alone is the standard and the
@@ -275,8 +273,9 @@ check. **Traced** is this role's leading word — the prompt defines it.
 >    Inside a named customer's testimonial a real person describing their own experience takes
 >    the first person — correct, not a finding.
 > 11. **Untranslated source language (check 3).** Where the scripts differ, any source-script
->    run of any length is a finding unless a do-not-translate list licenses it; where the
->    scripts are shared, sweep for source-language words and labels instead.
+>    run of any length is a finding unless a glossary row, an acronym, or a product, brand
+>    or customer name licenses it; where the scripts are shared, sweep for source-language
+>    words and labels instead.
 > 12. **Completeness (check 4).** Walk the source block by block — headings, body, chips,
 >    captions, list items, CTAs, image copy — and confirm each block's counterpart in the
 >    target. A block with no counterpart and no recorded reason is a finding.

@@ -67,8 +67,8 @@ the target is Ukrainian, take the policy from here, not from `pl.md`. That is a
 description, not a licence: a borrowing is a house form once it passes three tests.
 **Tests 1 and 3 are evidence standards — how the rows were decided against the
 maintainer's corpus, which a translation job does not have.** On a job, run Test 2 plus
-the flag-never-coin rule, list the term in *Words I am not sure about*, and never report
-a Test 1 or 3 result without naming the documents actually consulted.
+the record-never-coin rule below, list the term in *Words I am not sure about*, and never
+report a Test 1 or 3 result without naming the documents actually consulted.
 
 **Test 1 — document spread beats hit count.** A form frequent in three or four documents
 is one writer's habit; a form spread across dozens is house usage.
@@ -80,11 +80,11 @@ indeclinable transliteration is a defect however frequent.
 
 **Test 3 — a word the corpus stops to explain needs a look, not an automatic pass.** If
 attestations gloss the term, the count may be one explainer repeating its own subject.
-This flags a term for a decision, not a verdict — a term of art can still be right,
+This marks a term for a decision, not a verdict — a term of art can still be right,
 glossed on first mention (`абсентеїзм`).
 
-If a borrowing has no attested Ukrainian form and no native rival, **flag the gap — never
-coin a transliteration**.
+If a borrowing has no attested Ukrainian form and no native rival, **record the gap in
+*Words I am not sure about* — never coin a transliteration**.
 
 **Where both a loan and a Ukrainian rival are attested, both are house forms and the
 context picks** — neither is a default or a defect. Leave whichever form a piece already
@@ -94,8 +94,9 @@ chip → the loan is usually shorter; a sense split → check it before swapping
 pairs and their conditions are glossary rows: *workflow*, *relocation*, *employee
 benefits*, *dashboard*, *screening*, *absenteeism*.
 
-Staying latin: **acronyms** and **product, brand and customer names** — the glossary's
-do-not-translate lists are the single authority, row-level exceptions included.
+Staying latin: **acronyms** — uppercase, unexpanded, latin inside Cyrillic copy — and
+**product, brand and customer names**, kept as the source writes them. An acronym with
+its own glossary row (*GDPR*, *AI*) takes the row.
 
 Extend the pattern to a new borrowing by **running the three tests** — the rows are what
 the tests found, not the policy.

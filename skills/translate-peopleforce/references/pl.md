@@ -37,9 +37,8 @@ two of them change what the sentence says**:
 - **Past tense on us** (`Zapisaliśmy Cię`) — **only when the product did the acting**. On
   a reader-as-actor line it reassigns agency and fails faithfulness as a mistranslation.
 
-🚩 Masculine-personal plural agreement (`pracownicy zalogowali się`) has no neutral form.
-Avoid the construction and say in the handover that you did — a native reviewer still has
-to confirm what marketing register accepts here.
+Masculine-personal plural agreement (`pracownicy zalogowali się`) has no neutral form —
+where neutrality matters, reach for one of the devices above.
 
 **Case and gender are governed across a line break** (`SKILL.md` step 3); what is Polish
 is the forms: an answer takes the case its question governs (`Tylko mnie`, never
@@ -90,6 +89,12 @@ neighbouring word or from another language's cell. Expect the cells to answer mo
 conservatively than Polish's reputation suggests: *workflow*, *payroll*, *compliance* and
 *performance* all translate — no English survives in those cells — while *well-being*
 splits, on the condition in its row's note.
+
+**A kept English term still inflects.** If a loanword lands in a slot that takes a case
+ending, give it one — `onboarding` → `onboardingu`; an undeclined loanword is the classic
+machine-translation tell. The apostrophe follows orthography, not habit: only where the
+stem ends in an unpronounced letter (`performance'u`, `PeopleForce'a`), never after a
+pronounced one (`spreadsheeta`, `onboardingu`, `managera`).
 
 ---
 
@@ -145,7 +150,6 @@ rate or recurrence takes the adverbial (`co miesiąc`, `miesięcznie`); counting
 specific month does take the distributive.
 
 **One exception runs the other way:** *of any size* is `firmy każdej wielkości` — Polish
-keeps `każdy` where Spanish and English drop it. 🚩 Awaiting native confirmation; do not
-generalise from it.
+keeps `każdy` where Spanish and English drop it.
 
 **Aspect and `swój`** are the other two silent calques — see §2.
